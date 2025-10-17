@@ -7,6 +7,7 @@ https://release.archboot.com/aarch64/latest/iso/archboot-2025.10.05-02.24-6.16.7
 
 https://release.archboot.com/aarch64/latest/iso/
 
+prlctl create omarchy -d linux
 prlctl set omarchy --cpus 4 --memsize 16384 --device-set cdrom0 --image ~/Downloads/archboot-2025.10.05-02.24-6.16.7-1-aarch64-ARCH-local-aarch64.iso --connect
 
 docker-compose up -d

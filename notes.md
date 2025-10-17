@@ -1,4 +1,7 @@
 
+Github pull request for Arm version
+https://github.com/basecamp/omarchy/pull/1897
+
 
 https://release.archboot.com/aarch64/latest/iso/archboot-2025.10.05-02.24-6.16.7-1-aarch64-ARCH-local-aarch64.iso
 
@@ -14,5 +17,5 @@ XferCommand = /usr/bin/curl --proxy http://10.211.55.2:8080 --proxy-insecure -L 
 
 packman -S wget
 Enable parallel tools ( Actions Install Parallel Tools )
-wget -qO- https://raw.githubusercontent.com/jondkinney/armarchy/amarchy-3-x/boot.sh | OMARCHY_REPO=jondkinney/armarchy OMARCHY_REF=amarchy-3-x bash
+wget -qO- https://raw.githubusercontent.com/jondkinney/armarchy/amarchy-3-x/boot.sh | OMARCHY_REPO=jondkinney/armarchy OMARCHY_REF=amarchy-3-x-dev bash
 

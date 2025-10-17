@@ -10,7 +10,7 @@ docker-compose up -d
 ifconfig | grep "inet " | grep -v 127.0.0.1 | awk '{print $2}' | head -1
 
 edit /etc/pacman.conf
-XferCommand = /usr/bin/curl --proxy http://10.211.55.2:8080 -L -C - -f -o %o %u
+XferCommand = /usr/bin/curl --proxy http://10.211.55.2:8080 --proxy-insecure -L -C - -f -o %o %u
 
 packman -S wget
 Enable parallel tools ( Actions Install Parallel Tools )

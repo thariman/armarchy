@@ -13,6 +13,34 @@ prlctl set omarchy --cpus 4 --memsize 16384 --device-set cdrom0 --image ~/Downlo
 docker-compose up -d
 ifconfig | grep "inet " | grep -v 127.0.0.1 | awk '{print $2}' | head -1
 
+#Check if my docker proxy is up
+curl -sS -I -x http://10.211.55.2:8080 http://archlinux.org | sed -n '1,5p'
+
+start vm
+go online
+set http://10.211.55.2:8080 as proxy
+1 Launch Archboot Setup
+Setup
+1 Prepare Storage Device
+1 Quick Setup
+/dev/sda 64G
+PARTUUID
+/efi MULTIBOOT
+512 EFI
+512 XTENDED
+256 SWAP
+ext4
+Filesystem ued for / and /home? Yes 0
+
+2 Install Packages
+3 Configure System  root passwrd, editor, systemd back
+4 Install Bootloader  GRUB_UEFI
+
+
+
+
+
+
 edit /etc/pacman.conf
 XferCommand = /usr/bin/curl --proxy http://10.211.55.2:8080 --proxy-insecure -L -C - -f -o %o %u
 

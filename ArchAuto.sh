@@ -3,8 +3,6 @@
 
 VM_NAME="omarchy"
 ISO_PATH="$HOME/Downloads/archboot-2025.10.05-02.24-6.16.7-1-aarch64-ARCH-local-aarch64.iso"
-CONFIG_PATH="$HOME/ArchbootAuto/arch-config"
-#SCRIPT_URL="https://raw.githubusercontent.com/picodotdev/alis/master/download.sh"
 
 # Create VM
 prlctl create "$VM_NAME" --distribution linux --ostype linux --no-hdd

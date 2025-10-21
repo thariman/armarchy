@@ -139,7 +139,7 @@ echo 1 >>/tmp/.fstab
 _chroot_mount
 mkdir -p "${_DESTDIR}/var/lib/pacman"
 echo "Installing base iptables-nft linux terminus-font..."
-pacman --root /mnt/install --cachedir=/mnt/install/var/cache/pacman/pkg --noconfirm -Sy base iptables-nft linux terminus-font &>"${_LOG}"
+pacman --root /mnt/install --cachedir=/mnt/install/var/cache/pacman/pkg --noconfirm -Sy base iptables-nft linux terminus-font sudo npm &>"${_LOG}"
 sync
 _chroot_umount
 
@@ -192,8 +192,8 @@ echo "Rebuilding glibc locales on installed system..."
 systemd-nspawn -q -D /mnt/install locale-gen &>"${_NO_LOG}"
 
 ### set root password
-echo "password" > /tmp/.password
-echo "password" >> /tmp/.password
+echo "root" > /tmp/.password
+echo "root" >> /tmp/.password
 passwd -R "${_DESTDIR}" "root" < /tmp/.password &>"${_NO_LOG}"
 echo "New password set for root."
 rm /tmp/.password

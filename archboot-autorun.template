@@ -370,3 +370,10 @@ mkdir -p "${_DESTDIR}/efi/EFI/BOOT"
 rm -f "${_DESTDIR}/efi/EFI/BOOT/BOOTAA64.EFI"
 cp -f "${_DESTDIR}/efi/EFI/grub/grubaa64.efi" "${_DESTDIR}/efi/EFI/BOOT/BOOTAA64.EFI"
 
+pacman -S --noconfirm sudo
+useradd -m -G wheel -s /bin/bash thariman
+echo "thariman:password" | chpasswd
+echo "root:root" | chpasswd
+sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
+
+

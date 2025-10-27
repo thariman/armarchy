@@ -2,7 +2,7 @@
 # Complete automation script for Parallels
 
 VM_NAME="omarchy2"
-INSTALL_SCRIPT="Omarchy-Arm-bare.sh"
+INSTALL_SCRIPT="Omarchy-Arm.sh"
 SSH_PORT="11838"
 
 IP=$(prlctl list -i $VM_NAME | grep "IP" | awk '{print $3}' | cut -d',' -f1)

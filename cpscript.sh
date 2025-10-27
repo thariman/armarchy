@@ -10,4 +10,4 @@ ssh-copy-id -p $SSH_PORT root@$IP
 scp -P $SSH_PORT $INSTALL_SCRIPT root@$IP:/tmp/.
 ssh -p $SSH_PORT root@$IP chmod +x /tmp/$INSTALL_SCRIPT
 
-echo "ssh -p $SSH_PORT root@$IP" 
+echo "ssh -p $SSH_PORT root@\$IP" 

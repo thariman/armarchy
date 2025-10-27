@@ -3,8 +3,6 @@ set -euo pipefail
 
 ### ====== USER VARIABLES (edit if you like) ======
 HOSTNAME="ArchLinux"
-USERNAME="thariman"
-USER_PASSWORD="omarchy"
 ROOT_PASSWORD="root"
 TIMEZONE="Asia/Jakarta"
 LOCALE="en_US.UTF-8"
@@ -83,7 +81,23 @@ pacstrap -K /mnt \
   base linux linux-firmware \
   grub efibootmgr \
   networkmanager openssh \
-  sudo git curl vim nano base-devel
+  sudo git curl vim nano base-devel wget \
+
+
+  echo "[*] Omarchy prerequisites (ARM-available bits)..."
+# These help ensure you can start a Wayland session even if Omarchy skips some x86-only bits
+pacman -S --noconfirm --needed \
+  mise power-profiles-daemon plocate \
+  bluez bluez-utils cups-browsed cups \
+  plymouth sddm
+
+echo "[*] Wayland/Hyprland prerequisites (ARM-available bits)..."
+# These help ensure you can start a Wayland session even if Omarchy skips some x86-only bits
+pacman -S --noconfirm --needed \
+  hyprland xdg-desktop-portal-hyprland \
+  kitty waybar wofi \
+  pipewire wireplumber pipewire-alsa pipewire-pulse \
+  seatd polkit grim slurp wl-clipboard
 
 # fstab
 genfstab -U /mnt >> /mnt/etc/fstab
@@ -95,7 +109,7 @@ arch-chroot /mnt /bin/bash <<CHROOT_EOF
 set -euo pipefail
 
 # Variables must be passed via environment; we embed them below at the end of heredoc
-: "${HOSTNAME:?}"; : "${USERNAME:?}"; : "${USER_PASSWORD:?}"; : "${ROOT_PASSWORD:?}"
+: "${HOSTNAME:?}"; : "${ROOT_PASSWORD:?}"
 : "${TIMEZONE:?}"; : "${LOCALE:?}"
 
 echo "[*] Setting timezone and clock..."
@@ -120,14 +134,13 @@ EOF
 echo "[*] Root password..."
 echo "root:${ROOT_PASSWORD}" | chpasswd
 
-echo "[*] Create user '${USERNAME}'..."
-useradd -m -G wheel,video,audio,input -s /bin/bash "${USERNAME}"
-echo "${USERNAME}:${USER_PASSWORD}" | chpasswd
-sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
-
 echo "[*] Ensure pacman keys for Arch Linux ARM..."
 pacman-key --init
 pacman-key --populate archlinuxarm || true  # sometimes optional in fresh images
+
+echo "[*] Configure SSH for root access..."
+sed -i 's/^#\?Port.*/Port 11838/' /etc/ssh/sshd_config
+sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/' /etc/ssh/sshd_config
 
 echo "[*] Enable essential services..."
 systemctl enable NetworkManager
@@ -264,21 +277,6 @@ if ! pacman -S --noconfirm archlinuxarm-keyring 2>/dev/null; then
 fi
 # Refresh package database
 pacman -Sy
-
-echo "[*] Wayland/Hyprland prerequisites (ARM-available bits)..."
-# These help ensure you can start a Wayland session even if Omarchy skips some x86-only bits
-pacman -S --noconfirm --needed \
-  hyprland xdg-desktop-portal-hyprland \
-  kitty waybar wofi \
-  pipewire wireplumber pipewire-alsa pipewire-pulse \
-  seatd polkit grim slurp wl-clipboard
-
-# Let wheel users manage seatd
-usermod -aG seat "${USERNAME}" || true
-systemctl enable seatd.service || true
-
-# Minimal first-login helpers
-mkdir -p "/home/${USERNAME}"
 
 CHROOT_EOF
 # ----- end of chroot config -----

@@ -133,7 +133,6 @@ pacman-key --populate archlinuxarm || true  # sometimes optional in fresh images
 echo "[*] Configure SSH for root access..."
 sed -i 's/^#\?Port.*/Port 11838/' /etc/ssh/sshd_config
 sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/' /etc/ssh/sshd_config
-sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/' /etc/ssh/sshd_config
 
 echo "[*] Enable essential services..."
 systemctl enable NetworkManager

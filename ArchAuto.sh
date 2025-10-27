@@ -5,7 +5,7 @@
 
 VM_NAME="omarchy2"
 ISO_PATH="$HOME/Downloads/archboot-2025.10.23-02.23-6.16.7-1-aarch64-ARCH-latest-aarch64.iso"
-INSTALL_SCRIPT="Omarchy-Arm-bare2.sh"
+INSTALL_SCRIPT="Omarchy-Arm-bare.sh"
 SSH_PORT="11838"
 
 # Create VM
@@ -27,9 +27,6 @@ systemctl restart sshd
 passwd #for root
 
 #host shell/terminal
-IP=\$(prlctl list -i $VM_NAME | grep "IP" | awk '{print \$3}' | cut -d',' -f1)
-scp -P $SSH_PORT $INSTALL_SCRIPT root@\$IP:/tmp/.
-ssh -p $SSH_PORT root@\$IP chmod +x /tmp/$INSTALL_SCRIPT
-
+run ./cpscript.sh
 EOF
 

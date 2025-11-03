@@ -16,6 +16,7 @@ prlctl set "$VM_NAME" --device-set cdrom0 --image "$ISO_PATH" --connect
 cat <<EOF
 
 Start VM
+from menu install network and exit
 
 #VM shell
 edit /etc/ssh/sshd_config
@@ -27,5 +28,6 @@ passwd #for root
 
 #host shell/terminal
 run ./cpscript.sh
+
 EOF
 

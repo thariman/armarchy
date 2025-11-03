@@ -83,22 +83,6 @@ pacstrap -K /mnt \
   networkmanager openssh \
   sudo git curl vim nano base-devel wget \
 
-
-#  echo "[*] Omarchy prerequisites (ARM-available bits)..."
-# These help ensure you can start a Wayland session even if Omarchy skips some x86-only bits
-#pacman -S --noconfirm --needed \
-#  mise power-profiles-daemon plocate \
-#  bluez bluez-utils cups-browsed cups \
-#  plymouth sddm
-
-#echo "[*] Wayland/Hyprland prerequisites (ARM-available bits)..."
-# These help ensure you can start a Wayland session even if Omarchy skips some x86-only bits
-#pacman -S --noconfirm --needed \
-#  hyprland xdg-desktop-portal-hyprland \
-#  kitty waybar wofi \
-#  pipewire wireplumber pipewire-alsa pipewire-pulse \
-#  seatd polkit grim slurp wl-clipboard
-
 # fstab
 genfstab -U /mnt >> /mnt/etc/fstab
 

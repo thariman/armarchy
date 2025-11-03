@@ -16,7 +16,11 @@ prlctl set "$VM_NAME" --device-set cdrom0 --image "$ISO_PATH" --connect
 cat <<EOF
 
 Start VM
-from menu install network and exit
+Hit ENTER
+Switch to Online Mode YES
+Update Archboot Environment NO
+Launcher Menu Exit
+Exit Menu  1 Exit Program
 
 #VM shell
 edit /etc/ssh/sshd_config

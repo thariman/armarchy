@@ -22,33 +22,6 @@ if ! ping -c1 -W2 archlinux.org >/dev/null 2>&1; then
   sleep 2
 fi
 
-# ----- Configure local ISO repository (if available) -----
-echo "[*] Checking for local ISO repository..."
-
-# Try to find the ISO repository location
-ISO_REPO=""
-for path in "/run/archiso/bootmnt" "/run/archiso/sfs/airootfs" "/var/archboot" "/"; do
-  if [ -d "${path}/var/cache/pacman/pkg" ] && [ "$(ls -A ${path}/var/cache/pacman/pkg 2>/dev/null)" ]; then
-    ISO_REPO="${path}"
-    echo "[*] Found local packages at: ${ISO_REPO}/var/cache/pacman/pkg"
-    break
-  fi
-done
-
-if [ -n "${ISO_REPO}" ]; then
-  # Use local package cache
-  mkdir -p /var/cache/pacman/pkg
-  echo "[*] Copying packages from ISO to local cache..."
-  cp -n ${ISO_REPO}/var/cache/pacman/pkg/*.pkg.tar.* /var/cache/pacman/pkg/ 2>/dev/null || true
-  
-  # Set CacheDir to use local packages first
-  sed -i '/^#CacheDir/a CacheDir = /var/cache/pacman/pkg' /etc/pacman.conf 2>/dev/null || true
-  
-  echo "[*] Local ISO packages configured - pacman will use local cache first"
-else
-  echo "[*] No local ISO packages found, using online repositories only"
-fi
-
 pacman -Sy --noconfirm gdisk parted nvim sudo wget
 
 # Detect candidate disk if present; fall back to /dev/sda

@@ -1,9 +1,9 @@
 #!/bin/bash
 # Complete automation script for Parallels
 
-VM_NAME="omarchy2"
-INSTALL_SCRIPT="Omarchy-Arm.sh"
-SSH_PORT="11838"
+# Source centralized configuration
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$SCRIPT_DIR/config.sh"
 
 IP=$(prlctl list -i $VM_NAME | grep "IP" | awk '{print $3}' | cut -d',' -f1)
 ssh-copy-id -p $SSH_PORT root@$IP

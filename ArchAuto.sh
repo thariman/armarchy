@@ -3,10 +3,9 @@
 
 #https://release.archboot.com/aarch64/latest/iso/
 
-VM_NAME="omarchy2"
-ISO_PATH="$HOME/Downloads/archboot-2025.10.23-02.23-6.16.7-1-aarch64-ARCH-latest-aarch64.iso"
-INSTALL_SCRIPT="Omarchy-Arm-bare.sh"
-SSH_PORT="11838"
+# Source centralized configuration
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$SCRIPT_DIR/config.sh"
 
 # Create VM
 prlctl create "$VM_NAME" --distribution linux --ostype linux --no-hdd

@@ -18,8 +18,8 @@ The installation follows a multi-stage process:
 
 1. **ISO Download & VM Setup** (`get_latest_version.sh` → `ArchAuto.sh`)
    - Downloads latest Archboot ISO with signature verification
+   - Offers three ISO variants (local/latest/base)
    - Creates and configures Parallels VM
-   - Extracts SSH keys from Release.txt for automated access
 
 2. **Script Transfer** (`cpscript.sh`)
    - Transfers installation scripts to the running Archboot VM
@@ -30,6 +30,7 @@ The installation follows a multi-stage process:
    - Base Arch ARM installation with pacstrap
    - GRUB bootloader configuration for ARM64 EFI
    - Network and SSH setup with custom port (11838)
+   - Firewall configuration to allow SSH access
 
 4. **Post-Installation** (`AfterArc.sh`)
    - Terminal info setup (for Ghostty terminal)
@@ -40,13 +41,17 @@ The installation follows a multi-stage process:
 
 **Centralized Configuration** (`config.sh`):
 - All scripts source this file for VM name, ports, paths
-- Auto-detects latest ISO from Downloads directory
-- Provides `get_vm_ip()` helper function
+- Supports three ISO selection modes:
+  - `auto`: Auto-detects latest ISO from Downloads (default)
+  - `interactive`: Prompts user to select from available ISOs
+  - `manual`: Uses user-specified ISO path
+- Provides `get_vm_ip()` and `select_iso()` helper functions
 
 **SSH Configuration**:
 - Custom port: 11838 (not 22)
+  - This matches Archboot ISO's default SSH port
 - Root login enabled during setup
-- Key-based authentication preferred
+- Password authentication used for initial access
 
 **Partition Layout**:
 - P1: EFI System Partition (ESP) - 512MiB FAT32 at /efi

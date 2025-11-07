@@ -1,0 +1,20 @@
+# GitGuardian configuration
+# This repository contains VM automation scripts with configurable variables
+
+version: 2
+
+# Paths to exclude from scanning
+paths-ignore:
+  - "**/*.md"  # Documentation files contain example configurations
+
+# Specific patterns to ignore
+matches-ignore:
+  # ROOT_PASSWORD is a configurable variable in installation script, not a hardcoded credential
+  - name: Omarchy-Arm.sh ROOT_PASSWORD variable
+    match: 'ROOT_PASSWORD="root"'
+
+  - name: Omarchy-Arm.sh chpasswd usage
+    match: 'echo "root:\${ROOT_PASSWORD}" | chpasswd'
+
+# Minimum occurrences threshold (requires pattern to appear multiple times to be flagged)
+minimum_occurrences: 2

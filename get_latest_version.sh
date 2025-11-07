@@ -18,9 +18,9 @@ echo ""
 
 # Ask user which ISO to download
 echo "Which ISO variant would you like to download?"
-echo "1) local  - archboot-$VERSION-aarch64-ARCH-local-aarch64.iso (full local packages)"
-echo "2) latest - archboot-$VERSION-aarch64-ARCH-latest-aarch64.iso (latest packages)"
-echo "3) base   - archboot-$VERSION-aarch64-ARCH-aarch64.iso (base ARCH)"
+echo "1) local  - archboot-$VERSION-aarch64-ARCH-local-aarch64.iso (largest, fastest install, works offline)"
+echo "2) latest - archboot-$VERSION-aarch64-ARCH-latest-aarch64.iso (smallest, requires internet)"
+echo "3) base   - archboot-$VERSION-aarch64-ARCH-aarch64.iso (medium size, requires internet)"
 echo ""
 read -p "Enter your choice (1/2/3): " choice
 
@@ -125,67 +125,6 @@ else
     echo "Warning: Could not download signature file" >&2
 fi
 
-# Download Release.txt and extract SSH key
 echo ""
-echo "Downloading Release.txt and extracting SSH key..."
-RELEASE_URL="https://release.archboot.com/aarch64/latest/Release.txt"
-KEY_FILE="$DOWNLOAD_DIR/archboot-key"
-
-curl -sL "$RELEASE_URL" | sed -n '/-----BEGIN OPENSSH PRIVATE KEY-----/,/-----END OPENSSH PRIVATE KEY-----/p' > "$KEY_FILE"
-
-if [ -s "$KEY_FILE" ]; then
-    chmod 600 "$KEY_FILE"
-    echo "SSH private key saved to: $KEY_FILE"
-    echo "Key permissions set to 600"
-
-    # Generate public key from private key
-    PUB_KEY_FILE="$DOWNLOAD_DIR/archboot-key.pub"
-    ssh-keygen -y -f "$KEY_FILE" -P "Archboot" > "$PUB_KEY_FILE" 2>/dev/null
-
-    if [ -s "$PUB_KEY_FILE" ]; then
-        echo "SSH public key extracted to: $PUB_KEY_FILE"
-    fi
-
-    # Create helper script for SSH setup
-    HELPER_SCRIPT="$DOWNLOAD_DIR/archboot-ssh-setup.sh"
-    cat > "$HELPER_SCRIPT" << 'EOF'
-#!/bin/bash
-# Archboot SSH Setup Helper Script
-# Run this ON THE BOOTED ARCHBOOT SYSTEM to enable SSH key authentication
-
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PUB_KEY_FILE="$SCRIPT_DIR/archboot-key.pub"
-
-if [ ! -f "$PUB_KEY_FILE" ]; then
-    echo "Error: Public key file not found: $PUB_KEY_FILE"
-    exit 1
-fi
-
-echo "Setting up SSH key authentication for root..."
-mkdir -p /root/.ssh
-chmod 700 /root/.ssh
-
-cat "$PUB_KEY_FILE" > /root/.ssh/authorized_keys
-chmod 600 /root/.ssh/authorized_keys
-
-echo "✓ SSH key authentication configured"
-echo "You can now connect with:"
-echo "  ssh -i $SCRIPT_DIR/archboot-key -p 11838 root@archboot.local"
-EOF
-    chmod +x "$HELPER_SCRIPT"
-    echo "Helper script created: $HELPER_SCRIPT"
-else
-    echo "Warning: Could not extract SSH key from Release.txt" >&2
-fi
-
-echo ""
-echo "All downloads complete!"
-echo ""
-echo "=== SSH Connection Options ==="
-echo "1. Try connecting with the key (password auth may be enabled):"
-echo "   ssh -i $KEY_FILE -p 11838 root@archboot.local"
-echo ""
-echo "2. Or try browser terminal (TTYD) at:"
-echo "   http://archboot.local:7681 (passphrase: Archboot)"
-echo ""
-echo "3. If needed, copy the helper script to USB and run on booted system" 
+echo "Download complete!"
+echo "ISO saved to: $ISO_PATH" 

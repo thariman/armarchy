@@ -1,0 +1,2063 @@
+[2025-11-03T16:55:52+0700] [PACMAN] Running 'pacman -b /mnt//var/lib/pacman/ -r /mnt -Sy --config=/tmp/pacman.conf.ZFzB --disable-sandbox --noconfirm --cachedir=/mnt//var/cache/pacman/pkg/ base linux linux-firmware grub efibootmgr networkmanager openssh sudo git curl vim nano base-devel wget'
+[2025-11-03T16:55:52+0700] [PACMAN] synchronizing package lists
+[2025-11-03T16:57:17+0700] [ALPM] transaction started
+[2025-11-03T16:57:17+0700] [ALPM] installed iana-etc (20250612-1)
+[2025-11-03T16:57:17+0700] [ALPM] installed filesystem (2025.10.12-1)
+[2025-11-03T16:57:17+0700] [ALPM] installed linux-api-headers (6.16-2)
+[2025-11-03T16:57:17+0700] [ALPM] installed tzdata (2025b-1)
+[2025-11-03T16:57:17+0700] [ALPM] installed glibc (2.41+r6+gcf88351b685d-1)
+[2025-11-03T16:57:18+0700] [ALPM] installed gcc-libs (14.2.1+r753+g1cd744a6828f-1)
+[2025-11-03T16:57:18+0700] [ALPM] installed ncurses (6.5-4)
+[2025-11-03T16:57:18+0700] [ALPM] installed readline (8.3.001-1)
+[2025-11-03T16:57:18+0700] [ALPM] installed bash (5.3.3-2)
+[2025-11-03T16:57:18+0700] [ALPM] installed acl (2.3.2-1)
+[2025-11-03T16:57:18+0700] [ALPM] installed attr (2.5.2-1)
+[2025-11-03T16:57:18+0700] [ALPM] installed gmp (6.3.0-2)
+[2025-11-03T16:57:18+0700] [ALPM] installed zlib (1:1.3.1-2)
+[2025-11-03T16:57:18+0700] [ALPM] installed sqlite (3.50.4-2)
+[2025-11-03T16:57:18+0700] [ALPM] installed util-linux-libs (2.41.2-1)
+[2025-11-03T16:57:18+0700] [ALPM] installed e2fsprogs (1.47.3-1)
+[2025-11-03T16:57:18+0700] [ALPM] installed keyutils (1.6.3-3)
+[2025-11-03T16:57:18+0700] [ALPM] installed gdbm (1.26-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed openssl (3.6.0-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed libsasl (2.1.28-5)
+[2025-11-03T16:57:19+0700] [ALPM] installed libldap (2.6.10-2)
+[2025-11-03T16:57:19+0700] [ALPM] installed libevent (2.1.12-4)
+[2025-11-03T16:57:19+0700] [ALPM] installed libverto (0.3.2-5)
+[2025-11-03T16:57:19+0700] [ALPM] installed lmdb (0.9.33-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed krb5 (1.21.3-2)
+[2025-11-03T16:57:19+0700] [ALPM] installed libcap-ng (0.8.5-3)
+[2025-11-03T16:57:19+0700] [ALPM] installed audit (4.1.2-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed libxcrypt (4.4.38-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed libtirpc (1.3.7-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed libnsl (2.0.1-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed pambase (20250719-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed libgpg-error (1.56-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed libgcrypt (1.11.2-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed lz4 (1:1.10.0-2)
+[2025-11-03T16:57:19+0700] [ALPM] installed xz (5.8.1-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed zstd (1.5.7-2)
+[2025-11-03T16:57:19+0700] [ALPM] installed systemd-libs (258.1-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed pam (1.7.1-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed libcap (2.77-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed coreutils (9.8-2)
+[2025-11-03T16:57:19+0700] [ALPM] installed bzip2 (1.0.8-6)
+[2025-11-03T16:57:19+0700] [ALPM] installed libseccomp (2.5.6-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed file (5.46-5)
+[2025-11-03T16:57:19+0700] [ALPM] installed findutils (4.10.0-3)
+[2025-11-03T16:57:19+0700] [ALPM] installed mpfr (4.2.2-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed gawk (5.3.2-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed pcre2 (10.47-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed grep (3.12-2)
+[2025-11-03T16:57:19+0700] [ALPM] installed procps-ng (4.0.5-3)
+[2025-11-03T16:57:19+0700] [ALPM] installed sed (4.9-3)
+[2025-11-03T16:57:19+0700] [ALPM] installed tar (1.35-2)
+[2025-11-03T16:57:19+0700] [ALPM] installed gnulib-l10n (20241231-1)
+[2025-11-03T16:57:19+0700] [ALPM] installed libunistring (1.3-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed icu (76.1-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed libxml2 (2.15.1-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed gettext (0.26-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed hwdata (0.400-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed kmod (34.2-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed pciutils (3.14.0-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed psmisc (23.7-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed shadow (4.18.0-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed util-linux (2.41.2-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed gzip (1.14-2)
+[2025-11-03T16:57:20+0700] [ALPM] installed licenses (20240728-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed libtasn1 (4.20.0-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed libffi (3.5.2-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed libp11-kit (0.25.10-2)
+[2025-11-03T16:57:20+0700] [ALPM] installed p11-kit (0.25.10-2)
+[2025-11-03T16:57:20+0700] [ALPM] installed ca-certificates-utils (20240618-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed ca-certificates-mozilla (3.117-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed ca-certificates (20240618-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed brotli (1.1.0-3)
+[2025-11-03T16:57:20+0700] [ALPM] installed libidn2 (2.3.7-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed libnghttp2 (1.68.0-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed libnghttp3 (1.12.0-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed libpsl (0.21.5-2)
+[2025-11-03T16:57:20+0700] [ALPM] installed libssh2 (1.11.1-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed curl (8.16.0-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed nettle (3.10.2-1)
+[2025-11-03T16:57:20+0700] [ALPM] installed leancrypto (1.6.0-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed gnutls (3.8.10-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed libksba (1.6.7-2)
+[2025-11-03T16:57:21+0700] [ALPM] installed libusb (1.0.29-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed libassuan (3.0.0-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed libsysprof-capture (49.0-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed glib2 (2.86.1-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed json-c (0.18-2)
+[2025-11-03T16:57:21+0700] [ALPM] installed tpm2-tss (4.1.3-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed libsecret (0.21.7-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed pinentry (1.3.2-2)
+[2025-11-03T16:57:21+0700] [ALPM] installed npth (1.8-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed gnupg (2.4.8-3)
+[2025-11-03T16:57:21+0700] [ALPM] installed gpgme (2.0.1-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed libarchive (3.8.2-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed pacman-mirrorlist (20251026-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed device-mapper (2.03.36-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed popt (1.19-2)
+[2025-11-03T16:57:21+0700] [ALPM] installed cryptsetup (2.8.1-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed expat (2.7.3-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed dbus (1.16.2-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed dbus-broker (37-2)
+[2025-11-03T16:57:21+0700] [ALPM] installed dbus-broker-units (37-2)
+[2025-11-03T16:57:21+0700] [ALPM] installed dbus-units (37-2)
+[2025-11-03T16:57:21+0700] [ALPM] installed kbd (2.9.0-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed libelf (0.194-1)
+[2025-11-03T16:57:21+0700] [ALPM] installed systemd (258.1-1)
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Initializing machine ID from random generator.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'sys' with GID 3.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'mem' with GID 8.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'ftp' with GID 11.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'mail' with GID 12.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'log' with GID 19.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'smmsp' with GID 25.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'proc' with GID 26.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'games' with GID 50.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'lock' with GID 54.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'network' with GID 90.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'floppy' with GID 94.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'scanner' with GID 96.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'power' with GID 98.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'nobody' with GID 65534.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'adm' with GID 999.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'wheel' with GID 998.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'utmp' with GID 997.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'audio' with GID 996.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'clock' with GID 995.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'disk' with GID 994.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'input' with GID 993.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'kmem' with GID 992.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'kvm' with GID 991.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'lp' with GID 990.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'optical' with GID 989.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'render' with GID 988.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'sgx' with GID 987.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'storage' with GID 986.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'tty' with GID 5.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'uucp' with GID 985.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'video' with GID 984.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'users' with GID 983.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'groups' with GID 982.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'systemd-journal' with GID 981.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'rfkill' with GID 980.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'bin' with GID 1.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'bin' (n/a) with UID 1 and GID 1.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'daemon' with GID 2.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'daemon' (n/a) with UID 2 and GID 2.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'mail' (n/a) with UID 8 and GID 12.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'ftp' (n/a) with UID 14 and GID 11.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'http' with GID 33.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'http' (n/a) with UID 33 and GID 33.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'nobody' (Kernel Overflow User) with UID 65534 and GID 65534.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'dbus' with GID 81.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'dbus' (System Message Bus) with UID 81 and GID 81.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'systemd-coredump' with GID 979.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'systemd-coredump' (systemd Core Dumper) with UID 979 and GID 979.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'systemd-network' with GID 978.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'systemd-network' (systemd Network Management) with UID 978 and GID 978.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'systemd-oom' with GID 977.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'systemd-oom' (systemd Userspace OOM Killer) with UID 977 and GID 977.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'systemd-journal-remote' with GID 976.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'systemd-journal-remote' (systemd Journal Remote) with UID 976 and GID 976.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'systemd-resolve' with GID 975.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'systemd-resolve' (systemd Resolver) with UID 975 and GID 975.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'systemd-timesync' with GID 974.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'systemd-timesync' (systemd Time Synchronization) with UID 974 and GID 974.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'tss' with GID 973.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'tss' (tss user for tpm2) with UID 973 and GID 973.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating group 'uuidd' with GID 972.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Creating user 'uuidd' (UUID generator helper daemon) with UID 972 and GID 972.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Created symlink '/etc/systemd/system/getty.target.wants/getty@tty1.service' → '/usr/lib/systemd/system/getty@.service'.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Created symlink '/etc/systemd/system/multi-user.target.wants/remote-fs.target' → '/usr/lib/systemd/system/remote-fs.target'.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] Created symlink '/etc/systemd/system/sockets.target.wants/systemd-userdbd.socket' → '/usr/lib/systemd/system/systemd-userdbd.socket'.
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET] :: Append 'init=/usr/lib/systemd/systemd' to your kernel command line in your
+[2025-11-03T16:57:21+0700] [ALPM-SCRIPTLET]    bootloader to replace sysvinit with systemd, or install systemd-sysvcompat
+[2025-11-03T16:57:21+0700] [ALPM] installed pacman (7.0.0.r6.gc685ae6-6)
+[2025-11-03T16:57:22+0700] [ALPM] installed archlinux-keyring (20251027-3)
+[2025-11-03T16:57:22+0700] [ALPM-SCRIPTLET] ==> Appending keys from archlinux.gpg...
+[2025-11-03T16:57:23+0700] [ALPM-SCRIPTLET] ==> Locally signing trusted keys in keyring...
+[2025-11-03T16:57:23+0700] [ALPM-SCRIPTLET]   -> Locally signed 5 keys.
+[2025-11-03T16:57:23+0700] [ALPM-SCRIPTLET] ==> Importing owner trust values...
+[2025-11-03T16:57:23+0700] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2025-11-03T16:57:23+0700] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2025-11-03T16:57:23+0700] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2025-11-03T16:57:23+0700] [ALPM-SCRIPTLET] gpg: inserting ownertrust of 4
+[2025-11-03T16:57:23+0700] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2025-11-03T16:57:23+0700] [ALPM-SCRIPTLET] ==> Disabling revoked keys in keyring...
+[2025-11-03T16:57:24+0700] [ALPM-SCRIPTLET]   -> Disabled 51 keys.
+[2025-11-03T16:57:24+0700] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2025-11-03T16:57:24+0700] [ALPM-SCRIPTLET] gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+[2025-11-03T16:57:24+0700] [ALPM-SCRIPTLET] gpg: depth: 0  valid:   1  signed:   5  trust: 0-, 0q, 0n, 0m, 0f, 1u
+[2025-11-03T16:57:24+0700] [ALPM-SCRIPTLET] gpg: depth: 1  valid:   5  signed: 102  trust: 0-, 0q, 0n, 5m, 0f, 0u
+[2025-11-03T16:57:24+0700] [ALPM-SCRIPTLET] gpg: depth: 2  valid:  75  signed:  26  trust: 75-, 0q, 0n, 0m, 0f, 0u
+[2025-11-03T16:57:24+0700] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2025-12-31
+[2025-11-03T16:57:24+0700] [ALPM] installed systemd-sysvcompat (258.1-1)
+[2025-11-03T16:57:24+0700] [ALPM] installed iputils (20250605-1)
+[2025-11-03T16:57:24+0700] [ALPM] installed libmnl (1.0.5-2)
+[2025-11-03T16:57:24+0700] [ALPM] installed libnftnl (1.3.0-1)
+[2025-11-03T16:57:24+0700] [ALPM] installed libnl (3.11.0-1)
+[2025-11-03T16:57:24+0700] [ALPM] installed libpcap (1.10.5-3)
+[2025-11-03T16:57:24+0700] [ALPM] installed libnfnetlink (1.0.2-2)
+[2025-11-03T16:57:24+0700] [ALPM] installed libnetfilter_conntrack (1.0.9-2)
+[2025-11-03T16:57:24+0700] [ALPM] installed iptables (1:1.8.11-2)
+[2025-11-03T16:57:24+0700] [ALPM] installed libbpf (1.5.1-1)
+[2025-11-03T16:57:24+0700] [ALPM] installed iproute2 (6.17.0-1)
+[2025-11-03T16:57:24+0700] [ALPM] installed base (3-2)
+[2025-11-03T16:57:24+0700] [ALPM] installed mkinitcpio-busybox (1.36.1-1)
+[2025-11-03T16:57:24+0700] [ALPM] installed jansson (2.14.1-1)
+[2025-11-03T16:57:24+0700] [ALPM] installed binutils (2.44-1)
+[2025-11-03T16:57:24+0700] [ALPM] installed diffutils (3.12-2)
+[2025-11-03T16:57:24+0700] [ALPM] installed mkinitcpio (39.2-5)
+[2025-11-03T16:57:26+0700] [ALPM] installed linux-aarch64 (6.17.7-2)
+[2025-11-03T16:57:26+0700] [ALPM] installed linux-firmware-whence (20251021-1)
+[2025-11-03T16:57:27+0700] [ALPM] installed linux-firmware-amdgpu (20251021-1)
+[2025-11-03T16:57:28+0700] [ALPM] installed linux-firmware-atheros (20251021-1)
+[2025-11-03T16:57:28+0700] [ALPM] installed linux-firmware-broadcom (20251021-1)
+[2025-11-03T16:57:28+0700] [ALPM] installed linux-firmware-cirrus (20251021-1)
+[2025-11-03T16:57:30+0700] [ALPM] installed linux-firmware-intel (20251021-1)
+[2025-11-03T16:57:30+0700] [ALPM] installed linux-firmware-mediatek (20251021-1)
+[2025-11-03T16:57:31+0700] [ALPM] installed linux-firmware-nvidia (20251021-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed linux-firmware-other (20251021-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed linux-firmware-radeon (20251021-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed linux-firmware-realtek (20251021-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed linux-firmware (20251021-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed grub (2:2.14rc1-2)
+[2025-11-03T16:57:32+0700] [ALPM-SCRIPTLET] :: Install your bootloader and generate configuration with:
+[2025-11-03T16:57:32+0700] [ALPM-SCRIPTLET]      # grub-install ...
+[2025-11-03T16:57:32+0700] [ALPM-SCRIPTLET]      # grub-mkconfig -o /boot/grub/grub.cfg
+[2025-11-03T16:57:32+0700] [ALPM] installed efivar (39-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed efibootmgr (18-3)
+[2025-11-03T16:57:32+0700] [ALPM] installed libmm-glib (1.24.2-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed libndp (1.9-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed gpm (1.20.7.r38.ge82d1a6-6)
+[2025-11-03T16:57:32+0700] [ALPM] installed pcre (8.45-4)
+[2025-11-03T16:57:32+0700] [ALPM] installed slang (2.3.3-4)
+[2025-11-03T16:57:32+0700] [ALPM] installed libnewt (0.52.25-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed nspr (4.37-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed nss (3.117-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed libnm (1.54.1-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed liburing (2.12-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed libnvme (1.15-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed libdaemon (0.14-6)
+[2025-11-03T16:57:32+0700] [ALPM] installed libsodium (1.0.20-1)
+[2025-11-03T16:57:32+0700] [ALPM] installed libpgm (5.3.128-3)
+[2025-11-03T16:57:32+0700] [ALPM] installed zeromq (4.3.5-2.1)
+[2025-11-03T16:57:32+0700] [ALPM] installed libteam (1.32-2)
+[2025-11-03T16:57:32+0700] [ALPM] installed mobile-broadband-provider-info (20250613-1)
+[2025-11-03T16:57:33+0700] [ALPM] installed duktape (2.7.0-7)
+[2025-11-03T16:57:33+0700] [ALPM] installed polkit (126-2)
+[2025-11-03T16:57:33+0700] [ALPM] installed pcsclite (2.4.0-3)
+[2025-11-03T16:57:33+0700] [ALPM] installed wpa_supplicant (2:2.11-3)
+[2025-11-03T16:57:33+0700] [ALPM] installed networkmanager (1.54.1-1)
+[2025-11-03T16:57:33+0700] [ALPM] installed libedit (20250104_3.1-1)
+[2025-11-03T16:57:33+0700] [ALPM] installed openssh (10.2p1-2)
+[2025-11-03T16:57:33+0700] [ALPM] installed sudo (1.9.17.p2-1)
+[2025-11-03T16:57:33+0700] [ALPM] installed db5.3 (5.3.28-5)
+[2025-11-03T16:57:33+0700] [ALPM] installed perl (5.42.0-1)
+[2025-11-03T16:57:33+0700] [ALPM] installed perl-error (0.17030-2)
+[2025-11-03T16:57:33+0700] [ALPM] installed perl-timedate (2.33-8)
+[2025-11-03T16:57:33+0700] [ALPM] installed perl-mailtools (2.22-2)
+[2025-11-03T16:57:33+0700] [ALPM] installed zlib-ng (2.2.5-1)
+[2025-11-03T16:57:34+0700] [ALPM] installed git (2.51.2-2)
+[2025-11-03T16:57:34+0700] [ALPM] installed vim-runtime (9.1.1841-1)
+[2025-11-03T16:57:34+0700] [ALPM] installed vim (9.1.1841-1)
+[2025-11-03T16:57:34+0700] [ALPM] installed nano (8.6-1)
+[2025-11-03T16:57:34+0700] [ALPM] installed m4 (1.4.20-1)
+[2025-11-03T16:57:34+0700] [ALPM] installed autoconf (2.72-1)
+[2025-11-03T16:57:34+0700] [ALPM] installed automake (1.18.1-1)
+[2025-11-03T16:57:34+0700] [ALPM] installed bison (3.8.2-8)
+[2025-11-03T16:57:34+0700] [ALPM] installed xxhash (0.8.3-1)
+[2025-11-03T16:57:34+0700] [ALPM] installed debugedit (5.2-1)
+[2025-11-03T16:57:34+0700] [ALPM] installed fakeroot (1.37.1.2-1)
+[2025-11-03T16:57:34+0700] [ALPM] installed flex (2.6.4-5)
+[2025-11-03T16:57:34+0700] [ALPM] installed libmpc (1.3.1-2)
+[2025-11-03T16:57:34+0700] [ALPM] installed libisl (0.27-1)
+[2025-11-03T16:57:36+0700] [ALPM] installed gcc (14.2.1+r753+g1cd744a6828f-1)
+[2025-11-03T16:57:36+0700] [ALPM] installed groff (1.23.0-7)
+[2025-11-03T16:57:36+0700] [ALPM] installed libtool (2.5.4+r1+gbaa1fe41-3)
+[2025-11-03T16:57:36+0700] [ALPM] installed gc (8.2.10-2)
+[2025-11-03T16:57:36+0700] [ALPM] installed guile (3.0.10-1)
+[2025-11-03T16:57:36+0700] [ALPM] installed make (4.4.1-2)
+[2025-11-03T16:57:36+0700] [ALPM] installed patch (2.8-1)
+[2025-11-03T16:57:36+0700] [ALPM] installed pkgconf (2.5.1-1)
+[2025-11-03T16:57:36+0700] [ALPM] installed texinfo (7.2-1)
+[2025-11-03T16:57:36+0700] [ALPM] installed which (2.23-1)
+[2025-11-03T16:57:36+0700] [ALPM] installed base-devel (1-2)
+[2025-11-03T16:57:36+0700] [ALPM] installed wget (1.25.0-2)
+[2025-11-03T16:57:36+0700] [ALPM] transaction completed
+[2025-11-03T16:57:36+0700] [ALPM] running '20-systemd-sysusers.hook'...
+[2025-11-03T16:57:36+0700] [ALPM-SCRIPTLET] Creating group 'polkitd' with GID 102.
+[2025-11-03T16:57:36+0700] [ALPM-SCRIPTLET] Creating group 'alpm' with GID 971.
+[2025-11-03T16:57:36+0700] [ALPM-SCRIPTLET] Creating user 'alpm' (Arch Linux Package Management) with UID 971 and GID 971.
+[2025-11-03T16:57:36+0700] [ALPM-SCRIPTLET] Creating group 'git' with GID 970.
+[2025-11-03T16:57:36+0700] [ALPM-SCRIPTLET] Creating user 'git' (git daemon user) with UID 970 and GID 970.
+[2025-11-03T16:57:36+0700] [ALPM-SCRIPTLET] Creating group 'pcscd' with GID 969.
+[2025-11-03T16:57:36+0700] [ALPM-SCRIPTLET] Creating user 'pcscd' (PC/SC Smart Card Daemon) with UID 969 and GID 969.
+[2025-11-03T16:57:36+0700] [ALPM-SCRIPTLET] Creating user 'polkitd' (User for polkitd) with UID 102 and GID 102.
+[2025-11-03T16:57:36+0700] [ALPM] running '30-systemd-catalog.hook'...
+[2025-11-03T16:57:36+0700] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2025-11-03T16:57:36+0700] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2025-11-03T16:57:36+0700] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2025-11-03T16:57:36+0700] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2025-11-03T16:57:36+0700] [ALPM] running '30-systemd-hwdb.hook'...
+[2025-11-03T16:57:36+0700] [ALPM] running '30-systemd-sysctl.hook'...
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2025-11-03T16:57:37+0700] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2025-11-03T16:57:37+0700] [ALPM] running '30-systemd-udev-reload.hook'...
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2025-11-03T16:57:37+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T16:57:37+0700] [ALPM] running '40-update-ca-trust.hook'...
+[2025-11-03T16:57:37+0700] [ALPM] running '60-depmod.hook'...
+[2025-11-03T16:57:37+0700] [ALPM] running '90-mkinitcpio-install.hook'...
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux-aarch64.preset: 'default'
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   -> -k 6.17.7-2-aarch64-ARCH -g /boot/initramfs-linux.img
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET] ==> Starting build: '6.17.7-2-aarch64-ARCH'
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   -> Running build hook: [microcode]
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET] ==> WARNING: architecture 'aarch64' not supported, skipping hook
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET] ==> WARNING: No module containing the symbol 'drm_privacy_screen_register' found in: 'drivers/platform'
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: '/boot/initramfs-linux.img'
+[2025-11-03T16:57:37+0700] [ALPM-SCRIPTLET]   -> Early uncompressed CPIO image generation successful
+[2025-11-03T16:57:38+0700] [ALPM-SCRIPTLET] ==> Initcpio image generation successful
+[2025-11-03T16:57:38+0700] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux-aarch64.preset: 'fallback'
+[2025-11-03T16:57:38+0700] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2025-11-03T16:57:38+0700] [ALPM-SCRIPTLET]   -> -k 6.17.7-2-aarch64-ARCH -g /boot/initramfs-linux-fallback.img -S autodetect
+[2025-11-03T16:57:38+0700] [ALPM-SCRIPTLET] ==> Starting build: '6.17.7-2-aarch64-ARCH'
+[2025-11-03T16:57:38+0700] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2025-11-03T16:57:38+0700] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2025-11-03T16:57:38+0700] [ALPM-SCRIPTLET]   -> Running build hook: [microcode]
+[2025-11-03T16:57:38+0700] [ALPM-SCRIPTLET] ==> WARNING: architecture 'aarch64' not supported, skipping hook
+[2025-11-03T16:57:38+0700] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2025-11-03T16:57:38+0700] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2025-11-03T16:57:39+0700] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'ast'
+[2025-11-03T16:57:40+0700] [ALPM-SCRIPTLET] ==> WARNING: No module containing the symbol 'drm_privacy_screen_register' found in: 'drivers/platform'
+[2025-11-03T16:57:40+0700] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2025-11-03T16:57:40+0700] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2025-11-03T16:57:40+0700] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2025-11-03T16:57:40+0700] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2025-11-03T16:57:40+0700] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2025-11-03T16:57:40+0700] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'qla2xxx'
+[2025-11-03T16:57:40+0700] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'wd719x'
+[2025-11-03T16:57:40+0700] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'qla1280'
+[2025-11-03T16:57:40+0700] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2025-11-03T16:57:40+0700] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2025-11-03T16:57:40+0700] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2025-11-03T16:57:40+0700] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: '/boot/initramfs-linux-fallback.img'
+[2025-11-03T16:57:40+0700] [ALPM-SCRIPTLET]   -> Early uncompressed CPIO image generation successful
+[2025-11-03T16:57:46+0700] [ALPM-SCRIPTLET] ==> Initcpio image generation successful
+[2025-11-03T16:57:46+0700] [ALPM] running 'dbus-reload.hook'...
+[2025-11-03T16:57:46+0700] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2025-11-03T16:57:46+0700] [ALPM] running 'detect-old-perl-modules.hook'...
+[2025-11-03T16:57:46+0700] [ALPM] running 'texinfo-install.hook'...
+[2025-11-03T16:57:48+0700] [PACMAN] Running 'pacman -S --noconfirm archlinuxarm-keyring'
+[2025-11-03T16:57:53+0700] [PACMAN] Running 'pacman -Sy'
+[2025-11-03T16:57:53+0700] [PACMAN] synchronizing package lists
+[2025-11-03T17:06:37+0700] [PACMAN] Running 'pacman -Sy --noconfirm'
+[2025-11-03T17:06:37+0700] [PACMAN] synchronizing package lists
+[2025-11-03T17:06:38+0700] [PACMAN] Running 'pacman -S --needed --noconfirm gum'
+[2025-11-03T17:06:41+0700] [ALPM] transaction started
+[2025-11-03T17:06:41+0700] [ALPM] installed gum (0.17.0-1)
+[2025-11-03T17:06:41+0700] [ALPM] transaction completed
+[2025-11-03T17:06:41+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:07:07+0700] [PACMAN] Running 'pacman -Syu --noconfirm'
+[2025-11-03T17:07:07+0700] [PACMAN] synchronizing package lists
+[2025-11-03T17:07:08+0700] [PACMAN] starting full system upgrade
+[2025-11-03T17:07:09+0700] [PACMAN] Running 'pacman -S --noconfirm --needed less'
+[2025-11-03T17:07:10+0700] [ALPM] transaction started
+[2025-11-03T17:07:10+0700] [ALPM] installed less (1:685-1)
+[2025-11-03T17:07:10+0700] [ALPM] transaction completed
+[2025-11-03T17:07:10+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:07:23+0700] [PACMAN] Running 'pacman -Sy --noconfirm'
+[2025-11-03T17:07:23+0700] [PACMAN] synchronizing package lists
+[2025-11-03T17:07:24+0700] [PACMAN] Running 'pacman -S --noconfirm --needed pipewire-jack'
+[2025-11-03T17:07:33+0700] [ALPM] transaction started
+[2025-11-03T17:07:33+0700] [ALPM] installed libpipewire (1:1.4.9-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed pipewire (1:1.4.9-1)
+[2025-11-03T17:07:33+0700] [ALPM-SCRIPTLET] Created symlink '/etc/systemd/user/sockets.target.wants/pipewire.socket' → '/usr/lib/systemd/user/pipewire.socket'.
+[2025-11-03T17:07:33+0700] [ALPM] installed alsa-card-profiles (1:1.4.9-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed alsa-topology-conf (1.2.5.1-4)
+[2025-11-03T17:07:33+0700] [ALPM] installed alsa-ucm-conf (1.2.14-2)
+[2025-11-03T17:07:33+0700] [ALPM] installed alsa-lib (1.2.14-2)
+[2025-11-03T17:07:33+0700] [ALPM] installed bluez-libs (5.84-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed libebur128 (1.2.6-2)
+[2025-11-03T17:07:33+0700] [ALPM] installed libfdk-aac (2.0.3-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed libfreeaptx (0.2.2-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed liblc3 (1.1.3-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed libldac (2.0.2.3-2)
+[2025-11-03T17:07:33+0700] [ALPM] installed libmysofa (1.3.3-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed libogg (1.3.6-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed flac (1.5.0-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed lame (3.100-6)
+[2025-11-03T17:07:33+0700] [ALPM] installed libvorbis (1.3.7-4)
+[2025-11-03T17:07:33+0700] [ALPM] installed mpg123 (1.33.3-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed opus (1.5.2-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed libsndfile (1.2.2-4)
+[2025-11-03T17:07:33+0700] [ALPM] installed serd (0.32.4-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed zix (0.6.2-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed sord (0.16.18-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed lv2 (1.18.10-2)
+[2025-11-03T17:07:33+0700] [ALPM] installed sratom (0.6.18-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed lilv (0.24.26-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed sbc (2.1-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed gtest (1.17.0-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed abseil-cpp (20250814.1-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed webrtc-audio-processing-1 (1.3-5)
+[2025-11-03T17:07:33+0700] [ALPM] installed pipewire-audio (1:1.4.9-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed libwireplumber (0.5.12-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed lua (5.4.8-2)
+[2025-11-03T17:07:33+0700] [ALPM] installed wireplumber (0.5.12-1)
+[2025-11-03T17:07:33+0700] [ALPM-SCRIPTLET] Created symlink '/etc/systemd/user/pipewire-session-manager.service' → '/usr/lib/systemd/user/wireplumber.service'.
+[2025-11-03T17:07:33+0700] [ALPM-SCRIPTLET] Created symlink '/etc/systemd/user/pipewire.service.wants/wireplumber.service' → '/usr/lib/systemd/user/wireplumber.service'.
+[2025-11-03T17:07:33+0700] [ALPM] installed pipewire-session-manager (1:1.4.9-1)
+[2025-11-03T17:07:33+0700] [ALPM] installed pipewire-jack (1:1.4.9-1)
+[2025-11-03T17:07:33+0700] [ALPM] transaction completed
+[2025-11-03T17:07:33+0700] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2025-11-03T17:07:34+0700] [ALPM] running '30-systemd-udev-reload.hook'...
+[2025-11-03T17:07:34+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:07:34+0700] [PACMAN] Running 'pacman -S --needed --noconfirm base-devel'
+[2025-11-03T17:07:34+0700] [PACMAN] Running 'pacman -Su --noconfirm'
+[2025-11-03T17:07:34+0700] [PACMAN] starting full system upgrade
+[2025-11-03T17:07:34+0700] [PACMAN] Running 'pacman -S --needed --noconfirm base-devel'
+[2025-11-03T17:07:47+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U /tmp/aur-build-yay-bin-Qhfo/yay-bin/yay-bin-12.5.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:07:47+0700] [ALPM] transaction started
+[2025-11-03T17:07:47+0700] [ALPM] installed yay-bin (12.5.2-1)
+[2025-11-03T17:07:47+0700] [ALPM] transaction completed
+[2025-11-03T17:07:47+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:07:56+0700] [PACMAN] Running 'pacman -S --needed --noconfirm --config /etc/pacman.conf -- extra/libxkbcommon extra/wayland extra/rust'
+[2025-11-03T17:08:15+0700] [ALPM] transaction started
+[2025-11-03T17:08:15+0700] [ALPM] installed xkeyboard-config (2.46-1)
+[2025-11-03T17:08:15+0700] [ALPM] installed libxkbcommon (1.12.3-1)
+[2025-11-03T17:08:15+0700] [ALPM] installed default-cursors (3-1)
+[2025-11-03T17:08:15+0700] [ALPM] installed wayland (1.24.0-1)
+[2025-11-03T17:08:16+0700] [ALPM] installed llvm-libs (21.1.4-1)
+[2025-11-03T17:08:16+0700] [ALPM] installed lld (21.1.4-1)
+[2025-11-03T17:08:19+0700] [ALPM] installed rust (1:1.90.0-4)
+[2025-11-03T17:08:19+0700] [ALPM] transaction completed
+[2025-11-03T17:08:19+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:08:19+0700] [PACMAN] Running 'pacman -D -q --asdeps --noconfirm --config /etc/pacman.conf -- libxkbcommon wayland'
+[2025-11-03T17:08:19+0700] [PACMAN] Running 'pacman -D -q --asexplicit --noconfirm --config /etc/pacman.conf -- rust'
+[2025-11-03T17:08:19+0700] [PACMAN] Running 'pacman -S --needed --noconfirm --config /etc/pacman.conf -- extra/nautilus extra/blueberry extra/docker-buildx extra/ufw extra/tree-sitter-cli extra/swaybg core/man-db extra/ttf-cascadia-mono-nerd extra/hypridle extra/qt5-wayland extra/sddm extra/pamixer extra/brightnessctl extra/gnome-keyring extra/ripgrep extra/gvfs-nfs extra/kdenlive extra/jq extra/plocate extra/avahi extra/lazydocker core/less extra/hyprshot extra/ttf-jetbrains-mono-nerd extra/cups-pdf extra/cups-browsed core/libsecret extra/zoxide core/inetutils extra/mako extra/hyprsunset extra/mariadb-libs extra/fastfetch extra/fcitx5 extra/fzf extra/docker extra/xmlstarlet extra/sushi extra/hyprpicker extra/gvfs-smb extra/cups-filters extra/mise extra/wiremix extra/kvantum-qt5 extra/playerctl extra/gum extra/hyprlock extra/fcitx5-qt extra/llvm extra/xdg-desktop-portal-hyprland extra/system-config-printer extra/starship extra/python-gobject extra/xournalpp extra/alacritty extra/fontconfig extra/postgresql-libs extra/nss-mdns extra/libyaml extra/mpv extra/gnome-calculator extra/bash-completion extra/neovim extra/whois extra/lazygit extra/noto-fonts-cjk extra/docker-compose extra/eza extra/ffmpegthumbnailer extra/luarocks extra/uwsm extra/github-cli extra/satty extra/clang extra/python-poetry-core extra/dust extra/noto-fonts-emoji extra/bat extra/cups extra/btop extra/woff2-font-awesome extra/inxi extra/tldr extra/fd extra/impala extra/hyprland-qtutils extra/libqalculate extra/gnome-themes-extra extra/swayosd extra/polkit-gnome extra/wireplumber extra/unzip extra/grim extra/evince extra/gvfs-mtp extra/plymouth extra/xdg-desktop-portal-gtk extra/fcitx5-gtk extra/expac extra/libreoffice-fresh extra/imv extra/waybar extra/gnome-disk-utility extra/iwd core/wireless-regdb extra/wl-clipboard extra/imagemagick extra/slurp extra/power-profiles-daemon extra/noto-fonts extra/noto-fonts-extra'
+[2025-11-03T17:30:34+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps go'
+[2025-11-03T17:30:51+0700] [ALPM] transaction started
+[2025-11-03T17:30:53+0700] [ALPM] installed go (2:1.25.3-1)
+[2025-11-03T17:30:53+0700] [ALPM] transaction completed
+[2025-11-03T17:30:53+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:31:04+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-elephant/elephant/elephant-2.13.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:31:04+0700] [ALPM] transaction started
+[2025-11-03T17:31:04+0700] [ALPM] installed elephant (2.13.2-1)
+[2025-11-03T17:31:04+0700] [ALPM] transaction completed
+[2025-11-03T17:31:04+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:31:16+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-elephant-bluetooth/elephant-bluetooth/elephant-bluetooth-2.13.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:31:16+0700] [ALPM] transaction started
+[2025-11-03T17:31:16+0700] [ALPM] installed elephant-bluetooth (2.13.2-1)
+[2025-11-03T17:31:16+0700] [ALPM] transaction completed
+[2025-11-03T17:31:16+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:31:17+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps libqalculate'
+[2025-11-03T17:31:17+0700] [ALPM] transaction started
+[2025-11-03T17:31:17+0700] [ALPM] installed libqalculate (5.8.1-1)
+[2025-11-03T17:31:17+0700] [ALPM] transaction completed
+[2025-11-03T17:31:17+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:31:22+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-elephant-calc/elephant-calc/elephant-calc-2.13.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:31:22+0700] [ALPM] transaction started
+[2025-11-03T17:31:22+0700] [ALPM] installed elephant-calc (2.13.2-1)
+[2025-11-03T17:31:22+0700] [ALPM] transaction completed
+[2025-11-03T17:31:22+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:31:24+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps wl-clipboard imagemagick'
+[2025-11-03T17:31:27+0700] [ALPM] transaction started
+[2025-11-03T17:31:27+0700] [ALPM] installed wl-clipboard (1:2.2.1-3)
+[2025-11-03T17:31:27+0700] [ALPM] installed libpng (1.6.50-1)
+[2025-11-03T17:31:27+0700] [ALPM] installed freetype2 (2.14.1-1)
+[2025-11-03T17:31:27+0700] [ALPM] installed fontconfig (2:2.17.1-1)
+[2025-11-03T17:31:27+0700] [ALPM-SCRIPTLET] Creating fontconfig configuration...
+[2025-11-03T17:31:27+0700] [ALPM-SCRIPTLET] Rebuilding fontconfig cache...
+[2025-11-03T17:31:27+0700] [ALPM] installed xcb-proto (1.17.0-3)
+[2025-11-03T17:31:27+0700] [ALPM] installed xorgproto (2024.1-2)
+[2025-11-03T17:31:27+0700] [ALPM] installed libxdmcp (1.1.5-1.1)
+[2025-11-03T17:31:27+0700] [ALPM] installed libxau (1.0.12-1)
+[2025-11-03T17:31:27+0700] [ALPM] installed libxcb (1.17.0-1)
+[2025-11-03T17:31:27+0700] [ALPM] installed libx11 (1.8.12-1)
+[2025-11-03T17:31:27+0700] [ALPM] installed libxext (1.3.6-1)
+[2025-11-03T17:31:27+0700] [ALPM] installed libxrender (0.9.12-1)
+[2025-11-03T17:31:27+0700] [ALPM] installed lzo (2.10-5)
+[2025-11-03T17:31:28+0700] [ALPM] installed pixman (0.46.4-1)
+[2025-11-03T17:31:28+0700] [ALPM] installed cairo (1.18.4-1)
+[2025-11-03T17:31:28+0700] [ALPM] installed fftw (3.3.10-7)
+[2025-11-03T17:31:28+0700] [ALPM] installed jbigkit (2.1-8)
+[2025-11-03T17:31:28+0700] [ALPM] installed libdeflate (1.24-1)
+[2025-11-03T17:31:28+0700] [ALPM] installed libjpeg-turbo (3.1.2-1)
+[2025-11-03T17:31:28+0700] [ALPM] installed libwebp (1.6.0-2)
+[2025-11-03T17:31:28+0700] [ALPM] installed libtiff (4.7.1-1)
+[2025-11-03T17:31:28+0700] [ALPM] installed lcms2 (2.17-1)
+[2025-11-03T17:31:28+0700] [ALPM] installed liblqr (0.4.3-1)
+[2025-11-03T17:31:28+0700] [ALPM] installed fribidi (1.0.16-2)
+[2025-11-03T17:31:28+0700] [ALPM] installed graphite (1:1.3.14-5)
+[2025-11-03T17:31:28+0700] [ALPM] installed harfbuzz (12.1.0-1)
+[2025-11-03T17:31:28+0700] [ALPM] installed libraqm (0.10.3-1)
+[2025-11-03T17:31:28+0700] [ALPM] installed imagemagick (7.1.2.8-1)
+[2025-11-03T17:31:28+0700] [ALPM] transaction completed
+[2025-11-03T17:31:28+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:31:28+0700] [ALPM] running '40-fontconfig-config.hook'...
+[2025-11-03T17:31:28+0700] [ALPM] running 'detect-old-perl-modules.hook'...
+[2025-11-03T17:31:28+0700] [ALPM] running 'fontconfig.hook'...
+[2025-11-03T17:31:28+0700] [ALPM] running 'texinfo-install.hook'...
+[2025-11-03T17:31:37+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-elephant-clipboard/elephant-clipboard/elephant-clipboard-2.13.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:31:37+0700] [ALPM] transaction started
+[2025-11-03T17:31:38+0700] [ALPM] installed elephant-clipboard (2.13.2-1)
+[2025-11-03T17:31:38+0700] [ALPM] transaction completed
+[2025-11-03T17:31:38+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:31:44+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-elephant-desktopapplications/elephant-desktopapplications/elephant-desktopapplications-2.13.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:31:44+0700] [ALPM] transaction started
+[2025-11-03T17:31:44+0700] [ALPM] installed elephant-desktopapplications (2.13.2-1)
+[2025-11-03T17:31:44+0700] [ALPM] transaction completed
+[2025-11-03T17:31:44+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:31:45+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps fd'
+[2025-11-03T17:31:46+0700] [ALPM] transaction started
+[2025-11-03T17:31:46+0700] [ALPM] installed fd (10.3.0-1)
+[2025-11-03T17:31:46+0700] [ALPM] transaction completed
+[2025-11-03T17:31:46+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:32:16+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-elephant-files/elephant-files/elephant-files-2.13.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:32:16+0700] [ALPM] transaction started
+[2025-11-03T17:32:16+0700] [ALPM] installed elephant-files (2.13.2-1)
+[2025-11-03T17:32:16+0700] [ALPM] transaction completed
+[2025-11-03T17:32:16+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:32:22+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-elephant-menus/elephant-menus/elephant-menus-2.13.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:32:22+0700] [ALPM] transaction started
+[2025-11-03T17:32:22+0700] [ALPM] installed elephant-menus (2.13.2-1)
+[2025-11-03T17:32:22+0700] [ALPM] transaction completed
+[2025-11-03T17:32:22+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:32:28+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-elephant-providerlist/elephant-providerlist/elephant-providerlist-2.13.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:32:28+0700] [ALPM] transaction started
+[2025-11-03T17:32:28+0700] [ALPM] installed elephant-providerlist (2.13.2-1)
+[2025-11-03T17:32:28+0700] [ALPM] transaction completed
+[2025-11-03T17:32:28+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:32:34+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-elephant-runner/elephant-runner/elephant-runner-2.13.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:32:34+0700] [ALPM] transaction started
+[2025-11-03T17:32:34+0700] [ALPM] installed elephant-runner (2.13.2-1)
+[2025-11-03T17:32:34+0700] [ALPM] transaction completed
+[2025-11-03T17:32:34+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:32:44+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-elephant-symbols/elephant-symbols/elephant-symbols-2.13.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:32:44+0700] [ALPM] transaction started
+[2025-11-03T17:32:44+0700] [ALPM] installed elephant-symbols (2.13.2-1)
+[2025-11-03T17:32:44+0700] [ALPM] transaction completed
+[2025-11-03T17:32:44+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:32:57+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-elephant-todo/elephant-todo/elephant-todo-2.13.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:32:57+0700] [ALPM] transaction started
+[2025-11-03T17:32:58+0700] [ALPM] installed elephant-todo (2.13.2-1)
+[2025-11-03T17:32:58+0700] [ALPM] transaction completed
+[2025-11-03T17:32:58+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:33:04+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-elephant-unicode/elephant-unicode/elephant-unicode-2.13.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:33:04+0700] [ALPM] transaction started
+[2025-11-03T17:33:04+0700] [ALPM] installed elephant-unicode (2.13.2-1)
+[2025-11-03T17:33:04+0700] [ALPM] transaction completed
+[2025-11-03T17:33:04+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:33:04+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps python'
+[2025-11-03T17:33:06+0700] [ALPM] transaction started
+[2025-11-03T17:33:06+0700] [ALPM] installed mpdecimal (4.0.1-1)
+[2025-11-03T17:33:06+0700] [ALPM] installed python (3.13.7-1)
+[2025-11-03T17:33:06+0700] [ALPM] transaction completed
+[2025-11-03T17:33:06+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:33:06+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps python-build python-installer python-wheel python-setuptools python-poetry-core'
+[2025-11-03T17:33:10+0700] [ALPM] transaction started
+[2025-11-03T17:33:10+0700] [ALPM] installed python-packaging (25.0-1)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-pyproject-hooks (1.2.0-3)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-build (1.3.0-1)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-installer (0.7.0-10)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-wheel (0.45.1-1)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-more-itertools (10.8.0-1)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-jaraco.functools (4.1.0-1)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-jaraco.context (6.0.1-1)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-autocommand (2.2.2-7)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-jaraco.text (4.0.0-2)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-jaraco.collections (5.1.0-1)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-platformdirs (4.5.0-1)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-setuptools (1:80.9.0-2)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-fastjsonschema (2.21.2-1)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-typing_extensions (4.15.0-1)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-lark-parser (1.3.1-1)
+[2025-11-03T17:33:10+0700] [ALPM] installed python-poetry-core (2.2.1-1)
+[2025-11-03T17:33:10+0700] [ALPM] transaction completed
+[2025-11-03T17:33:10+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:33:18+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-python-terminaltexteffects/python-terminaltexteffects/python-terminaltexteffects-0.12.0-1-any.pkg.tar.xz'
+[2025-11-03T17:33:18+0700] [ALPM] transaction started
+[2025-11-03T17:33:18+0700] [ALPM] installed python-terminaltexteffects (0.12.0-1)
+[2025-11-03T17:33:18+0700] [ALPM] transaction completed
+[2025-11-03T17:33:18+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:33:34+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-ttf-ia-writer/ttf-ia-writer/ttf-ia-writer-20181225-1-any.pkg.tar.xz'
+[2025-11-03T17:33:34+0700] [ALPM] transaction started
+[2025-11-03T17:33:34+0700] [ALPM] installed ttf-ia-writer (20181225-1)
+[2025-11-03T17:33:34+0700] [ALPM] transaction completed
+[2025-11-03T17:33:34+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:33:34+0700] [ALPM] running 'fontconfig.hook'...
+[2025-11-03T17:33:35+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps gtk3'
+[2025-11-03T17:33:42+0700] [ALPM] transaction started
+[2025-11-03T17:33:42+0700] [ALPM] installed adwaita-fonts (49.0-2)
+[2025-11-03T17:33:42+0700] [ALPM] installed hicolor-icon-theme (0.18-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed adwaita-icon-theme-legacy (46.2-3)
+[2025-11-03T17:33:43+0700] [ALPM] installed adwaita-cursors (49.0-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed adwaita-icon-theme (49.0-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed dconf (0.49.0-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed gsettings-system-schemas (49.1-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed gsettings-desktop-schemas (49.1-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed libxfixes (6.0.2-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed libxi (1.8.2-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed libxtst (1.2.5-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed xorg-xprop (1.2.8-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed at-spi2-core (2.58.1-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed desktop-file-utils (0.28-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed bubblewrap (0.11.0-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed giflib (5.2.2-2)
+[2025-11-03T17:33:43+0700] [ALPM] installed libunwind (1.8.2-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed gperftools (2.17.2-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed highway (1.3.0-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed libjxl (0.11.1-5)
+[2025-11-03T17:33:43+0700] [ALPM] installed dav1d (1.5.2-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed libdatrie (0.2.13-4)
+[2025-11-03T17:33:43+0700] [ALPM] installed libthai (0.1.29-3)
+[2025-11-03T17:33:43+0700] [ALPM] installed libxft (2.3.9-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed pango (1:1.57.0-2)
+[2025-11-03T17:33:43+0700] [ALPM] installed librsvg (2:2.61.2-2)
+[2025-11-03T17:33:43+0700] [ALPM] installed glycin (2.0.4-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed shared-mime-info (2.4-2)
+[2025-11-03T17:33:43+0700] [ALPM] installed gdk-pixbuf2 (2.44.4-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed iso-codes (4.18.0-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed libcloudproviders (0.3.6-2)
+[2025-11-03T17:33:43+0700] [ALPM] installed libcolord (1.4.8-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed avahi (1:0.9rc2-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed libcups (2:2.4.14-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed libpciaccess (0.18.1-2)
+[2025-11-03T17:33:43+0700] [ALPM] installed libdrm (2.4.127-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed libxshmfence (1.3.3-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed libxxf86vm (1.1.6-1)
+[2025-11-03T17:33:43+0700] [ALPM] installed lm_sensors (1:3.6.2-1)
+[2025-11-03T17:33:44+0700] [ALPM] installed spirv-tools (1:1.4.328.1-1)
+[2025-11-03T17:33:44+0700] [ALPM] installed mesa (1:25.2.6-1)
+[2025-11-03T17:33:44+0700] [ALPM] installed libglvnd (1.7.0-3)
+[2025-11-03T17:33:44+0700] [ALPM] installed libepoxy (1.5.10-3)
+[2025-11-03T17:33:44+0700] [ALPM] installed libxcomposite (0.4.6-2)
+[2025-11-03T17:33:44+0700] [ALPM] installed libxcursor (1.2.3-1)
+[2025-11-03T17:33:44+0700] [ALPM] installed libxdamage (1.1.6-2)
+[2025-11-03T17:33:44+0700] [ALPM] installed libxinerama (1.1.5-2)
+[2025-11-03T17:33:44+0700] [ALPM] installed libxrandr (1.5.4-1)
+[2025-11-03T17:33:44+0700] [ALPM] installed json-glib (1.10.8-1)
+[2025-11-03T17:33:44+0700] [ALPM] installed libproxy (0.5.11-1)
+[2025-11-03T17:33:44+0700] [ALPM] installed glib-networking (1:2.80.1-1)
+[2025-11-03T17:33:44+0700] [ALPM] installed libsoup3 (3.6.5-1)
+[2025-11-03T17:33:44+0700] [ALPM] installed libstemmer (3.0.1-1)
+[2025-11-03T17:33:44+0700] [ALPM] installed tinysparql (3.10.1-1)
+[2025-11-03T17:33:44+0700] [ALPM] installed gtk-update-icon-cache (1:4.20.2-3)
+[2025-11-03T17:33:44+0700] [ALPM] installed gtk3 (1:3.24.51-1)
+[2025-11-03T17:33:44+0700] [ALPM] transaction completed
+[2025-11-03T17:33:44+0700] [ALPM] running '20-systemd-sysusers.hook'...
+[2025-11-03T17:33:45+0700] [ALPM-SCRIPTLET] Creating group 'avahi' with GID 968.
+[2025-11-03T17:33:45+0700] [ALPM-SCRIPTLET] Creating user 'avahi' (Avahi mDNS/DNS-SD daemon) with UID 968 and GID 968.
+[2025-11-03T17:33:45+0700] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2025-11-03T17:33:45+0700] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2025-11-03T17:33:45+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:33:45+0700] [ALPM] running '30-update-mime-database.hook'...
+[2025-11-03T17:33:45+0700] [ALPM] running 'dbus-reload.hook'...
+[2025-11-03T17:33:45+0700] [ALPM] running 'fontconfig.hook'...
+[2025-11-03T17:33:45+0700] [ALPM] running 'gio-querymodules.hook'...
+[2025-11-03T17:33:45+0700] [ALPM] running 'glib-compile-schemas.hook'...
+[2025-11-03T17:33:45+0700] [ALPM] running 'gtk-query-immodules-3.0.hook'...
+[2025-11-03T17:33:45+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T17:33:45+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T17:34:23+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-typora/typora/typora-1.12.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:34:23+0700] [ALPM] transaction started
+[2025-11-03T17:34:26+0700] [ALPM] installed typora (1.12.2-1)
+[2025-11-03T17:34:26+0700] [ALPM] transaction completed
+[2025-11-03T17:34:26+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:34:26+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T17:34:26+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T17:34:41+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-tzupdate/tzupdate/tzupdate-3.1.0-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:34:41+0700] [ALPM] transaction started
+[2025-11-03T17:34:41+0700] [ALPM] installed tzupdate (3.1.0-1)
+[2025-11-03T17:34:41+0700] [ALPM] transaction completed
+[2025-11-03T17:34:41+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:34:42+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps ufw'
+[2025-11-03T17:34:44+0700] [ALPM] transaction started
+[2025-11-03T17:34:44+0700] [ALPM] installed ufw (0.36.2-5)
+[2025-11-03T17:34:44+0700] [ALPM] transaction completed
+[2025-11-03T17:34:44+0700] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2025-11-03T17:34:44+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:34:45+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-ufw-docker/ufw-docker/ufw-docker-250710-1-any.pkg.tar.xz'
+[2025-11-03T17:34:45+0700] [ALPM] transaction started
+[2025-11-03T17:34:45+0700] [ALPM] installed ufw-docker (250710-1)
+[2025-11-03T17:34:45+0700] [ALPM-SCRIPTLET] Now you should back up /etc/ufw/after.rules, and run:
+[2025-11-03T17:34:45+0700] [ALPM-SCRIPTLET]   # ufw-docker install
+[2025-11-03T17:34:45+0700] [ALPM-SCRIPTLET] If you want to show help , just run:
+[2025-11-03T17:34:45+0700] [ALPM-SCRIPTLET]   # ufw-docker help
+[2025-11-03T17:34:45+0700] [ALPM-SCRIPTLET] Check installing status, run:
+[2025-11-03T17:34:45+0700] [ALPM-SCRIPTLET]   # ufw-docker check
+[2025-11-03T17:34:45+0700] [ALPM-SCRIPTLET] Check status, run:
+[2025-11-03T17:34:45+0700] [ALPM-SCRIPTLET]   # ufw-docker status
+[2025-11-03T17:34:45+0700] [ALPM] transaction completed
+[2025-11-03T17:34:45+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:34:46+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps gtk4-layer-shell poppler-glib'
+[2025-11-03T17:34:50+0700] [ALPM] transaction started
+[2025-11-03T17:34:50+0700] [ALPM] installed graphene (1.10.8-2)
+[2025-11-03T17:34:50+0700] [ALPM] installed gstreamer (1.26.7-1)
+[2025-11-03T17:34:50+0700] [ALPM] installed libgudev (238-3)
+[2025-11-03T17:34:50+0700] [ALPM] installed libxv (1.0.13-1)
+[2025-11-03T17:34:50+0700] [ALPM] installed orc (0.4.41-1)
+[2025-11-03T17:34:50+0700] [ALPM] installed gst-plugins-base-libs (1.26.7-1)
+[2025-11-03T17:34:50+0700] [ALPM] installed gssdp (1.6.4-1)
+[2025-11-03T17:34:50+0700] [ALPM] installed gupnp (1:1.6.9-1)
+[2025-11-03T17:34:50+0700] [ALPM] installed gupnp-igd (1.6.0-2)
+[2025-11-03T17:34:50+0700] [ALPM] installed libnice (0.1.22-2)
+[2025-11-03T17:34:50+0700] [ALPM] installed libva (2.22.0-1)
+[2025-11-03T17:34:50+0700] [ALPM] installed libxkbcommon-x11 (1.12.3-1)
+[2025-11-03T17:34:50+0700] [ALPM] installed vulkan-icd-loader (1.4.328.1-1)
+[2025-11-03T17:34:50+0700] [ALPM] installed gst-plugins-bad-libs (1.26.7-1)
+[2025-11-03T17:34:50+0700] [ALPM] installed gtk4 (1:4.20.2-3)
+[2025-11-03T17:34:50+0700] [ALPM] installed gtk4-layer-shell (1.3.0-1)
+[2025-11-03T17:34:50+0700] [ALPM] installed openjpeg2 (2.5.4-1)
+[2025-11-03T17:34:50+0700] [ALPM] installed gpgmepp (2.0.0-2)
+[2025-11-03T17:34:51+0700] [ALPM] installed poppler (25.10.0-1)
+[2025-11-03T17:34:51+0700] [ALPM] installed poppler-glib (25.10.0-1)
+[2025-11-03T17:34:51+0700] [ALPM] transaction completed
+[2025-11-03T17:34:51+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:34:51+0700] [ALPM] running 'glib-compile-schemas.hook'...
+[2025-11-03T17:34:51+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps gobject-introspection protobuf'
+[2025-11-03T17:34:54+0700] [ALPM] transaction started
+[2025-11-03T17:34:54+0700] [ALPM] installed libgirepository (1.86.0-1)
+[2025-11-03T17:34:54+0700] [ALPM] installed gobject-introspection-runtime (1.86.0-1)
+[2025-11-03T17:34:54+0700] [ALPM] installed python-markupsafe (3.0.2-1)
+[2025-11-03T17:34:54+0700] [ALPM] installed python-mako (1.3.10-1)
+[2025-11-03T17:34:54+0700] [ALPM] installed python-markdown (3.9.0-1)
+[2025-11-03T17:34:54+0700] [ALPM] installed gobject-introspection (1.86.0-1)
+[2025-11-03T17:34:54+0700] [ALPM] installed protobuf (32.1-1)
+[2025-11-03T17:34:54+0700] [ALPM] transaction completed
+[2025-11-03T17:34:54+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:36:03+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-walker/walker/walker-2.8.2-2-aarch64.pkg.tar.xz'
+[2025-11-03T17:36:03+0700] [ALPM] transaction started
+[2025-11-03T17:36:03+0700] [ALPM] installed walker (2.8.2-2)
+[2025-11-03T17:36:03+0700] [ALPM] transaction completed
+[2025-11-03T17:36:03+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:36:28+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-wayfreeze-git/wayfreeze-git/wayfreeze-git-r73.074d7dc-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:36:28+0700] [ALPM] transaction started
+[2025-11-03T17:36:29+0700] [ALPM] installed wayfreeze-git (r73.074d7dc-1)
+[2025-11-03T17:36:29+0700] [ALPM] transaction completed
+[2025-11-03T17:36:29+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:36:29+0700] [PACMAN] Running 'pacman -S --needed --noconfirm --config /etc/pacman.conf -- extra/fuse2 extra/libpulse extra/gst-plugin-pipewire extra/pipewire-pulse extra/pipewire asahi-alarm/widevine extra/wf-recorder core/e2fsprogs extra/pipewire-alsa'
+[2025-11-03T17:36:38+0700] [ALPM] transaction started
+[2025-11-03T17:36:38+0700] [ALPM] installed fuse-common (3.17.4-1)
+[2025-11-03T17:36:38+0700] [ALPM] installed fuse2 (2.9.9-5)
+[2025-11-03T17:36:38+0700] [ALPM] installed libasyncns (1:0.8+r3+g68cd5af-3)
+[2025-11-03T17:36:38+0700] [ALPM] installed libpulse (17.0+r88+geee0e8f22-1)
+[2025-11-03T17:36:38+0700] [ALPM] installed gst-plugin-pipewire (1:1.4.9-1)
+[2025-11-03T17:36:38+0700] [ALPM] installed pipewire-pulse (1:1.4.9-1)
+[2025-11-03T17:36:38+0700] [ALPM-SCRIPTLET] Created symlink '/etc/systemd/user/sockets.target.wants/pipewire-pulse.socket' → '/usr/lib/systemd/user/pipewire-pulse.socket'.
+[2025-11-03T17:36:39+0700] [ALPM] installed widevine (4.10.2891.0-1)
+[2025-11-03T17:36:39+0700] [ALPM-SCRIPTLET] :: IMPORTANT: It might be needed to log out and back in for the changes
+[2025-11-03T17:36:39+0700] [ALPM-SCRIPTLET]    to take effect.
+[2025-11-03T17:36:39+0700] [ALPM-SCRIPTLET]    Proper installation can be tested by browsing to
+[2025-11-03T17:36:39+0700] [ALPM-SCRIPTLET]    https://bitmovin.com/demos/drm
+[2025-11-03T17:36:39+0700] [ALPM] installed glslang (1:1.4.328.1-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed gsm (1.0.22-2)
+[2025-11-03T17:36:39+0700] [ALPM] installed libunibreak (6.1-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed libass (0.17.4-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed libraw1394 (2.1.2-4)
+[2025-11-03T17:36:39+0700] [ALPM] installed libavc1394 (0.5.4-7)
+[2025-11-03T17:36:39+0700] [ALPM] installed libbluray (1.4.0-2)
+[2025-11-03T17:36:39+0700] [ALPM] installed libbs2b (3.1.0-9)
+[2025-11-03T17:36:39+0700] [ALPM] installed libdvdread (7.0.0-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed libdvdnav (7.0.0-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed libiec61883 (1.2.0-9)
+[2025-11-03T17:36:39+0700] [ALPM] installed libmodplug (0.8.9.0-6)
+[2025-11-03T17:36:39+0700] [ALPM] installed portaudio (1:19.7.0-3)
+[2025-11-03T17:36:39+0700] [ALPM] installed libopenmpt (0.8.3-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed shaderc (2025.4-2)
+[2025-11-03T17:36:39+0700] [ALPM] installed libdovi (3.3.2-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed libplacebo (7.351.0-3)
+[2025-11-03T17:36:39+0700] [ALPM] installed libsoxr (0.1.3-4)
+[2025-11-03T17:36:39+0700] [ALPM] installed libssh (0.11.3-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed libtheora (1.2.0-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed libvdpau (1.5-3)
+[2025-11-03T17:36:39+0700] [ALPM] installed libvpx (1.15.2-2)
+[2025-11-03T17:36:39+0700] [ALPM] installed ocl-icd (2.3.3-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed opencore-amr (0.1.6-2)
+[2025-11-03T17:36:39+0700] [ALPM] installed libsamplerate (0.2.2-3)
+[2025-11-03T17:36:39+0700] [ALPM] installed rubberband (4.0.0-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed hidapi (0.15.0-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed sdl3 (3.2.26-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed sdl2-compat (2.32.58-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed snappy (1.2.2-2)
+[2025-11-03T17:36:39+0700] [ALPM] installed speexdsp (1.2.1-2)
+[2025-11-03T17:36:39+0700] [ALPM] installed speex (1.2.1-2)
+[2025-11-03T17:36:39+0700] [ALPM] installed srt (1.5.4-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed v4l-utils (1.32.0-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed zimg (3.0.5-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed vapoursynth (72-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed vid.stab (1.1.1-2)
+[2025-11-03T17:36:39+0700] [ALPM] installed l-smash (2.14.5-4)
+[2025-11-03T17:36:39+0700] [ALPM] installed x264 (3:0.165.r3222.b35605a-2)
+[2025-11-03T17:36:39+0700] [ALPM] installed x265 (4.1-1)
+[2025-11-03T17:36:39+0700] [ALPM] installed xvidcore (1.3.7-3)
+[2025-11-03T17:36:40+0700] [ALPM] installed ffmpeg (2:8.0-3)
+[2025-11-03T17:36:40+0700] [ALPM] installed wf-recorder (0.6.0-1)
+[2025-11-03T17:36:40+0700] [ALPM] installed pipewire-alsa (1:1.4.9-1)
+[2025-11-03T17:36:40+0700] [ALPM] transaction completed
+[2025-11-03T17:36:40+0700] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2025-11-03T17:36:40+0700] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2025-11-03T17:36:40+0700] [ALPM] running '30-systemd-udev-reload.hook'...
+[2025-11-03T17:36:40+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:36:40+0700] [ALPM] running '30-update-mime-database.hook'...
+[2025-11-03T17:36:41+0700] [ALPM] running 'glib-compile-schemas.hook'...
+[2025-11-03T17:36:41+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T17:36:41+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T17:36:41+0700] [PACMAN] Running 'pacman -D -q --asdeps --noconfirm --config /etc/pacman.conf -- pipewire e2fsprogs'
+[2025-11-03T17:36:41+0700] [PACMAN] Running 'pacman -D -q --asexplicit --noconfirm --config /etc/pacman.conf -- widevine pipewire-pulse wf-recorder pipewire-alsa fuse2 libpulse gst-plugin-pipewire'
+[2025-11-03T17:37:56+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps xdg-user-dirs libayatana-appindicator'
+[2025-11-03T17:37:59+0700] [ALPM] transaction started
+[2025-11-03T17:37:59+0700] [ALPM] installed xdg-user-dirs (0.19-2)
+[2025-11-03T17:37:59+0700] [ALPM-SCRIPTLET] Created symlink '/etc/systemd/user/graphical-session-pre.target.wants/xdg-user-dirs.service' → '/usr/lib/systemd/user/xdg-user-dirs.service'.
+[2025-11-03T17:37:59+0700] [ALPM] installed ayatana-ido (0.10.4-1)
+[2025-11-03T17:37:59+0700] [ALPM] installed libayatana-indicator (0.9.4-1)
+[2025-11-03T17:37:59+0700] [ALPM] installed libdbusmenu-glib (18.10.20180917-1)
+[2025-11-03T17:37:59+0700] [ALPM] installed libdbusmenu-gtk3 (18.10.20180917-1)
+[2025-11-03T17:37:59+0700] [ALPM] installed libayatana-appindicator (0.5.94-1)
+[2025-11-03T17:37:59+0700] [ALPM] transaction completed
+[2025-11-03T17:37:59+0700] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2025-11-03T17:37:59+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:38:08+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-localsend-bin/localsend-bin/localsend-bin-1.17.0-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:38:08+0700] [ALPM] transaction started
+[2025-11-03T17:38:09+0700] [ALPM] installed localsend-bin (1.17.0-1)
+[2025-11-03T17:38:09+0700] [ALPM] transaction completed
+[2025-11-03T17:38:09+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:38:09+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T17:38:09+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T17:38:14+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps xdg-utils libxss ttf-liberation'
+[2025-11-03T17:38:21+0700] [ALPM] transaction started
+[2025-11-03T17:38:21+0700] [ALPM] installed libice (1.1.2-1)
+[2025-11-03T17:38:21+0700] [ALPM] installed libsm (1.2.6-1)
+[2025-11-03T17:38:21+0700] [ALPM] installed libxt (1.3.1-1)
+[2025-11-03T17:38:21+0700] [ALPM] installed libxmu (1.2.1-1)
+[2025-11-03T17:38:21+0700] [ALPM] installed xorg-xset (1.2.5-2)
+[2025-11-03T17:38:21+0700] [ALPM] installed xdg-utils (1.2.1-1)
+[2025-11-03T17:38:21+0700] [ALPM] installed libxss (1.2.5-1)
+[2025-11-03T17:38:21+0700] [ALPM] installed ttf-liberation (2.1.5-2)
+[2025-11-03T17:38:21+0700] [ALPM] transaction completed
+[2025-11-03T17:38:21+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:38:21+0700] [ALPM] running 'fontconfig.hook'...
+[2025-11-03T17:39:10+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-build-omarchy-chromium-bin-g5X1/omarchy-chromium-bin/omarchy-chromium-bin-142.0.7444.59-9-aarch64.pkg.tar.xz'
+[2025-11-03T17:39:10+0700] [ALPM] transaction started
+[2025-11-03T17:39:14+0700] [ALPM] installed omarchy-chromium-bin (142.0.7444.59-9)
+[2025-11-03T17:39:14+0700] [ALPM] transaction completed
+[2025-11-03T17:39:14+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:39:14+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T17:39:14+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T17:39:14+0700] [PACMAN] Running 'pacman -S --needed --noconfirm base-devel cmake meson ninja glaze aquamarine cairo gcc-libs glib2 glslang hyprcursor hyprgraphics hyprlang hyprutils libdisplay-info libdrm libglvnd libinput libliftoff libx11 libxcb libxcomposite libxcursor libxfixes libxkbcommon libxrender mesa pango pixman re2 seatd systemd-libs tomlplusplus wayland wayland-protocols xcb-proto xcb-util xcb-util-errors xcb-util-keysyms xcb-util-renderutil xcb-util-wm xorg-xwayland hyprland-protocols vulkan-headers xorgproto'
+[2025-11-03T17:39:35+0700] [ALPM] transaction started
+[2025-11-03T17:39:35+0700] [ALPM] installed cppdap (1.58.0-2)
+[2025-11-03T17:39:35+0700] [ALPM] installed jsoncpp (1.9.6-3)
+[2025-11-03T17:39:35+0700] [ALPM] installed libuv (1.51.0-1)
+[2025-11-03T17:39:35+0700] [ALPM] installed rhash (1.4.6-1)
+[2025-11-03T17:39:35+0700] [ALPM] installed cmake (4.1.2-1)
+[2025-11-03T17:39:35+0700] [ALPM] installed ninja (1.13.1-2)
+[2025-11-03T17:39:35+0700] [ALPM] installed python-tqdm (4.67.1-2)
+[2025-11-03T17:39:36+0700] [ALPM] installed meson (1.9.1-2)
+[2025-11-03T17:39:36+0700] [ALPM] installed glaze (6.0.1-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed hyprutils (0.10.0-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed pugixml (1.15-2)
+[2025-11-03T17:39:36+0700] [ALPM] installed hyprwayland-scanner (0.4.5-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed libdisplay-info (0.3.0-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed mtdev (1.1.7-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed libevdev (1.13.5-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed libwacom (2.16.1-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed libinput (1.29.2-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed seatd (0.9.1-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed wayland-protocols (1.45-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed aquamarine (0.9.5-4)
+[2025-11-03T17:39:36+0700] [ALPM] installed hyprlang (0.6.4-3)
+[2025-11-03T17:39:36+0700] [ALPM] installed libzip (1.11.4-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed tomlplusplus (3.4.0-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed hyprcursor (0.1.13-2)
+[2025-11-03T17:39:36+0700] [ALPM] installed hyprgraphics (0.2.0-2)
+[2025-11-03T17:39:36+0700] [ALPM] installed libliftoff (0.5.0-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed re2 (1:20240702-7)
+[2025-11-03T17:39:36+0700] [ALPM] installed xcb-util (0.4.1-2)
+[2025-11-03T17:39:36+0700] [ALPM] installed xcb-util-errors (1.0.1-2)
+[2025-11-03T17:39:36+0700] [ALPM] installed xcb-util-keysyms (0.4.1-5)
+[2025-11-03T17:39:36+0700] [ALPM] installed xcb-util-renderutil (0.3.10-2)
+[2025-11-03T17:39:36+0700] [ALPM] installed xcb-util-wm (0.4.2-2)
+[2025-11-03T17:39:36+0700] [ALPM] installed xorg-fonts-encodings (1.1.0-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed libfontenc (1.1.8-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed libxfont2 (2.0.7-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed libxkbfile (1.1.3-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed xorg-xkbcomp (1.4.7-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed xorg-setxkbmap (1.3.4-2)
+[2025-11-03T17:39:36+0700] [ALPM] installed xorg-server-common (21.1.20-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed libxcvt (0.1.3-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed libei (1.5.0-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed libdecor (0.2.4-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed xorg-xwayland (24.1.9-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed hyprland-protocols (0.7.0-1)
+[2025-11-03T17:39:36+0700] [ALPM] installed vulkan-headers (1:1.4.328.1-1)
+[2025-11-03T17:39:36+0700] [ALPM] transaction completed
+[2025-11-03T17:39:36+0700] [ALPM] running '20-systemd-sysusers.hook'...
+[2025-11-03T17:39:36+0700] [ALPM-SCRIPTLET] Creating group 'seat' with GID 967.
+[2025-11-03T17:39:36+0700] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2025-11-03T17:39:36+0700] [ALPM] running '30-systemd-hwdb.hook'...
+[2025-11-03T17:39:36+0700] [ALPM] running '30-systemd-udev-reload.hook'...
+[2025-11-03T17:39:37+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:39:37+0700] [ALPM] running '30-update-mime-database.hook'...
+[2025-11-03T17:39:37+0700] [ALPM] running 'fontconfig.hook'...
+[2025-11-03T17:39:37+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T17:39:37+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T17:42:39+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps xorg-xinput vulkan-validation-layers'
+[2025-11-03T17:42:47+0700] [ALPM] transaction started
+[2025-11-03T17:42:47+0700] [ALPM] installed xorg-xrandr (1.5.3-1)
+[2025-11-03T17:42:47+0700] [ALPM] installed xorg-xinput (1.6.4-2)
+[2025-11-03T17:42:47+0700] [ALPM] installed vulkan-validation-layers (1.4.328.1-1)
+[2025-11-03T17:42:47+0700] [ALPM] transaction completed
+[2025-11-03T17:42:47+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:42:47+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps gdb'
+[2025-11-03T17:42:55+0700] [ALPM] transaction started
+[2025-11-03T17:42:55+0700] [ALPM] installed gdb-common (16.3-1)
+[2025-11-03T17:42:55+0700] [ALPM] installed boost-libs (1.89.0-2)
+[2025-11-03T17:42:55+0700] [ALPM] installed source-highlight (3.1.9-16)
+[2025-11-03T17:42:55+0700] [ALPM] installed gdb (16.3-1)
+[2025-11-03T17:42:56+0700] [ALPM] transaction completed
+[2025-11-03T17:42:56+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:42:56+0700] [ALPM] running 'texinfo-install.hook'...
+[2025-11-03T17:42:58+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps hyprland python-click'
+[2025-11-03T17:42:58+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps python-hatchling'
+[2025-11-03T17:43:00+0700] [ALPM] transaction started
+[2025-11-03T17:43:00+0700] [ALPM] installed python-editables (0.5-5)
+[2025-11-03T17:43:00+0700] [ALPM] installed python-pathspec (0.12.1-3)
+[2025-11-03T17:43:00+0700] [ALPM] installed python-pluggy (1.6.0-1)
+[2025-11-03T17:43:00+0700] [ALPM] installed python-trove-classifiers (2025.9.11.17-1)
+[2025-11-03T17:43:00+0700] [ALPM] installed python-hatchling (1.27.0-1)
+[2025-11-03T17:43:00+0700] [ALPM] transaction completed
+[2025-11-03T17:43:00+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:43:01+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps gjs libadwaita hyprshade'
+[2025-11-03T17:43:42+0700] [PACMAN] Running 'pacman -Sy --noconfirm'
+[2025-11-03T17:43:42+0700] [PACMAN] synchronizing package lists
+[2025-11-03T17:43:43+0700] [PACMAN] Running 'pacman -S --needed --noconfirm base-devel'
+[2025-11-03T17:43:43+0700] [PACMAN] Running 'pacman -Su --noconfirm'
+[2025-11-03T17:43:43+0700] [PACMAN] starting full system upgrade
+[2025-11-03T17:43:54+0700] [PACMAN] Running 'pacman -S --needed --noconfirm --config /etc/pacman.conf -- extra/gvfs-mtp extra/fcitx5-gtk extra/hyprsunset extra/fontconfig extra/sushi extra/eza extra/grim extra/playerctl extra/cups-pdf extra/satty extra/zoxide extra/whois extra/clang extra/wiremix extra/fcitx5 extra/woff2-font-awesome extra/tree-sitter-cli extra/mako extra/pamixer extra/dust extra/imagemagick extra/hypridle extra/gum extra/postgresql-libs extra/noto-fonts-extra extra/gvfs-nfs extra/docker-compose extra/cups extra/docker extra/bash-completion extra/inxi extra/cups-browsed extra/hyprland-qtutils extra/fastfetch extra/gvfs-smb extra/ttf-cascadia-mono-nerd extra/ttf-jetbrains-mono-nerd extra/gnome-keyring extra/noto-fonts-emoji extra/rust extra/xdg-desktop-portal-gtk extra/bat core/less extra/mariadb-libs extra/blueberry extra/uwsm extra/lazydocker extra/xournalpp extra/python-poetry-core extra/libqalculate extra/jq extra/kdenlive extra/polkit-gnome extra/hyprshot core/inetutils extra/power-profiles-daemon extra/libreoffice-fresh extra/ripgrep extra/plocate extra/python-gobject extra/ffmpegthumbnailer extra/waybar extra/hyprpicker extra/noto-fonts extra/brightnessctl extra/xdg-desktop-portal-hyprland extra/expac extra/slurp extra/sddm extra/llvm extra/wireplumber core/libsecret extra/gnome-calculator extra/qt5-wayland extra/starship extra/unzip extra/wl-clipboard extra/fcitx5-qt extra/luarocks extra/neovim extra/imv extra/lazygit extra/system-config-printer extra/tldr extra/noto-fonts-cjk core/man-db extra/hyprlock extra/mise extra/github-cli extra/nss-mdns extra/alacritty extra/fd extra/libyaml extra/gnome-themes-extra extra/iwd extra/evince extra/docker-buildx extra/avahi core/wireless-regdb extra/btop extra/mpv extra/ufw extra/swayosd extra/gnome-disk-utility extra/nautilus extra/plymouth extra/cups-filters extra/fzf extra/swaybg extra/xmlstarlet extra/kvantum-qt5 extra/impala'
+[2025-11-03T17:44:31+0700] [ALPM] transaction started
+[2025-11-03T17:44:31+0700] [ALPM] installed fuse3 (3.17.4-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed gcr-4 (4.4.0.1-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed libcdio (2.2.0-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed libcdio-paranoia (10.2+2.0.2-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed libatasmart (0.19-7)
+[2025-11-03T17:44:31+0700] [ALPM] installed libblockdev (3.4.0-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed volume_key (0.3.12-11.1)
+[2025-11-03T17:44:31+0700] [ALPM] installed libblockdev-crypto (3.4.0-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed libbytesize (2.11-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed parted (3.6-2)
+[2025-11-03T17:44:31+0700] [ALPM] installed libblockdev-fs (3.4.0-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed mdadm (4.4-2)
+[2025-11-03T17:44:31+0700] [ALPM] installed libblockdev-mdraid (3.4.0-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed libblockdev-loop (3.4.0-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed libblockdev-nvme (3.4.0-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed libblockdev-part (3.4.0-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed libblockdev-swap (3.4.0-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed udisks2 (2.10.2-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed gvfs (1.58.0-2)
+[2025-11-03T17:44:31+0700] [ALPM] installed libmtp (1.1.22-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed gvfs-mtp (1.58.0-2)
+[2025-11-03T17:44:31+0700] [ALPM] installed fcitx5-gtk (5.1.4-2)
+[2025-11-03T17:44:31+0700] [ALPM] installed hyprsunset (0.3.3-3)
+[2025-11-03T17:44:31+0700] [ALPM] installed djvulibre (3.5.29-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed exempi (2.6.6-2)
+[2025-11-03T17:44:31+0700] [ALPM] installed gnome-desktop-common (1:44.4-1)
+[2025-11-03T17:44:31+0700] [ALPM] installed gnome-desktop (1:44.4-1)
+[2025-11-03T17:44:32+0700] [ALPM] installed gsfonts (20200910-6)
+[2025-11-03T17:44:32+0700] [ALPM] installed enchant (2.8.12-1)
+[2025-11-03T17:44:32+0700] [ALPM] installed gspell (1.14.1-1)
+[2025-11-03T17:44:32+0700] [ALPM] installed libgxps (0.3.2-5)
+[2025-11-03T17:44:32+0700] [ALPM] installed libhandy (1.8.3-2)
+[2025-11-03T17:44:32+0700] [ALPM] installed jbig2dec (0.20-1)
+[2025-11-03T17:44:32+0700] [ALPM] installed libpaper (2.2.6-1)
+[2025-11-03T17:44:32+0700] [ALPM] installed ijs (0.35-6)
+[2025-11-03T17:44:32+0700] [ALPM] installed libidn (1.43-1)
+[2025-11-03T17:44:32+0700] [ALPM] installed poppler-data (0.4.12-2)
+[2025-11-03T17:44:32+0700] [ALPM] installed ghostscript (10.06.0-1)
+[2025-11-03T17:44:32+0700] [ALPM] installed libspectre (0.2.12-2)
+[2025-11-03T17:44:32+0700] [ALPM] installed libsynctex (2025.2-2)
+[2025-11-03T17:44:32+0700] [ALPM] installed evince (48.1-1)
+[2025-11-03T17:44:33+0700] [ALPM] installed js140 (140.4.0-1)
+[2025-11-03T17:44:33+0700] [ALPM] installed gjs (2:1.86.0-1)
+[2025-11-03T17:44:33+0700] [ALPM] installed gst-plugin-gtk (1.26.7-1)
+[2025-11-03T17:44:33+0700] [ALPM] installed gtksourceview4 (4.8.4-2)
+[2025-11-03T17:44:33+0700] [ALPM] installed sushi (46.0-2)
+[2025-11-03T17:44:33+0700] [ALPM] installed llhttp (9.2.1-2)
+[2025-11-03T17:44:33+0700] [ALPM] installed libgit2 (1:1.9.1-1)
+[2025-11-03T17:44:33+0700] [ALPM] installed eza (0.23.4-1)
+[2025-11-03T17:44:33+0700] [ALPM] installed grim (1.5.0-2)
+[2025-11-03T17:44:33+0700] [ALPM] installed playerctl (2.4.1-4)
+[2025-11-03T17:44:33+0700] [ALPM] installed libexif (0.6.25-1)
+[2025-11-03T17:44:33+0700] [ALPM] installed qpdf (12.2.0-1)
+[2025-11-03T17:44:33+0700] [ALPM] installed libcupsfilters (2.1.1-2)
+[2025-11-03T17:44:33+0700] [ALPM] installed libppd (2.1.1-1)
+[2025-11-03T17:44:33+0700] [ALPM] installed cups-filters (2.0.1-2)
+[2025-11-03T17:44:34+0700] [ALPM] installed cups (2:2.4.14-1)
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] >> If you use an HTTPS connection to CUPS, the first time you access
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] >> the interface it may take a very long time before the site comes up.
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] >> This is because the first request triggers the generation of the CUPS
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] >> SSL certificates which can be a very time-consuming job.
+[2025-11-03T17:44:34+0700] [ALPM] installed cups-pdf (3.0.2-1)
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] -------------------------------------------------
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] To use cups-pdf, restart cups and visit the cups
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] web interface at http://localhost:631/
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] 
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] You can now add a "Virtual Printer (PDF Printer)"
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] and use the Postscript/Generic postscript color
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] printer driver.
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] 
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] Note that cups-pdf has a configuration
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] file in /etc/cups. The default location for
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] pdf output is /var/spool/cups-pdf/$username.
+[2025-11-03T17:44:34+0700] [ALPM-SCRIPTLET] -------------------------------------------------
+[2025-11-03T17:44:34+0700] [ALPM] installed libfyaml (0.9-1)
+[2025-11-03T17:44:34+0700] [ALPM] installed libxmlb (0.3.24-1)
+[2025-11-03T17:44:34+0700] [ALPM] installed appstream (1.1.1-1)
+[2025-11-03T17:44:34+0700] [ALPM] installed libadwaita (1:1.8.1-1)
+[2025-11-03T17:44:34+0700] [ALPM] installed satty (0.20.0-1)
+[2025-11-03T17:44:34+0700] [ALPM] installed zoxide (0.9.8-2)
+[2025-11-03T17:44:34+0700] [ALPM] installed whois (5.6.5-1)
+[2025-11-03T17:44:34+0700] [ALPM] installed compiler-rt (21.1.4-2)
+[2025-11-03T17:44:36+0700] [ALPM] installed clang (21.1.4-2)
+[2025-11-03T17:44:36+0700] [ALPM] installed wiremix (0.7.0-1)
+[2025-11-03T17:44:36+0700] [ALPM] installed xcb-imdkit (1.0.9-1)
+[2025-11-03T17:44:37+0700] [ALPM] installed fcitx5 (5.1.16-1)
+[2025-11-03T17:44:37+0700] [ALPM] installed woff2-font-awesome (7.1.0-1)
+[2025-11-03T17:44:37+0700] [ALPM-SCRIPTLET] 
+[2025-11-03T17:44:37+0700] [ALPM-SCRIPTLET] :: Starting from version 7.0.0, the Font Awesome upstream no longer includes '.ttf' webfonts
+[2025-11-03T17:44:37+0700] [ALPM-SCRIPTLET]    and instead provides them in '.woff2' format, which is now the standard for webfont delivery.
+[2025-11-03T17:44:37+0700] [ALPM-SCRIPTLET] 
+[2025-11-03T17:44:37+0700] [ALPM-SCRIPTLET]    The 'ttf-font-awesome' package has therefore been replaced by the 'woff2-font-awesome' one.
+[2025-11-03T17:44:37+0700] [ALPM-SCRIPTLET] 
+[2025-11-03T17:44:37+0700] [ALPM-SCRIPTLET]    If your project(s) or configuration(s) still depend on '.ttf' files, please update
+[2025-11-03T17:44:37+0700] [ALPM-SCRIPTLET]    them to use the '.woff2' format instead.
+[2025-11-03T17:44:37+0700] [ALPM-SCRIPTLET] 
+[2025-11-03T17:44:37+0700] [ALPM-SCRIPTLET]    See https://fontawesome.com/changelog for more details.
+[2025-11-03T17:44:37+0700] [ALPM-SCRIPTLET] 
+[2025-11-03T17:44:37+0700] [ALPM] installed tree-sitter-cli (0.25.10-1)
+[2025-11-03T17:44:37+0700] [ALPM] installed mako (1.10.0-1)
+[2025-11-03T17:44:37+0700] [ALPM] installed pamixer (1.6-3)
+[2025-11-03T17:44:37+0700] [ALPM] installed dust (1.2.3-1)
+[2025-11-03T17:44:37+0700] [ALPM] installed sdbus-cpp (2.1.0-2)
+[2025-11-03T17:44:37+0700] [ALPM] installed hypridle (0.1.7-4)
+[2025-11-03T17:44:37+0700] [ALPM] installed postgresql-libs (18.0-1)
+[2025-11-03T17:44:38+0700] [ALPM] installed noto-fonts (1:2025.11.01-1)
+[2025-11-03T17:44:41+0700] [ALPM] installed noto-fonts-extra (1:2025.11.01-1)
+[2025-11-03T17:44:41+0700] [ALPM] installed libnfs (6.0.2-5)
+[2025-11-03T17:44:41+0700] [ALPM] installed gvfs-nfs (1.58.0-2)
+[2025-11-03T17:44:42+0700] [ALPM] installed docker-compose (2.40.3-1)
+[2025-11-03T17:44:42+0700] [ALPM] installed runc (1.3.2-1)
+[2025-11-03T17:44:43+0700] [ALPM] installed containerd (2.1.4-1)
+[2025-11-03T17:44:44+0700] [ALPM] installed docker (1:28.5.1-1)
+[2025-11-03T17:44:44+0700] [ALPM] installed bash-completion (2.17.0-1)
+[2025-11-03T17:44:44+0700] [ALPM] installed inxi (3.3.39.1-1)
+[2025-11-03T17:44:44+0700] [ALPM] installed cups-browsed (2.1.1-1)
+[2025-11-03T17:44:44+0700] [ALPM] installed double-conversion (3.3.1-1)
+[2025-11-03T17:44:44+0700] [ALPM] installed libb2 (0.98.1-3)
+[2025-11-03T17:44:44+0700] [ALPM] installed md4c (0.5.2-1)
+[2025-11-03T17:44:44+0700] [ALPM] installed tslib (1.23-1)
+[2025-11-03T17:44:44+0700] [ALPM] installed xcb-util-image (0.4.1-3)
+[2025-11-03T17:44:44+0700] [ALPM] installed xcb-util-cursor (0.1.6-1)
+[2025-11-03T17:44:44+0700] [ALPM] installed qt6-translations (6.10.0-1)
+[2025-11-03T17:44:44+0700] [ALPM] installed qt6-base (6.10.0-2)
+[2025-11-03T17:44:45+0700] [ALPM] installed qt6-declarative (6.10.0-2)
+[2025-11-03T17:44:45+0700] [ALPM] installed hyprland-qt-support (0.1.0-9)
+[2025-11-03T17:44:45+0700] [ALPM] installed hyprland-qtutils (0.1.5-4)
+[2025-11-03T17:44:45+0700] [ALPM] installed yyjson (0.12.0-1)
+[2025-11-03T17:44:45+0700] [ALPM] installed fastfetch (2.54.0-1)
+[2025-11-03T17:44:45+0700] [ALPM] installed libmd (1.1.0-2)
+[2025-11-03T17:44:45+0700] [ALPM] installed libbsd (0.12.2-2)
+[2025-11-03T17:44:45+0700] [ALPM] installed libwbclient (2:4.23.2-1)
+[2025-11-03T17:44:45+0700] [ALPM] installed talloc (2.4.3-1)
+[2025-11-03T17:44:45+0700] [ALPM] installed cifs-utils (7.4-1)
+[2025-11-03T17:44:45+0700] [ALPM] installed tevent (1:0.17.1-1)
+[2025-11-03T17:44:45+0700] [ALPM] installed tdb (1.4.14-1)
+[2025-11-03T17:44:45+0700] [ALPM] installed ldb (2:4.23.2-1)
+[2025-11-03T17:44:46+0700] [ALPM] installed smbclient (2:4.23.2-1)
+[2025-11-03T17:44:46+0700] [ALPM] installed gvfs-smb (1.58.0-2)
+[2025-11-03T17:44:46+0700] [ALPM] installed ttf-cascadia-mono-nerd (3.4.0-1)
+[2025-11-03T17:44:47+0700] [ALPM] installed ttf-jetbrains-mono-nerd (3.4.0-1)
+[2025-11-03T17:44:47+0700] [ALPM] installed gcr (3.41.2-2)
+[2025-11-03T17:44:47+0700] [ALPM] installed gnome-keyring (1:48.0-1)
+[2025-11-03T17:44:47+0700] [ALPM-SCRIPTLET] Created symlink '/etc/systemd/user/sockets.target.wants/gnome-keyring-daemon.socket' → '/usr/lib/systemd/user/gnome-keyring-daemon.socket'.
+[2025-11-03T17:44:48+0700] [ALPM] installed noto-fonts-emoji (1:2.051-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed rtkit (0.13-3)
+[2025-11-03T17:44:48+0700] [ALPM] installed xdg-desktop-portal (1.20.3-2)
+[2025-11-03T17:44:48+0700] [ALPM] installed xdg-desktop-portal-gtk (1.15.3-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed oniguruma (6.9.10-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed bat (0.26.0-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed mariadb-libs (12.0.2-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed bluez (5.84-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed bluez-tools (0.2.0-6)
+[2025-11-03T17:44:48+0700] [ALPM] installed sound-theme-freedesktop (0.8-6)
+[2025-11-03T17:44:48+0700] [ALPM] installed libcanberra (1:0.30+r2+gc0620e4-6)
+[2025-11-03T17:44:48+0700] [ALPM] installed libnotify (0.8.7-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed gnome-bluetooth (3.34.5+r16+g61cfff1c-2)
+[2025-11-03T17:44:48+0700] [ALPM] installed python-dbus (1.4.0-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed python-gobject (3.54.5-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed python-setproctitle (1.3.7-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed libxklavier (5.4-7)
+[2025-11-03T17:44:48+0700] [ALPM] installed libgnomekbd (1:3.28.1-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed xapp (2.8.13-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed blueberry (1.4.8-2)
+[2025-11-03T17:44:48+0700] [ALPM] installed python-pyxdg (0.28-4)
+[2025-11-03T17:44:48+0700] [ALPM] installed uwsm (0.24.2-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed lazydocker (0.24.1-2)
+[2025-11-03T17:44:48+0700] [ALPM] installed xournalpp (1.2.7-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed jq (1.8.1-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed frei0r-plugins (2.5.0-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed karchive (6.19.0-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed kconfig (6.19.0-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed kcoreaddons (6.19.0-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed kwidgetsaddons (6.19.0-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed kbookmarks (6.19.0-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed kcodecs (6.19.0-1)
+[2025-11-03T17:44:48+0700] [ALPM] installed kguiaddons (6.19.0-1)
+[2025-11-03T17:44:49+0700] [ALPM] installed ki18n (6.19.0-1)
+[2025-11-03T17:44:49+0700] [ALPM] installed kcolorscheme (6.19.0-1)
+[2025-11-03T17:44:49+0700] [ALPM] installed kcompletion (6.19.0-1)
+[2025-11-03T17:44:49+0700] [ALPM] installed kconfigwidgets (6.19.0-1)
+[2025-11-03T17:44:49+0700] [ALPM] installed kcrash (6.19.0-1)
+[2025-11-03T17:44:49+0700] [ALPM] installed kdbusaddons (6.19.0-1)
+[2025-11-03T17:44:49+0700] [ALPM] installed libtommath (1.3.0-1)
+[2025-11-03T17:44:49+0700] [ALPM] installed convertlit (1.8-13)
+[2025-11-03T17:44:49+0700] [ALPM] installed ebook-tools (0.2.2-9)
+[2025-11-03T17:44:49+0700] [ALPM] installed libinih (61-1)
+[2025-11-03T17:44:49+0700] [ALPM] installed exiv2 (0.28.7-1)
+[2025-11-03T17:44:49+0700] [ALPM] installed poppler-qt6 (25.10.0-1)
+[2025-11-03T17:44:49+0700] [ALPM] installed taglib (2.1.1-1)
+[2025-11-03T17:44:49+0700] [ALPM] installed kfilemetadata (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed breeze-icons (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed qt6-svg (6.10.0-2)
+[2025-11-03T17:44:50+0700] [ALPM] installed kiconthemes (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed kwindowsystem (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed polkit-qt6 (0.200.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed kauth (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed kitemviews (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed knotifications (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed kjobwidgets (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed kservice (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed qt6-shadertools (6.10.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed qt6-5compat (6.10.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed qca-qt6 (2.3.10-3)
+[2025-11-03T17:44:50+0700] [ALPM] installed kwallet (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed libxslt (1.1.43-2)
+[2025-11-03T17:44:50+0700] [ALPM] installed libplist (2.7.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed libimobiledevice-glue (1.3.2-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed libtatsu (1.0.5-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed libusbmuxd (2.1.1-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed libimobiledevice (1.4.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed media-player-info (26-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed upower (1.90.10-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed solid (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed kio (6.19.0-2)
+[2025-11-03T17:44:50+0700] [ALPM] installed attica (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed kirigami (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed kglobalaccel (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed kxmlgui (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed kcmutils (6.19.0-1)
+[2025-11-03T17:44:50+0700] [ALPM] installed kpackage (6.19.0-1)
+[2025-11-03T17:44:51+0700] [ALPM] installed syndication (6.19.0-1)
+[2025-11-03T17:44:51+0700] [ALPM] installed knewstuff (6.19.0-1)
+[2025-11-03T17:44:51+0700] [ALPM] installed knotifyconfig (6.19.0-1)
+[2025-11-03T17:44:51+0700] [ALPM] installed qt6-multimedia-ffmpeg (6.10.0-2)
+[2025-11-03T17:44:51+0700] [ALPM] installed qt6-multimedia (6.10.0-2)
+[2025-11-03T17:44:51+0700] [ALPM] installed qt6-speech (6.10.0-1)
+[2025-11-03T17:44:51+0700] [ALPM] installed sonnet (6.19.0-1)
+[2025-11-03T17:44:51+0700] [ALPM] installed ktextwidgets (6.19.0-1)
+[2025-11-03T17:44:51+0700] [ALPM] installed mlt (7.32.0-6)
+[2025-11-03T17:44:51+0700] [ALPM] installed python-aaf2 (1.7.1-3)
+[2025-11-03T17:44:51+0700] [ALPM] installed opentimelineio (0.17.0-3)
+[2025-11-03T17:44:51+0700] [ALPM] installed libaccounts-glib (1.27-3)
+[2025-11-03T17:44:51+0700] [ALPM] installed libaccounts-qt (1.17-1)
+[2025-11-03T17:44:51+0700] [ALPM] installed signond (8.61-3)
+[2025-11-03T17:44:51+0700] [ALPM] installed accounts-qml-module (0.7-6)
+[2025-11-03T17:44:51+0700] [ALPM] installed signon-kwallet-extension (25.08.2-1)
+[2025-11-03T17:44:51+0700] [ALPM] installed signon-plugin-oauth2 (0.25-3)
+[2025-11-03T17:44:51+0700] [ALPM] installed minizip (1:1.3.1-2)
+[2025-11-03T17:44:51+0700] [ALPM] installed qt6-positioning (6.10.0-1)
+[2025-11-03T17:44:51+0700] [ALPM] installed qt6-webchannel (6.10.0-1)
+[2025-11-03T17:44:54+0700] [ALPM] installed qt6-webengine (6.10.0-1)
+[2025-11-03T17:44:54+0700] [ALPM] installed signon-ui (0.17+20231016-3)
+[2025-11-03T17:44:54+0700] [ALPM] installed kaccounts-integration (25.08.2-1)
+[2025-11-03T17:44:54+0700] [ALPM] installed purpose (6.19.0-1)
+[2025-11-03T17:44:54+0700] [ALPM] installed qqc2-desktop-style (6.19.0-1)
+[2025-11-03T17:44:54+0700] [ALPM] installed qt6-networkauth (6.10.0-1)
+[2025-11-03T17:44:55+0700] [ALPM] installed kdenlive (25.08.2-2)
+[2025-11-03T17:44:55+0700] [ALPM] installed polkit-gnome (0.105-11)
+[2025-11-03T17:44:55+0700] [ALPM] installed slurp (1.5.0-1)
+[2025-11-03T17:44:55+0700] [ALPM] installed hyprshot (1.3.0-4)
+[2025-11-03T17:44:55+0700] [ALPM] installed inetutils (2.6-1)
+[2025-11-03T17:44:55+0700] [ALPM] installed power-profiles-daemon (0.30-1)
+[2025-11-03T17:44:55+0700] [ALPM] installed hunspell (1.7.2-2)
+[2025-11-03T17:44:55+0700] [ALPM] installed librevenge (0.0.5-3)
+[2025-11-03T17:44:55+0700] [ALPM] installed libwpd (0.10.3-5)
+[2025-11-03T17:44:55+0700] [ALPM] installed libwps (0.4.14-3)
+[2025-11-03T17:44:55+0700] [ALPM] installed neon (0.35.0-1)
+[2025-11-03T17:44:55+0700] [ALPM] installed raptor (2.0.16-8)
+[2025-11-03T17:44:55+0700] [ALPM] installed rasqal (1:0.9.33-7)
+[2025-11-03T17:44:55+0700] [ALPM] installed redland (1:1.0.17-9)
+[2025-11-03T17:44:55+0700] [ALPM] installed hyphen (2.8.8-6)
+[2025-11-03T17:44:55+0700] [ALPM] installed lpsolve (5.5.2.11-3)
+[2025-11-03T17:44:55+0700] [ALPM] installed libvisio (0.1.10-1)
+[2025-11-03T17:44:55+0700] [ALPM] installed liblangtag (0.6.8-1)
+[2025-11-03T17:44:55+0700] [ALPM] installed libetonyek (0.1.13-1)
+[2025-11-03T17:44:55+0700] [ALPM] installed libodfgen (0.1.8-5)
+[2025-11-03T17:44:55+0700] [ALPM] installed libcdr (0.1.8-2)
+[2025-11-03T17:44:55+0700] [ALPM] installed libmspub (0.1.4-17)
+[2025-11-03T17:44:55+0700] [ALPM] installed harfbuzz-icu (12.1.0-1)
+[2025-11-03T17:44:55+0700] [ALPM] installed clucene (2.3.3.4-16)
+[2025-11-03T17:44:55+0700] [ALPM] installed libpagemaker (0.0.4-4)
+[2025-11-03T17:44:55+0700] [ALPM] installed libabw (0.1.3-5)
+[2025-11-03T17:44:55+0700] [ALPM] installed libmwaw (0.3.22-3)
+[2025-11-03T17:44:55+0700] [ALPM] installed libe-book (0.1.3-18)
+[2025-11-03T17:44:55+0700] [ALPM] installed libexttextcat (3.4.7-1)
+[2025-11-03T17:44:55+0700] [ALPM] installed libixion (0.20.0-3)
+[2025-11-03T17:44:55+0700] [ALPM] installed liborcus (0.21.0-2)
+[2025-11-03T17:44:55+0700] [ALPM] installed libcmis (0.6.2-6)
+[2025-11-03T17:44:55+0700] [ALPM] installed libzmf (0.0.2-18)
+[2025-11-03T17:44:55+0700] [ALPM] installed libatomic_ops (7.8.2-1)
+[2025-11-03T17:44:56+0700] [ALPM] installed xmlsec (1.3.8-1)
+[2025-11-03T17:44:56+0700] [ALPM] installed libnumbertext (1.0.11-2)
+[2025-11-03T17:44:56+0700] [ALPM] installed libfreehand (0.1.2-5)
+[2025-11-03T17:44:56+0700] [ALPM] installed libstaroffice (0.0.7-4)
+[2025-11-03T17:44:56+0700] [ALPM] installed libepubgen (0.1.1-5)
+[2025-11-03T17:44:56+0700] [ALPM] installed libqxp (0.0.2-13)
+[2025-11-03T17:44:56+0700] [ALPM] installed zxing-cpp (2.3.0-5)
+[2025-11-03T17:44:56+0700] [ALPM] installed argon2 (20190702-6)
+[2025-11-03T17:45:01+0700] [ALPM] installed libreoffice-fresh (25.8.2-4)
+[2025-11-03T17:45:02+0700] [ALPM] installed ripgrep (15.1.0-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed plocate (1.1.23-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed ffmpegthumbnailer (2.2.3-4)
+[2025-11-03T17:45:02+0700] [ALPM] installed libsigc++ (2.12.0-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed glibmm (2.66.8-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed atkmm (2.28.4-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed cairomm (1.14.5-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed fmt (12.1.0-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed pps-tools (1.0.3-2)
+[2025-11-03T17:45:02+0700] [ALPM] installed gpsd (3.26.1-2)
+[2025-11-03T17:45:02+0700] [ALPM] installed gtk-layer-shell (0.10.0-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed pangomm (2.46.4-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed gtkmm3 (3.24.10-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed libmpdclient (2.23-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed sndio (1.10.0-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed spdlog (1.16.0-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed waybar (0.14.0-4)
+[2025-11-03T17:45:02+0700] [ALPM] installed hyprpicker (0.4.5-7)
+[2025-11-03T17:45:02+0700] [ALPM] installed brightnessctl (0.5.1-3)
+[2025-11-03T17:45:02+0700] [ALPM] installed xdg-desktop-portal-hyprland (1.3.11-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed expac (10-11)
+[2025-11-03T17:45:02+0700] [ALPM] installed xf86-input-libinput (1.5.0-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed xorg-server (21.1.20-1)
+[2025-11-03T17:45:02+0700] [ALPM-SCRIPTLET] >>> xorg-server has now the ability to run without root rights with
+[2025-11-03T17:45:02+0700] [ALPM-SCRIPTLET]     the help of systemd-logind. xserver will fail to run if not launched
+[2025-11-03T17:45:02+0700] [ALPM-SCRIPTLET]     from the same virtual terminal as was used to log in.
+[2025-11-03T17:45:02+0700] [ALPM-SCRIPTLET]     Without root rights, log files will be in ~/.local/share/xorg/ directory.
+[2025-11-03T17:45:02+0700] [ALPM-SCRIPTLET] 
+[2025-11-03T17:45:02+0700] [ALPM-SCRIPTLET]     Old behavior can be restored through Xorg.wrap config file.
+[2025-11-03T17:45:02+0700] [ALPM-SCRIPTLET]     See Xorg.wrap man page (man xorg.wrap).
+[2025-11-03T17:45:02+0700] [ALPM] installed xorg-xauth (1.1.4-1)
+[2025-11-03T17:45:02+0700] [ALPM] installed sddm (0.21.0-6)
+[2025-11-03T17:45:03+0700] [ALPM] installed llvm (21.1.4-1)
+[2025-11-03T17:45:03+0700] [ALPM] installed gtksourceview5 (5.18.0-1)
+[2025-11-03T17:45:03+0700] [ALPM] installed libgee (0.20.8-1)
+[2025-11-03T17:45:03+0700] [ALPM] installed gnome-calculator (49.1.1-1)
+[2025-11-03T17:45:03+0700] [ALPM] installed qt5-translations (5.15.17-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed qt5-base (5.15.17+kde+r123-2)
+[2025-11-03T17:45:04+0700] [ALPM] installed qt5-declarative (5.15.17+kde+r21-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed qt5-wayland (5.15.17+kde+r57-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed starship (1.24.0-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed unzip (6.0-23)
+[2025-11-03T17:45:04+0700] [ALPM] installed fcitx5-qt (5.1.11-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed zip (3.0-11)
+[2025-11-03T17:45:04+0700] [ALPM] installed luarocks (3.12.2-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed luajit (2.1.1761727121-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed libluv (1.48.0_2-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed libutf8proc (2.10.0-2)
+[2025-11-03T17:45:04+0700] [ALPM] installed libvterm (0.3.3-2)
+[2025-11-03T17:45:04+0700] [ALPM] installed lua51-lpeg (1.1.0-4)
+[2025-11-03T17:45:04+0700] [ALPM] installed msgpack-c (6.1.0-2)
+[2025-11-03T17:45:04+0700] [ALPM] installed tree-sitter (0.25.10-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed tree-sitter-c (0.24.1-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed tree-sitter-lua (0.4.0-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed tree-sitter-markdown (0.5.1-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed tree-sitter-query (0.7.0-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed tree-sitter-vim (0.7.0-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed tree-sitter-vimdoc (4.0.0-1)
+[2025-11-03T17:45:04+0700] [ALPM] installed unibilium (2.1.2-1)
+[2025-11-03T17:45:05+0700] [ALPM] installed neovim (0.11.4-1)
+[2025-11-03T17:45:05+0700] [ALPM] installed glu (9.0.3-2)
+[2025-11-03T17:45:05+0700] [ALPM] installed aom (3.13.1-1)
+[2025-11-03T17:45:05+0700] [ALPM] installed libde265 (1.0.16-2)
+[2025-11-03T17:45:05+0700] [ALPM] installed openh264 (2.6.0-1)
+[2025-11-03T17:45:05+0700] [ALPM] installed libheif (1.20.2-3)
+[2025-11-03T17:45:05+0700] [ALPM] installed imv (4.5.0-6)
+[2025-11-03T17:45:05+0700] [ALPM] installed lazygit (0.56.0-1)
+[2025-11-03T17:45:05+0700] [ALPM] installed python-pycups (2.0.4-3)
+[2025-11-03T17:45:05+0700] [ALPM] installed python-cairo (1.28.0-1)
+[2025-11-03T17:45:05+0700] [ALPM] installed system-config-printer (1.5.18-5)
+[2025-11-03T17:45:05+0700] [ALPM] installed python-shtab (1.7.2-1)
+[2025-11-03T17:45:05+0700] [ALPM] installed python-colorama (0.4.6-5)
+[2025-11-03T17:45:05+0700] [ALPM] installed python-termcolor (3.2.0-1)
+[2025-11-03T17:45:05+0700] [ALPM] installed tldr (3.4.3-2)
+[2025-11-03T17:45:13+0700] [ALPM] installed noto-fonts-cjk (20240730-1)
+[2025-11-03T17:45:13+0700] [ALPM] installed libpipeline (1.5.8-1)
+[2025-11-03T17:45:13+0700] [ALPM] installed man-db (2.13.1-1)
+[2025-11-03T17:45:13+0700] [ALPM] installed hyprlock (0.9.2-3)
+[2025-11-03T17:45:14+0700] [ALPM] installed mise (2025.10.18-1)
+[2025-11-03T17:45:14+0700] [ALPM] installed mailcap (2.1.54-2)
+[2025-11-03T17:45:14+0700] [ALPM] installed github-cli (2.82.1-1)
+[2025-11-03T17:45:14+0700] [ALPM] installed nss-mdns (0.15.1-2)
+[2025-11-03T17:45:14+0700] [ALPM] installed alacritty (0.16.1-1)
+[2025-11-03T17:45:14+0700] [ALPM] installed libyaml (0.2.5-3)
+[2025-11-03T17:45:14+0700] [ALPM] installed gnome-themes-extra (3.28+r6+g45b1d457-4)
+[2025-11-03T17:45:14+0700] [ALPM] installed ell (0.80-1)
+[2025-11-03T17:45:14+0700] [ALPM] installed iwd (3.10-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed docker-buildx (0.29.1-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed iw (6.17-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed wireless-regdb (2025.10.07-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed btop (1.4.3-2)
+[2025-11-03T17:45:15+0700] [ALPM] installed libsixel (1.10.5-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed libxpresent (1.0.2-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed mujs (1.3.7-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed openal (1.24.3-2)
+[2025-11-03T17:45:15+0700] [ALPM] installed uchardet (0.0.8-3)
+[2025-11-03T17:45:15+0700] [ALPM] installed mpv (1:0.40.0-7)
+[2025-11-03T17:45:15+0700] [ALPM] installed swayosd (0.2.1-2)
+[2025-11-03T17:45:15+0700] [ALPM] installed cracklib (2.10.3-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed libpwquality (1.4.5-6)
+[2025-11-03T17:45:15+0700] [ALPM] installed gnome-disk-utility (46.1-2)
+[2025-11-03T17:45:15+0700] [ALPM] installed gnome-autoar (0.4.5-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed gnome-desktop-4 (1:44.4-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed libgexiv2 (0.14.6-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed libportal (0.9.1-2)
+[2025-11-03T17:45:15+0700] [ALPM] installed libportal-gtk4 (0.9.1-2)
+[2025-11-03T17:45:15+0700] [ALPM] installed gexiv2 (0.16.0-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed gupnp-dlna (0.12.0-4)
+[2025-11-03T17:45:15+0700] [ALPM] installed libcue (2.3.0-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed libgsf (1.14.53-2)
+[2025-11-03T17:45:15+0700] [ALPM] installed libiptcdata (1.0.5-4)
+[2025-11-03T17:45:15+0700] [ALPM] installed osinfo-db (20250606-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed libosinfo (1.12.0-2)
+[2025-11-03T17:45:15+0700] [ALPM] installed totem-pl-parser (3.26.6+r30+g51b8439-2)
+[2025-11-03T17:45:15+0700] [ALPM] installed localsearch (3.10.1-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed xdg-user-dirs-gtk (0.14-1)
+[2025-11-03T17:45:15+0700] [ALPM] installed libnautilus-extension (49.1-2)
+[2025-11-03T17:45:16+0700] [ALPM] installed nautilus (49.1-2)
+[2025-11-03T17:45:16+0700] [ALPM] installed plymouth (24.004.60-12)
+[2025-11-03T17:45:16+0700] [ALPM] installed fzf (0.66.1-1)
+[2025-11-03T17:45:16+0700] [ALPM] installed swaybg (1.2.1-1)
+[2025-11-03T17:45:16+0700] [ALPM] installed xmlstarlet (1.6.1-6)
+[2025-11-03T17:45:16+0700] [ALPM] installed kvantum (1.1.5-1)
+[2025-11-03T17:45:16+0700] [ALPM] installed qt5-svg (5.15.17+kde+r5-1)
+[2025-11-03T17:45:16+0700] [ALPM] installed qt5-x11extras (5.15.17-1)
+[2025-11-03T17:45:16+0700] [ALPM] installed kvantum-qt5 (1.1.5-1)
+[2025-11-03T17:45:16+0700] [ALPM] installed impala (0.4.1-1)
+[2025-11-03T17:45:16+0700] [ALPM] transaction completed
+[2025-11-03T17:45:16+0700] [ALPM] running '20-systemd-sysusers.hook'...
+[2025-11-03T17:45:17+0700] [ALPM-SCRIPTLET] Creating group 'docker' with GID 966.
+[2025-11-03T17:45:17+0700] [ALPM-SCRIPTLET] Creating group 'locate' with GID 21.
+[2025-11-03T17:45:17+0700] [ALPM-SCRIPTLET] Creating group 'cups' with GID 209.
+[2025-11-03T17:45:17+0700] [ALPM-SCRIPTLET] Creating user 'cups' (cups helper user) with UID 209 and GID 209.
+[2025-11-03T17:45:17+0700] [ALPM-SCRIPTLET] Creating group '_talkd' with GID 965.
+[2025-11-03T17:45:17+0700] [ALPM-SCRIPTLET] Creating user '_talkd' (User for legacy talkd server) with UID 965 and GID 965.
+[2025-11-03T17:45:17+0700] [ALPM-SCRIPTLET] Creating group 'rtkit' with GID 133.
+[2025-11-03T17:45:17+0700] [ALPM-SCRIPTLET] Creating user 'rtkit' (RealtimeKit) with UID 133 and GID 133.
+[2025-11-03T17:45:17+0700] [ALPM-SCRIPTLET] Creating group 'sddm' with GID 964.
+[2025-11-03T17:45:17+0700] [ALPM-SCRIPTLET] Creating user 'sddm' (SDDM Greeter Account) with UID 964 and GID 964.
+[2025-11-03T17:45:17+0700] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2025-11-03T17:45:17+0700] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2025-11-03T17:45:17+0700] [ALPM] running '30-systemd-hwdb.hook'...
+[2025-11-03T17:45:17+0700] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2025-11-03T17:45:17+0700] [ALPM] running '30-systemd-udev-reload.hook'...
+[2025-11-03T17:45:17+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:45:17+0700] [ALPM] running '30-update-mime-database.hook'...
+[2025-11-03T17:45:18+0700] [ALPM] running '40-fontconfig-config.hook'...
+[2025-11-03T17:45:18+0700] [ALPM] running '90-update-appstream-cache.hook'...
+[2025-11-03T17:45:18+0700] [ALPM-SCRIPTLET] ✔ Metadata cache was updated successfully.
+[2025-11-03T17:45:18+0700] [ALPM] running 'dbus-reload.hook'...
+[2025-11-03T17:45:18+0700] [ALPM] running 'fontconfig.hook'...
+[2025-11-03T17:45:18+0700] [ALPM] running 'gio-querymodules.hook'...
+[2025-11-03T17:45:18+0700] [ALPM] running 'glib-compile-schemas.hook'...
+[2025-11-03T17:45:18+0700] [ALPM] running 'gtk-query-immodules-3.0.hook'...
+[2025-11-03T17:45:18+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T17:45:18+0700] [ALPM] running 'gtk4-querymodules.hook'...
+[2025-11-03T17:45:19+0700] [ALPM] running 'gvfsd.hook'...
+[2025-11-03T17:45:19+0700] [ALPM] running 'luarocks-make-manifest-5.1.hook'...
+[2025-11-03T17:45:19+0700] [ALPM-SCRIPTLET] Making manifest for /usr/lib/luarocks/rocks-5.1/
+[2025-11-03T17:45:19+0700] [ALPM-SCRIPTLET] sh: line 1: /usr/bin/lua5.1: No such file or directory
+[2025-11-03T17:45:19+0700] [ALPM] running 'texinfo-install.hook'...
+[2025-11-03T17:45:19+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T17:45:19+0700] [ALPM] running 'vimdoc.hook'...
+[2025-11-03T17:45:19+0700] [PACMAN] Running 'pacman -D -q --asdeps --noconfirm --config /etc/pacman.conf -- fontconfig python-poetry-core avahi libqalculate wl-clipboard wireplumber ufw imagemagick libsecret fd'
+[2025-11-03T17:45:19+0700] [PACMAN] Running 'pacman -D -q --asexplicit --noconfirm --config /etc/pacman.conf -- noto-fonts-emoji fcitx5-gtk hyprshot unzip gvfs-mtp eza expac postgresql-libs cups-pdf waybar whois libyaml imv btop fcitx5 tldr clang luarocks rust docker mpv wireless-regdb playerctl hypridle kdenlive plocate wiremix satty sddm polkit-gnome bash-completion power-profiles-daemon fzf jq grim mise gnome-disk-utility woff2-font-awesome man-db swaybg llvm gvfs-smb slurp mako qt5-wayland noto-fonts-cjk dust neovim evince starship ttf-cascadia-mono-nerd github-cli nautilus impala cups-browsed libreoffice-fresh ripgrep plymouth docker-compose cups-filters hyprpicker hyprlock inxi ffmpegthumbnailer fcitx5-qt xmlstarlet gnome-keyring pamixer hyprland-qtutils noto-fonts noto-fonts-extra lazygit xournalpp cups system-config-printer alacritty gnome-themes-extra mariadb-libs python-gobject bat xdg-desktop-portal-hyprland gnome-calculator ttf-jetbrains-mono-nerd inetutils zoxide uwsm fastfetch blueberry xdg-desktop-portal-gtk gum sushi swayosd hyprsunset lazydocker kvantum-qt5 tree-sitter-cli iwd less gvfs-nfs brightnessctl nss-mdns docker-buildx'
+[2025-11-03T17:45:42+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-elephant-websearch/elephant-websearch/elephant-websearch-2.13.2-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:45:42+0700] [ALPM] transaction started
+[2025-11-03T17:45:42+0700] [ALPM] installed elephant-websearch (2.13.2-1)
+[2025-11-03T17:45:42+0700] [ALPM] transaction completed
+[2025-11-03T17:45:42+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:45:50+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps sassc'
+[2025-11-03T17:45:52+0700] [ALPM] transaction started
+[2025-11-03T17:45:52+0700] [ALPM] installed libsass (3.6.6-1)
+[2025-11-03T17:45:52+0700] [ALPM] installed sassc (3.6.2-5)
+[2025-11-03T17:45:52+0700] [ALPM] transaction completed
+[2025-11-03T17:45:52+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:49:12+0700] [PACMAN] Running 'pacman -U --noconfirm --needed ./yaru-icon-theme-25.10.2-1-any.pkg.tar.xz'
+[2025-11-03T17:49:12+0700] [ALPM] transaction started
+[2025-11-03T17:49:14+0700] [ALPM] installed yaru-icon-theme (25.10.2-1)
+[2025-11-03T17:49:14+0700] [ALPM] transaction completed
+[2025-11-03T17:49:14+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:49:14+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T17:49:14+0700] [PACMAN] Running 'pacman -S --needed --noconfirm --config /etc/pacman.conf -- extra/libpulse extra/wf-recorder asahi-alarm/widevine extra/fuse2 extra/pipewire-alsa extra/pipewire-pulse extra/gst-plugin-pipewire core/e2fsprogs extra/pipewire'
+[2025-11-03T17:49:15+0700] [PACMAN] Running 'pacman -D --asdeps -q --noconfirm --config /etc/pacman.conf -- pipewire e2fsprogs'
+[2025-11-03T17:49:15+0700] [PACMAN] Running 'pacman -D -q --asexplicit --noconfirm --config /etc/pacman.conf -- fuse2 wf-recorder pipewire-alsa pipewire-pulse gst-plugin-pipewire libpulse widevine'
+[2025-11-03T17:49:16+0700] [PACMAN] Running 'pacman -S --needed --noconfirm base-devel cmake meson ninja glaze aquamarine cairo gcc-libs glib2 glslang hyprcursor hyprgraphics hyprlang hyprutils libdisplay-info libdrm libglvnd libinput libliftoff libx11 libxcb libxcomposite libxcursor libxfixes libxkbcommon libxrender mesa pango pixman re2 seatd systemd-libs tomlplusplus wayland wayland-protocols xcb-proto xcb-util xcb-util-errors xcb-util-keysyms xcb-util-renderutil xcb-util-wm xorg-xwayland hyprland-protocols vulkan-headers xorgproto'
+[2025-11-03T17:52:07+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps hyprland python-click'
+[2025-11-03T17:52:08+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps hyprshade'
+[2025-11-03T17:52:11+0700] [PACMAN] Running 'pacman -S --needed --noconfirm base-devel'
+[2025-11-03T17:52:11+0700] [PACMAN] Running 'pacman -S --needed --noconfirm base-devel git cmake qt6-base qt6-svg qt6-multimedia qt6-5compat ffmpeg libx11 libxcomposite libxrandr libxcb wayland-protocols libxkbcommon alsa-lib libv4l dav1d'
+[2025-11-03T17:52:15+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps libdatachannel librist libvpl mbedtls qrcodegencpp-cmake rnnoise'
+[2025-11-03T17:52:19+0700] [ALPM] transaction started
+[2025-11-03T17:52:19+0700] [ALPM] installed libjuice (1.6.2-1)
+[2025-11-03T17:52:19+0700] [ALPM] installed libsrtp (1:2.7.0-1)
+[2025-11-03T17:52:19+0700] [ALPM] installed libdatachannel (0.23.2-2)
+[2025-11-03T17:52:19+0700] [ALPM] installed cjson (1.7.19-1)
+[2025-11-03T17:52:19+0700] [ALPM] installed mbedtls (3.6.4-1)
+[2025-11-03T17:52:19+0700] [ALPM] installed librist (0.2.11-1)
+[2025-11-03T17:52:19+0700] [ALPM] installed libvpl (2.15.0-1)
+[2025-11-03T17:52:19+0700] [ALPM] installed qrcodegencpp-cmake (1.8.0-4)
+[2025-11-03T17:52:19+0700] [ALPM] installed rnnoise (1:0.2-1)
+[2025-11-03T17:52:19+0700] [ALPM] transaction completed
+[2025-11-03T17:52:19+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:52:19+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps asio extra-cmake-modules ffnvcodec-headers nlohmann-json qt6-wayland simde swig uthash vlc websocketpp'
+[2025-11-03T17:52:32+0700] [ALPM] transaction started
+[2025-11-03T17:52:32+0700] [ALPM] installed asio (1.36.0-1)
+[2025-11-03T17:52:32+0700] [ALPM] installed extra-cmake-modules (6.19.0-1)
+[2025-11-03T17:52:32+0700] [ALPM] installed ffnvcodec-headers (13.0.19.0-1)
+[2025-11-03T17:52:32+0700] [ALPM] installed nlohmann-json (3.12.0-2)
+[2025-11-03T17:52:32+0700] [ALPM] installed qt6-wayland (6.10.0-1)
+[2025-11-03T17:52:32+0700] [ALPM] installed simde (0.8.2-1)
+[2025-11-03T17:52:32+0700] [ALPM] installed swig (4.4.0-1)
+[2025-11-03T17:52:32+0700] [ALPM] installed uthash (2.3.0-2)
+[2025-11-03T17:52:32+0700] [ALPM] installed libvlc (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-alsa (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed a52dec (0.8.0-2)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-a52dec (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-archive (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-dav1d (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-dbus (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-dbus-screensaver (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed faad2 (2.11.2-1)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-faad2 (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-flac (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-gnutls (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-inflate (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-jpeg (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-journal (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-mpg123 (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-ogg (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-opus (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-png (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed libshout (1:2.4.6-5)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-shout (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-speex (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-tag (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-theora (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed twolame (0.4.0-4)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-twolame (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-vorbis (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-vpx (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-xml (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugins-base (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-cli (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-lua (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugin-pulse (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-plugins-video-output (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc-gui-qt (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed vlc (3.0.21-30)
+[2025-11-03T17:52:32+0700] [ALPM] installed websocketpp (0.8.2-4)
+[2025-11-03T17:52:32+0700] [ALPM] transaction completed
+[2025-11-03T17:52:32+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:52:32+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T17:52:32+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T17:52:32+0700] [ALPM] running 'update-vlc-plugin-cache.hook'...
+[2025-11-03T17:56:21+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/tmp.PePQf0H3Ei/obs-studio-git/obs-studio-git-32.0.2.r5.g32ba0c3-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:56:21+0700] [ALPM] transaction started
+[2025-11-03T17:56:21+0700] [ALPM] installed obs-studio-git (32.0.2.r5.g32ba0c3-1)
+[2025-11-03T17:56:21+0700] [ALPM] transaction completed
+[2025-11-03T17:56:21+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:56:21+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T17:56:21+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T17:56:27+0700] [PACMAN] Running 'pacman -Rdd --noconfirm nodejs-lts-jod'
+[2025-11-03T17:56:27+0700] [PACMAN] Running 'pacman -S --needed --noconfirm neovim git nodejs npm tree-sitter-cli base-devel'
+[2025-11-03T17:56:36+0700] [ALPM] transaction started
+[2025-11-03T17:56:36+0700] [ALPM] installed c-ares (1.34.5-1)
+[2025-11-03T17:56:36+0700] [ALPM] installed libngtcp2 (1.17.0-1)
+[2025-11-03T17:56:36+0700] [ALPM] installed simdjson (1:4.1.0-1)
+[2025-11-03T17:56:36+0700] [ALPM] installed nodejs (25.1.0-2)
+[2025-11-03T17:56:36+0700] [ALPM] installed nodejs-nopt (7.2.1-1)
+[2025-11-03T17:56:36+0700] [ALPM] installed semver (7.7.3-1)
+[2025-11-03T17:56:36+0700] [ALPM] installed node-gyp (11.5.0-1)
+[2025-11-03T17:56:36+0700] [ALPM] installed npm (11.6.2-1)
+[2025-11-03T17:56:36+0700] [ALPM] transaction completed
+[2025-11-03T17:56:36+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:57:33+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U /tmp/omarchy-pkgs/pkgbuilds/omarchy-nvim/omarchy-nvim-2025.10.28-1-any.pkg.tar.xz'
+[2025-11-03T17:57:33+0700] [ALPM] transaction started
+[2025-11-03T17:57:35+0700] [ALPM] installed omarchy-nvim (2025.10.28-1)
+[2025-11-03T17:57:35+0700] [ALPM] transaction completed
+[2025-11-03T17:57:35+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:57:35+0700] [PACMAN] Running 'pacman -S --needed --noconfirm blueprint-compiler git base-devel'
+[2025-11-03T17:57:37+0700] [ALPM] transaction started
+[2025-11-03T17:57:37+0700] [ALPM] installed blueprint-compiler (0.18.0-1)
+[2025-11-03T17:57:37+0700] [ALPM] transaction completed
+[2025-11-03T17:57:37+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:58:06+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-build-pandoc-bin-hJeI/pandoc-bin/pandoc-bin-3.8.2.1-1-aarch64.pkg.tar.xz'
+[2025-11-03T17:58:06+0700] [ALPM] transaction started
+[2025-11-03T17:58:07+0700] [ALPM] installed pandoc-bin (3.8.2.1-1)
+[2025-11-03T17:58:07+0700] [ALPM] transaction completed
+[2025-11-03T17:58:07+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T17:58:24+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps zig'
+[2025-11-03T17:59:44+0700] [ALPM] transaction started
+[2025-11-03T17:59:46+0700] [ALPM] installed llvm20-libs (20.1.8-1)
+[2025-11-03T17:59:46+0700] [ALPM] installed compiler-rt20 (20.1.8-1)
+[2025-11-03T17:59:48+0700] [ALPM] installed clang20 (20.1.8-1)
+[2025-11-03T17:59:48+0700] [ALPM] installed lld20 (20.1.8-1)
+[2025-11-03T17:59:49+0700] [ALPM] installed zig (0.15.2-2)
+[2025-11-03T17:59:49+0700] [ALPM] transaction completed
+[2025-11-03T17:59:50+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:02:37+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-build-ghostty-git-T91I/ghostty-git/ghostty-git-1.2.0.r716.g329aa7d-1-aarch64.pkg.tar.xz /tmp/aur-build-ghostty-git-T91I/ghostty-git/ghostty-shell-integration-git-1.2.0.r716.g329aa7d-1-aarch64.pkg.tar.xz /tmp/aur-build-ghostty-git-T91I/ghostty-git/ghostty-terminfo-git-1.2.0.r716.g329aa7d-1-aarch64.pkg.tar.xz'
+[2025-11-03T18:02:37+0700] [ALPM] transaction started
+[2025-11-03T18:02:37+0700] [ALPM] installed ghostty-shell-integration-git (1.2.0.r716.g329aa7d-1)
+[2025-11-03T18:02:37+0700] [ALPM] installed ghostty-terminfo-git (1.2.0.r716.g329aa7d-1)
+[2025-11-03T18:02:37+0700] [ALPM] installed ghostty-git (1.2.0.r716.g329aa7d-1)
+[2025-11-03T18:02:37+0700] [ALPM] transaction completed
+[2025-11-03T18:02:37+0700] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2025-11-03T18:02:38+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:02:38+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T18:02:38+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T18:04:20+0700] [PACMAN] Running 'pacman -U --noconfirm --needed ./aspnet-targeting-pack-bin-9.0.10.sdk306-1-aarch64.pkg.tar.xz ./dotnet-runtime-bin-9.0.10.sdk306-1-aarch64.pkg.tar.xz ./dotnet-targeting-pack-bin-9.0.10.sdk306-1-aarch64.pkg.tar.xz ./dotnet-sdk-bin-9.0.10.sdk306-1-aarch64.pkg.tar.xz ./netstandard-targeting-pack-bin-9.0.10.sdk306-1-aarch64.pkg.tar.xz ./aspnet-runtime-bin-9.0.10.sdk306-1-aarch64.pkg.tar.xz ./dotnet-host-bin-9.0.10.sdk306-1-aarch64.pkg.tar.xz'
+[2025-11-03T18:04:20+0700] [ALPM] transaction started
+[2025-11-03T18:04:20+0700] [ALPM] installed netstandard-targeting-pack-bin (9.0.10.sdk306-1)
+[2025-11-03T18:04:20+0700] [ALPM] installed dotnet-targeting-pack-bin (9.0.10.sdk306-1)
+[2025-11-03T18:04:21+0700] [ALPM] installed aspnet-targeting-pack-bin (9.0.10.sdk306-1)
+[2025-11-03T18:04:21+0700] [ALPM] installed dotnet-host-bin (9.0.10.sdk306-1)
+[2025-11-03T18:04:21+0700] [ALPM] installed dotnet-runtime-bin (9.0.10.sdk306-1)
+[2025-11-03T18:04:22+0700] [ALPM] installed aspnet-runtime-bin (9.0.10.sdk306-1)
+[2025-11-03T18:04:26+0700] [ALPM] installed dotnet-sdk-bin (9.0.10.sdk306-1)
+[2025-11-03T18:04:26+0700] [ALPM] transaction completed
+[2025-11-03T18:04:26+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:05:58+0700] [PACMAN] Running 'pacman -U --noconfirm --needed ./dotnet-runtime-8.0-bin-8.0.21.sdk415-1-aarch64.pkg.tar.xz ./aspnet-runtime-8.0-bin-8.0.21.sdk415-1-aarch64.pkg.tar.xz ./dotnet-sdk-8.0-bin-8.0.21.sdk415-1-aarch64.pkg.tar.xz ./dotnet-targeting-pack-8.0-bin-8.0.21.sdk415-1-aarch64.pkg.tar.xz ./aspnet-targeting-pack-8.0-bin-8.0.21.sdk415-1-aarch64.pkg.tar.xz'
+[2025-11-03T18:05:58+0700] [ALPM] transaction started
+[2025-11-03T18:05:59+0700] [ALPM] installed dotnet-runtime-8.0-bin (8.0.21.sdk415-1)
+[2025-11-03T18:05:59+0700] [ALPM] installed aspnet-runtime-8.0-bin (8.0.21.sdk415-1)
+[2025-11-03T18:05:59+0700] [ALPM] installed dotnet-targeting-pack-8.0-bin (8.0.21.sdk415-1)
+[2025-11-03T18:06:04+0700] [ALPM] installed dotnet-sdk-8.0-bin (8.0.21.sdk415-1)
+[2025-11-03T18:06:04+0700] [ALPM] installed aspnet-targeting-pack-8.0-bin (8.0.21.sdk415-1)
+[2025-11-03T18:06:04+0700] [ALPM] transaction completed
+[2025-11-03T18:06:04+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:06:11+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps webp-pixbuf-loader'
+[2025-11-03T18:06:12+0700] [ALPM] transaction started
+[2025-11-03T18:06:12+0700] [ALPM] installed webp-pixbuf-loader (0.2.7-1)
+[2025-11-03T18:06:12+0700] [ALPM] transaction completed
+[2025-11-03T18:06:12+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:06:12+0700] [ALPM] running 'gdk-pixbuf-query-loaders.hook'...
+[2025-11-03T18:06:12+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps autoconf-archive intltool'
+[2025-11-03T18:06:17+0700] [ALPM] transaction started
+[2025-11-03T18:06:17+0700] [ALPM] installed autoconf-archive (1:2024.10.16-3)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-encode-locale (1.05-14)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-http-date (6.06-4)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-file-listing (6.16-5)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-html-tagset (3.24-3)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-clone (0.47-2)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-io-html (1.004-7)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-lwp-mediatypes (6.04-7)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-uri (5.34-1)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-http-message (7.01-1)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-html-parser (3.83-2)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-http-cookies (6.11-3)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-http-daemon (6.16-5)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-http-cookiejar (0.014-4)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-http-negotiate (6.01-15)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-net-http (6.24-1)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-try-tiny (0.32-3)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-www-robotrules (6.02-15)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-libwww (6.81-1)
+[2025-11-03T18:06:17+0700] [ALPM] installed perl-xml-parser (2.47-3)
+[2025-11-03T18:06:17+0700] [ALPM] installed intltool (0.51.0-6)
+[2025-11-03T18:06:17+0700] [ALPM] transaction completed
+[2025-11-03T18:06:17+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:06:17+0700] [ALPM] running 'detect-old-perl-modules.hook'...
+[2025-11-03T18:06:17+0700] [ALPM] running 'texinfo-install.hook'...
+[2025-11-03T18:06:51+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-build-pinta-git-vgDz/pinta-git/pinta-git-r4652.cae27b23-1-any.pkg.tar.xz'
+[2025-11-03T18:06:51+0700] [ALPM] transaction started
+[2025-11-03T18:06:51+0700] [ALPM] installed pinta-git (r4652.cae27b23-1)
+[2025-11-03T18:06:51+0700] [ALPM] transaction completed
+[2025-11-03T18:06:51+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:06:51+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T18:06:51+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T18:06:52+0700] [PACMAN] Running 'pacman -S --noconfirm --needed rust cargo'
+[2025-11-03T18:07:22+0700] [PACMAN] Running 'pacman -Rdd --noconfirm nodejs'
+[2025-11-03T18:07:22+0700] [ALPM] transaction started
+[2025-11-03T18:07:22+0700] [ALPM] removed nodejs (25.1.0-2)
+[2025-11-03T18:07:22+0700] [ALPM] transaction completed
+[2025-11-03T18:07:22+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:08+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps ruby'
+[2025-11-03T18:08:14+0700] [ALPM] transaction started
+[2025-11-03T18:08:14+0700] [ALPM] installed rubygems (3.6.9-1)
+[2025-11-03T18:08:14+0700] [ALPM] installed ruby (3.4.7-2)
+[2025-11-03T18:08:15+0700] [ALPM] transaction completed
+[2025-11-03T18:08:15+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:16+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-ruby-cabin/ruby-cabin/ruby-cabin-0.9.1-1-any.pkg.tar.xz'
+[2025-11-03T18:08:16+0700] [ALPM] transaction started
+[2025-11-03T18:08:16+0700] [ALPM] installed ruby-cabin (0.9.1-1)
+[2025-11-03T18:08:16+0700] [ALPM] transaction completed
+[2025-11-03T18:08:16+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:17+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps ruby-rdoc'
+[2025-11-03T18:08:21+0700] [ALPM] transaction started
+[2025-11-03T18:08:21+0700] [ALPM] installed ruby-erb (4.0.4-9)
+[2025-11-03T18:08:21+0700] [ALPM] installed ruby-rdoc (6.14.0-1)
+[2025-11-03T18:08:21+0700] [ALPM] transaction completed
+[2025-11-03T18:08:21+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:28+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-ruby-backports/ruby-backports/ruby-backports-3.25.2-1-any.pkg.tar.xz'
+[2025-11-03T18:08:28+0700] [ALPM] transaction started
+[2025-11-03T18:08:28+0700] [ALPM] installed ruby-backports (3.25.2-1)
+[2025-11-03T18:08:28+0700] [ALPM] transaction completed
+[2025-11-03T18:08:28+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:30+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-ruby-arr-pm/ruby-arr-pm/ruby-arr-pm-0.0.12-1-any.pkg.tar.xz'
+[2025-11-03T18:08:30+0700] [ALPM] transaction started
+[2025-11-03T18:08:30+0700] [ALPM] installed ruby-arr-pm (0.0.12-1)
+[2025-11-03T18:08:30+0700] [ALPM] transaction completed
+[2025-11-03T18:08:30+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:33+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-ruby-clamp/ruby-clamp/ruby-clamp-1.3.3-1-any.pkg.tar.xz'
+[2025-11-03T18:08:33+0700] [ALPM] transaction started
+[2025-11-03T18:08:33+0700] [ALPM] installed ruby-clamp (1.3.3-1)
+[2025-11-03T18:08:33+0700] [ALPM] transaction completed
+[2025-11-03T18:08:33+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:34+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps ruby-rspec'
+[2025-11-03T18:08:38+0700] [ALPM] transaction started
+[2025-11-03T18:08:38+0700] [ALPM] installed ruby-rspec-support (3.13.6-1)
+[2025-11-03T18:08:38+0700] [ALPM] installed ruby-rspec-core (3.13.6-1)
+[2025-11-03T18:08:38+0700] [ALPM] installed ruby-diff-lcs (1.6.2-1)
+[2025-11-03T18:08:38+0700] [ALPM] installed ruby-rspec-expectations (3.13.5-1)
+[2025-11-03T18:08:38+0700] [ALPM] installed ruby-rspec-mocks (3.13.5-1)
+[2025-11-03T18:08:38+0700] [ALPM] installed ruby-rspec (3.13.2-1)
+[2025-11-03T18:08:38+0700] [ALPM] transaction completed
+[2025-11-03T18:08:38+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:41+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-ruby-dotenv/ruby-dotenv/ruby-dotenv-3.1.8-1-any.pkg.tar.xz'
+[2025-11-03T18:08:41+0700] [ALPM] transaction started
+[2025-11-03T18:08:41+0700] [ALPM] installed ruby-dotenv (3.1.8-1)
+[2025-11-03T18:08:41+0700] [ALPM-SCRIPTLET] [1;33m
+[2025-11-03T18:08:41+0700] [ALPM-SCRIPTLET] Executable is installed as ruby-dotenv to avoid conflict with python-dotenv.[1;39m
+[2025-11-03T18:08:41+0700] [ALPM-SCRIPTLET] 
+[2025-11-03T18:08:41+0700] [ALPM] transaction completed
+[2025-11-03T18:08:41+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:43+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-ruby-insist/ruby-insist/ruby-insist-1.0.0-3-any.pkg.tar.xz'
+[2025-11-03T18:08:43+0700] [ALPM] transaction started
+[2025-11-03T18:08:43+0700] [ALPM] installed ruby-insist (1.0.0-3)
+[2025-11-03T18:08:43+0700] [ALPM] transaction completed
+[2025-11-03T18:08:43+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:47+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-ruby-stud/ruby-stud/ruby-stud-0.0.23-2-any.pkg.tar.xz'
+[2025-11-03T18:08:47+0700] [ALPM] transaction started
+[2025-11-03T18:08:47+0700] [ALPM] installed ruby-stud (0.0.23-2)
+[2025-11-03T18:08:47+0700] [ALPM] transaction completed
+[2025-11-03T18:08:47+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:47+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps ruby-mustache'
+[2025-11-03T18:08:49+0700] [ALPM] transaction started
+[2025-11-03T18:08:49+0700] [ALPM] installed ruby-mustache (1.1.1-7)
+[2025-11-03T18:08:49+0700] [ALPM] transaction completed
+[2025-11-03T18:08:49+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:49+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps ruby-bundler'
+[2025-11-03T18:08:52+0700] [ALPM] transaction started
+[2025-11-03T18:08:52+0700] [ALPM] installed ruby-bundler (2.7.2-1)
+[2025-11-03T18:08:52+0700] [ALPM] transaction completed
+[2025-11-03T18:08:52+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:54+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-ruby-pleaserun/ruby-pleaserun/ruby-pleaserun-0.0.33-2-any.pkg.tar.xz'
+[2025-11-03T18:08:54+0700] [ALPM] transaction started
+[2025-11-03T18:08:54+0700] [ALPM] installed ruby-pleaserun (0.0.33-2)
+[2025-11-03T18:08:54+0700] [ALPM] transaction completed
+[2025-11-03T18:08:54+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:55+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps ruby-rexml'
+[2025-11-03T18:08:57+0700] [ALPM] transaction started
+[2025-11-03T18:08:57+0700] [ALPM] installed ruby-rexml (3.4.4-1)
+[2025-11-03T18:08:57+0700] [ALPM] transaction completed
+[2025-11-03T18:08:57+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:08:59+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-fpm/fpm/fpm-1.17.0-1-any.pkg.tar.xz'
+[2025-11-03T18:08:59+0700] [ALPM] transaction started
+[2025-11-03T18:08:59+0700] [ALPM] installed fpm (1.17.0-1)
+[2025-11-03T18:08:59+0700] [ALPM] transaction completed
+[2025-11-03T18:08:59+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:09:01+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps git-lfs libxcrypt-compat nodejs-lts-jod pnpm'
+[2025-11-03T18:09:12+0700] [ALPM] transaction started
+[2025-11-03T18:09:12+0700] [ALPM] installed git-lfs (3.7.1-1)
+[2025-11-03T18:09:12+0700] [ALPM] installed libxcrypt-compat (4.4.38-1)
+[2025-11-03T18:09:13+0700] [ALPM] installed nodejs-lts-jod (22.21.1-1)
+[2025-11-03T18:09:13+0700] [ALPM] installed pnpm (10.20.0-1)
+[2025-11-03T18:09:13+0700] [ALPM] transaction completed
+[2025-11-03T18:09:13+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:11:46+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-prediscovery-1000-signal-desktop-beta/signal-desktop-beta/signal-desktop-beta-7.78.0beta1-1-aarch64.pkg.tar.xz'
+[2025-11-03T18:11:46+0700] [ALPM] transaction started
+[2025-11-03T18:11:50+0700] [ALPM] installed signal-desktop-beta (7.78.0beta1-1)
+[2025-11-03T18:11:50+0700] [ALPM] transaction completed
+[2025-11-03T18:11:50+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:11:50+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T18:11:50+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T18:11:57+0700] [PACMAN] Running 'pacman -S --needed --noconfirm snapper limine'
+[2025-11-03T18:12:01+0700] [ALPM] transaction started
+[2025-11-03T18:12:01+0700] [ALPM] installed btrfs-progs (6.17-1)
+[2025-11-03T18:12:01+0700] [ALPM] installed snapper (0.13.0-2)
+[2025-11-03T18:12:01+0700] [ALPM] installed limine (10.2.1-1)
+[2025-11-03T18:12:01+0700] [ALPM] transaction completed
+[2025-11-03T18:12:01+0700] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2025-11-03T18:12:01+0700] [ALPM] running '30-systemd-udev-reload.hook'...
+[2025-11-03T18:12:02+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:12:02+0700] [ALPM] running '90-mkinitcpio-install.hook'...
+[2025-11-03T18:12:02+0700] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux-aarch64.preset: 'default'
+[2025-11-03T18:12:02+0700] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2025-11-03T18:12:02+0700] [ALPM-SCRIPTLET]   -> -k 6.17.7-2-aarch64-ARCH -g /boot/initramfs-linux.img
+[2025-11-03T18:12:02+0700] [ALPM-SCRIPTLET] ==> Using drop-in configuration file: 'omarchy_hooks.conf'
+[2025-11-03T18:12:02+0700] [ALPM-SCRIPTLET] ==> Starting build: '6.17.7-2-aarch64-ARCH'
+[2025-11-03T18:12:02+0700] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2025-11-03T18:12:02+0700] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2025-11-03T18:12:02+0700] [ALPM-SCRIPTLET]   -> Running build hook: [plymouth]
+[2025-11-03T18:12:02+0700] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2025-11-03T18:12:03+0700] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2025-11-03T18:12:03+0700] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2025-11-03T18:12:03+0700] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2025-11-03T18:12:03+0700] [ALPM-SCRIPTLET] ==> WARNING: No module containing the symbol 'drm_privacy_screen_register' found in: 'drivers/platform'
+[2025-11-03T18:12:03+0700] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2025-11-03T18:12:03+0700] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2025-11-03T18:12:03+0700] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2025-11-03T18:12:03+0700] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2025-11-03T18:12:03+0700] [ALPM-SCRIPTLET]   -> Running build hook: [encrypt]
+[2025-11-03T18:12:03+0700] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2025-11-03T18:12:03+0700] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2025-11-03T18:12:03+0700] [ALPM-SCRIPTLET] ==> ERROR: Hook 'btrfs-overlayfs' cannot be found
+[2025-11-03T18:12:03+0700] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2025-11-03T18:12:03+0700] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: '/boot/initramfs-linux.img'
+[2025-11-03T18:12:04+0700] [ALPM-SCRIPTLET] ==> WARNING: errors were encountered during the build. The image may not be complete.
+[2025-11-03T18:12:04+0700] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux-aarch64.preset: 'fallback'
+[2025-11-03T18:12:04+0700] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2025-11-03T18:12:04+0700] [ALPM-SCRIPTLET]   -> -k 6.17.7-2-aarch64-ARCH -g /boot/initramfs-linux-fallback.img -S autodetect
+[2025-11-03T18:12:04+0700] [ALPM-SCRIPTLET] ==> Using drop-in configuration file: 'omarchy_hooks.conf'
+[2025-11-03T18:12:04+0700] [ALPM-SCRIPTLET] ==> Starting build: '6.17.7-2-aarch64-ARCH'
+[2025-11-03T18:12:05+0700] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2025-11-03T18:12:05+0700] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2025-11-03T18:12:05+0700] [ALPM-SCRIPTLET]   -> Running build hook: [plymouth]
+[2025-11-03T18:12:05+0700] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2025-11-03T18:12:05+0700] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2025-11-03T18:12:05+0700] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2025-11-03T18:12:08+0700] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'ast'
+[2025-11-03T18:12:08+0700] [ALPM-SCRIPTLET] ==> WARNING: No module containing the symbol 'drm_privacy_screen_register' found in: 'drivers/platform'
+[2025-11-03T18:12:08+0700] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2025-11-03T18:12:08+0700] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2025-11-03T18:12:08+0700] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2025-11-03T18:12:08+0700] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2025-11-03T18:12:08+0700] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'qla2xxx'
+[2025-11-03T18:12:09+0700] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'wd719x'
+[2025-11-03T18:12:09+0700] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'qla1280'
+[2025-11-03T18:12:09+0700] [ALPM-SCRIPTLET]   -> Running build hook: [encrypt]
+[2025-11-03T18:12:09+0700] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2025-11-03T18:12:09+0700] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2025-11-03T18:12:09+0700] [ALPM-SCRIPTLET] ==> ERROR: Hook 'btrfs-overlayfs' cannot be found
+[2025-11-03T18:12:09+0700] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2025-11-03T18:12:09+0700] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: '/boot/initramfs-linux-fallback.img'
+[2025-11-03T18:12:17+0700] [ALPM-SCRIPTLET] ==> WARNING: errors were encountered during the build. The image may not be complete.
+[2025-11-03T18:12:17+0700] [ALPM] running 'dbus-reload.hook'...
+[2025-11-03T18:12:25+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps java-runtime-headless>=17'
+[2025-11-03T18:12:53+0700] [ALPM] transaction started
+[2025-11-03T18:12:53+0700] [ALPM] installed java-runtime-common (3-6)
+[2025-11-03T18:12:53+0700] [ALPM-SCRIPTLET] For the complete set of Java binaries to be available in your PATH,
+[2025-11-03T18:12:53+0700] [ALPM-SCRIPTLET] you need to re-login or source /etc/profile
+[2025-11-03T18:12:53+0700] [ALPM-SCRIPTLET] Please note that this package does not support forcing JAVA_HOME as former package java-common did
+[2025-11-03T18:12:53+0700] [ALPM] installed libnet (2:1.3-1)
+[2025-11-03T18:12:53+0700] [ALPM] installed java-environment-common (3-6)
+[2025-11-03T18:12:58+0700] [ALPM] installed jdk-openjdk (25.0.1.u8-1)
+[2025-11-03T18:12:58+0700] [ALPM] transaction completed
+[2025-11-03T18:12:58+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:12:58+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T18:12:58+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T18:12:58+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -S --asdeps jdk21-openjdk maven'
+[2025-11-03T18:24:42+0700] [ALPM] transaction started
+[2025-11-03T18:24:47+0700] [ALPM] installed jdk21-openjdk (21.0.9.u10-1)
+[2025-11-03T18:24:47+0700] [ALPM-SCRIPTLET] Default Java environment is already set to 'java-25-openjdk'
+[2025-11-03T18:24:47+0700] [ALPM-SCRIPTLET] See 'archlinux-java help' to change it
+[2025-11-03T18:24:47+0700] [ALPM] installed maven (3.9.11-1)
+[2025-11-03T18:24:47+0700] [ALPM] transaction completed
+[2025-11-03T18:24:47+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:24:47+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T18:24:47+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T18:24:55+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -Rnu jdk21-openjdk maven'
+[2025-11-03T18:24:55+0700] [ALPM] transaction started
+[2025-11-03T18:24:55+0700] [ALPM] removed maven (3.9.11-1)
+[2025-11-03T18:24:55+0700] [ALPM] removed jdk21-openjdk (21.0.9.u10-1)
+[2025-11-03T18:24:55+0700] [ALPM] transaction completed
+[2025-11-03T18:24:55+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:24:55+0700] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2025-11-03T18:24:55+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T18:24:55+0700] [PACMAN] Running '/usr/bin/pacman --noconfirm -U --needed /tmp/aur-build-limine-mkinitcpio-hook-k71W/limine-mkinitcpio-hook/limine-mkinitcpio-hook-1.25.2-1-any.pkg.tar.xz'
+[2025-11-03T18:24:55+0700] [ALPM] transaction started
+[2025-11-03T18:24:55+0700] [ALPM] installed limine-mkinitcpio-hook (1.25.2-1)
+[2025-11-03T18:24:56+0700] [ALPM] transaction completed
+[2025-11-03T18:24:56+0700] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2025-11-03T18:24:56+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:24:56+0700] [ALPM] running '80-limine-efi-deploy.hook'...
+[2025-11-03T18:24:56+0700] [ALPM-SCRIPTLET] The system is not x86_64.
+[2025-11-03T18:24:56+0700] [ALPM] running '90-mkinitcpio-install.hook'...
+[2025-11-03T18:25:16+0700] [PACMAN] Running 'pacman --noconfirm -Sq hplip'
+[2025-11-03T18:26:31+0700] [ALPM] transaction started
+[2025-11-03T18:26:31+0700] [ALPM] installed python-distro (1.9.0-3)
+[2025-11-03T18:26:31+0700] [ALPM] installed net-snmp (5.9.4-7)
+[2025-11-03T18:26:31+0700] [ALPM] installed perl-capture-tiny (0.50-3)
+[2025-11-03T18:26:31+0700] [ALPM] installed perl-ffi-checklib (0.31-7)
+[2025-11-03T18:26:31+0700] [ALPM] installed perl-file-chdir (0.1011-6)
+[2025-11-03T18:26:31+0700] [ALPM] installed perl-file-which (1.27-7)
+[2025-11-03T18:26:31+0700] [ALPM] installed perl-path-tiny (0.150-1)
+[2025-11-03T18:26:31+0700] [ALPM] installed perl-alien-build (2.84-3)
+[2025-11-03T18:26:31+0700] [ALPM] installed perl-alien-libxml2 (0.20-3)
+[2025-11-03T18:26:31+0700] [ALPM] installed perl-xml-sax-base (1.09-6)
+[2025-11-03T18:26:31+0700] [ALPM] installed perl-xml-namespacesupport (1.12-6)
+[2025-11-03T18:26:31+0700] [ALPM] installed perl-xml-sax (1.02-2)
+[2025-11-03T18:26:31+0700] [ALPM] installed perl-xml-libxml (2.0210-4)
+[2025-11-03T18:26:31+0700] [ALPM-SCRIPTLET] :: Installing SAX XML Parsers
+[2025-11-03T18:26:31+0700] [ALPM] installed perl-dbi (1.647-2)
+[2025-11-03T18:26:31+0700] [ALPM] installed foomatic-db-engine (5:20200131-2)
+[2025-11-03T18:26:32+0700] [ALPM] installed hplip (1:3.25.6-1)
+[2025-11-03T18:26:32+0700] [ALPM] transaction completed
+[2025-11-03T18:26:32+0700] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2025-11-03T18:26:32+0700] [ALPM] running '30-systemd-udev-reload.hook'...
+[2025-11-03T18:26:32+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:26:32+0700] [ALPM] running 'detect-old-perl-modules.hook'...
+[2025-11-03T18:26:32+0700] [ALPM] running 'update-desktop-database.hook'...
+[2025-11-03T18:26:32+0700] [PACMAN] Running 'pacman --noconfirm -Sq net-tools'
+[2025-11-03T18:26:34+0700] [ALPM] transaction started
+[2025-11-03T18:26:34+0700] [ALPM] installed net-tools (2.10-3)
+[2025-11-03T18:26:34+0700] [ALPM] transaction completed
+[2025-11-03T18:26:34+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:26:34+0700] [PACMAN] Running 'pacman -S --noconfirm --needed xclip clipnotify wl-clipboard wl-clip-persist'
+[2025-11-03T18:26:37+0700] [ALPM] transaction started
+[2025-11-03T18:26:37+0700] [ALPM] installed xclip (0.13-6)
+[2025-11-03T18:26:37+0700] [ALPM] installed clipnotify (1.0.2-3)
+[2025-11-03T18:26:37+0700] [ALPM] installed wl-clip-persist (0.5.0-1)
+[2025-11-03T18:26:37+0700] [ALPM] transaction completed
+[2025-11-03T18:26:37+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:49+0700] [PACMAN] Running 'pacman -Sy'
+[2025-11-03T18:46:49+0700] [PACMAN] synchronizing package lists
+[2025-11-03T18:46:50+0700] [PACMAN] Running 'pacman -S --noconfirm --needed omarchy-keyring'
+[2025-11-03T18:46:50+0700] [PACMAN] Running 'pacman -Syu --noconfirm --ignore '
+[2025-11-03T18:46:50+0700] [PACMAN] synchronizing package lists
+[2025-11-03T18:46:51+0700] [PACMAN] starting full system upgrade
+[2025-11-03T18:46:55+0700] [PACMAN] Running 'pacman -Rs --noconfirm autoconf-archive'
+[2025-11-03T18:46:55+0700] [ALPM] running 'texinfo-remove.hook'...
+[2025-11-03T18:46:55+0700] [ALPM] transaction started
+[2025-11-03T18:46:55+0700] [ALPM] removed autoconf-archive (1:2024.10.16-3)
+[2025-11-03T18:46:55+0700] [ALPM] transaction completed
+[2025-11-03T18:46:55+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:55+0700] [PACMAN] Running 'pacman -Rs --noconfirm extra-cmake-modules'
+[2025-11-03T18:46:55+0700] [ALPM] transaction started
+[2025-11-03T18:46:55+0700] [ALPM] removed extra-cmake-modules (6.19.0-1)
+[2025-11-03T18:46:55+0700] [ALPM] transaction completed
+[2025-11-03T18:46:55+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:55+0700] [PACMAN] Running 'pacman -Rs --noconfirm ffnvcodec-headers'
+[2025-11-03T18:46:55+0700] [ALPM] transaction started
+[2025-11-03T18:46:55+0700] [ALPM] removed ffnvcodec-headers (13.0.19.0-1)
+[2025-11-03T18:46:55+0700] [ALPM] transaction completed
+[2025-11-03T18:46:55+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:55+0700] [PACMAN] Running 'pacman -Rs --noconfirm git-lfs'
+[2025-11-03T18:46:55+0700] [ALPM] transaction started
+[2025-11-03T18:46:55+0700] [ALPM] removed git-lfs (3.7.1-1)
+[2025-11-03T18:46:55+0700] [ALPM] transaction completed
+[2025-11-03T18:46:55+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:55+0700] [PACMAN] Running 'pacman -Rs --noconfirm go'
+[2025-11-03T18:46:55+0700] [ALPM] transaction started
+[2025-11-03T18:46:55+0700] [ALPM] removed go (2:1.25.3-1)
+[2025-11-03T18:46:55+0700] [ALPM] transaction completed
+[2025-11-03T18:46:55+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:55+0700] [PACMAN] Running 'pacman -Rs --noconfirm gobject-introspection'
+[2025-11-03T18:46:55+0700] [ALPM] transaction started
+[2025-11-03T18:46:55+0700] [ALPM] removed gobject-introspection (1.86.0-1)
+[2025-11-03T18:46:55+0700] [ALPM] removed python-setuptools (1:80.9.0-2)
+[2025-11-03T18:46:55+0700] [ALPM] removed python-wheel (0.45.1-1)
+[2025-11-03T18:46:55+0700] [ALPM] removed python-platformdirs (4.5.0-1)
+[2025-11-03T18:46:55+0700] [ALPM] removed python-jaraco.collections (5.1.0-1)
+[2025-11-03T18:46:55+0700] [ALPM] removed python-jaraco.text (4.0.0-2)
+[2025-11-03T18:46:55+0700] [ALPM] removed python-jaraco.context (6.0.1-1)
+[2025-11-03T18:46:55+0700] [ALPM] removed python-autocommand (2.2.2-7)
+[2025-11-03T18:46:55+0700] [ALPM] removed python-jaraco.functools (4.1.0-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed python-more-itertools (10.8.0-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed python-markdown (3.9.0-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed python-mako (1.3.10-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed python-markupsafe (3.0.2-1)
+[2025-11-03T18:46:56+0700] [ALPM] transaction completed
+[2025-11-03T18:46:56+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:56+0700] [PACMAN] Running 'pacman -Rs --noconfirm intltool'
+[2025-11-03T18:46:56+0700] [ALPM] transaction started
+[2025-11-03T18:46:56+0700] [ALPM] removed intltool (0.51.0-6)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-xml-parser (2.47-3)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-libwww (6.81-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-www-robotrules (6.02-15)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-try-tiny (0.32-3)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-net-http (6.24-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-http-negotiate (6.01-15)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-http-daemon (6.16-5)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-http-cookies (6.11-3)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-http-cookiejar (0.014-4)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-html-parser (3.83-2)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-http-message (7.01-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-io-html (1.004-7)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-lwp-mediatypes (6.04-7)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-html-tagset (3.24-3)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-uri (5.34-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-file-listing (6.16-5)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-http-date (6.06-4)
+[2025-11-03T18:46:56+0700] [ALPM] removed perl-encode-locale (1.05-14)
+[2025-11-03T18:46:56+0700] [ALPM] transaction completed
+[2025-11-03T18:46:56+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:56+0700] [PACMAN] Running 'pacman -Rs --noconfirm libngtcp2'
+[2025-11-03T18:46:56+0700] [ALPM] transaction started
+[2025-11-03T18:46:56+0700] [ALPM] removed libngtcp2 (1.17.0-1)
+[2025-11-03T18:46:56+0700] [ALPM] transaction completed
+[2025-11-03T18:46:56+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:56+0700] [PACMAN] Running 'pacman -Rs --noconfirm libxcrypt-compat'
+[2025-11-03T18:46:56+0700] [ALPM] transaction started
+[2025-11-03T18:46:56+0700] [ALPM] removed libxcrypt-compat (4.4.38-1)
+[2025-11-03T18:46:56+0700] [ALPM] transaction completed
+[2025-11-03T18:46:56+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:56+0700] [PACMAN] Running 'pacman -Rs --noconfirm nlohmann-json'
+[2025-11-03T18:46:56+0700] [ALPM] transaction started
+[2025-11-03T18:46:56+0700] [ALPM] removed nlohmann-json (3.12.0-2)
+[2025-11-03T18:46:56+0700] [ALPM] transaction completed
+[2025-11-03T18:46:56+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:56+0700] [PACMAN] Running 'pacman -Rs --noconfirm pnpm'
+[2025-11-03T18:46:56+0700] [ALPM] transaction started
+[2025-11-03T18:46:56+0700] [ALPM] removed pnpm (10.20.0-1)
+[2025-11-03T18:46:56+0700] [ALPM] transaction completed
+[2025-11-03T18:46:56+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:56+0700] [PACMAN] Running 'pacman -Rs --noconfirm protobuf'
+[2025-11-03T18:46:56+0700] [ALPM] transaction started
+[2025-11-03T18:46:56+0700] [ALPM] removed protobuf (32.1-1)
+[2025-11-03T18:46:56+0700] [ALPM] transaction completed
+[2025-11-03T18:46:56+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:56+0700] [PACMAN] Running 'pacman -Rs --noconfirm python-build'
+[2025-11-03T18:46:56+0700] [ALPM] transaction started
+[2025-11-03T18:46:56+0700] [ALPM] removed python-build (1.3.0-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed python-pyproject-hooks (1.2.0-3)
+[2025-11-03T18:46:56+0700] [ALPM] transaction completed
+[2025-11-03T18:46:56+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:56+0700] [PACMAN] Running 'pacman -Rs --noconfirm python-hatchling'
+[2025-11-03T18:46:56+0700] [ALPM] transaction started
+[2025-11-03T18:46:56+0700] [ALPM] removed python-hatchling (1.27.0-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed python-trove-classifiers (2025.9.11.17-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed python-pluggy (1.6.0-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed python-pathspec (0.12.1-3)
+[2025-11-03T18:46:56+0700] [ALPM] removed python-editables (0.5-5)
+[2025-11-03T18:46:56+0700] [ALPM] transaction completed
+[2025-11-03T18:46:56+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:56+0700] [PACMAN] Running 'pacman -Rs --noconfirm python-installer'
+[2025-11-03T18:46:56+0700] [ALPM] transaction started
+[2025-11-03T18:46:56+0700] [ALPM] removed python-installer (0.7.0-10)
+[2025-11-03T18:46:56+0700] [ALPM] transaction completed
+[2025-11-03T18:46:56+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:56+0700] [PACMAN] Running 'pacman -Rs --noconfirm python-poetry-core'
+[2025-11-03T18:46:56+0700] [ALPM] transaction started
+[2025-11-03T18:46:56+0700] [ALPM] removed python-poetry-core (2.2.1-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed python-packaging (25.0-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed python-lark-parser (1.3.1-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed python-typing_extensions (4.15.0-1)
+[2025-11-03T18:46:56+0700] [ALPM] removed python-fastjsonschema (2.21.2-1)
+[2025-11-03T18:46:57+0700] [ALPM] transaction completed
+[2025-11-03T18:46:57+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:57+0700] [PACMAN] Running 'pacman -Rs --noconfirm qt6-wayland'
+[2025-11-03T18:46:57+0700] [ALPM] transaction started
+[2025-11-03T18:46:57+0700] [ALPM] removed qt6-wayland (6.10.0-1)
+[2025-11-03T18:46:57+0700] [ALPM] transaction completed
+[2025-11-03T18:46:57+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:57+0700] [PACMAN] Running 'pacman -Rs --noconfirm ruby-bundler'
+[2025-11-03T18:46:57+0700] [ALPM] transaction started
+[2025-11-03T18:46:57+0700] [ALPM] removed ruby-bundler (2.7.2-1)
+[2025-11-03T18:46:57+0700] [ALPM] transaction completed
+[2025-11-03T18:46:57+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:57+0700] [PACMAN] Running 'pacman -Rs --noconfirm ruby-rdoc'
+[2025-11-03T18:46:57+0700] [ALPM] transaction started
+[2025-11-03T18:46:57+0700] [ALPM] removed ruby-rdoc (6.14.0-1)
+[2025-11-03T18:46:57+0700] [ALPM] transaction completed
+[2025-11-03T18:46:57+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:57+0700] [PACMAN] Running 'pacman -Rs --noconfirm ruby-rspec'
+[2025-11-03T18:46:57+0700] [ALPM] transaction started
+[2025-11-03T18:46:57+0700] [ALPM] removed ruby-rspec (3.13.2-1)
+[2025-11-03T18:46:57+0700] [ALPM] removed ruby-rspec-mocks (3.13.5-1)
+[2025-11-03T18:46:57+0700] [ALPM] removed ruby-rspec-expectations (3.13.5-1)
+[2025-11-03T18:46:57+0700] [ALPM] removed ruby-diff-lcs (1.6.2-1)
+[2025-11-03T18:46:57+0700] [ALPM] removed ruby-rspec-core (3.13.6-1)
+[2025-11-03T18:46:57+0700] [ALPM] removed ruby-rspec-support (3.13.6-1)
+[2025-11-03T18:46:57+0700] [ALPM] removed ruby-erb (4.0.4-9)
+[2025-11-03T18:46:57+0700] [ALPM] transaction completed
+[2025-11-03T18:46:57+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:57+0700] [PACMAN] Running 'pacman -Rs --noconfirm sassc'
+[2025-11-03T18:46:57+0700] [ALPM] transaction started
+[2025-11-03T18:46:57+0700] [ALPM] removed sassc (3.6.2-5)
+[2025-11-03T18:46:57+0700] [ALPM] removed libsass (3.6.6-1)
+[2025-11-03T18:46:57+0700] [ALPM] transaction completed
+[2025-11-03T18:46:57+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:57+0700] [PACMAN] Running 'pacman -Rs --noconfirm simde'
+[2025-11-03T18:46:57+0700] [ALPM] transaction started
+[2025-11-03T18:46:57+0700] [ALPM] removed simde (0.8.2-1)
+[2025-11-03T18:46:57+0700] [ALPM] transaction completed
+[2025-11-03T18:46:57+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:57+0700] [PACMAN] Running 'pacman -Rs --noconfirm simdjson'
+[2025-11-03T18:46:57+0700] [ALPM] transaction started
+[2025-11-03T18:46:57+0700] [ALPM] removed simdjson (1:4.1.0-1)
+[2025-11-03T18:46:57+0700] [ALPM] transaction completed
+[2025-11-03T18:46:57+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:57+0700] [PACMAN] Running 'pacman -Rs --noconfirm swig'
+[2025-11-03T18:46:57+0700] [ALPM] transaction started
+[2025-11-03T18:46:57+0700] [ALPM] removed swig (4.4.0-1)
+[2025-11-03T18:46:57+0700] [ALPM] transaction completed
+[2025-11-03T18:46:57+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:58+0700] [PACMAN] Running 'pacman -Rs --noconfirm uthash'
+[2025-11-03T18:46:58+0700] [ALPM] transaction started
+[2025-11-03T18:46:58+0700] [ALPM] removed uthash (2.3.0-2)
+[2025-11-03T18:46:58+0700] [ALPM] transaction completed
+[2025-11-03T18:46:58+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:58+0700] [PACMAN] Running 'pacman -Rs --noconfirm vulkan-validation-layers'
+[2025-11-03T18:46:58+0700] [ALPM] transaction started
+[2025-11-03T18:46:58+0700] [ALPM] removed vulkan-validation-layers (1.4.328.1-1)
+[2025-11-03T18:46:58+0700] [ALPM] transaction completed
+[2025-11-03T18:46:58+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:58+0700] [PACMAN] Running 'pacman -Rs --noconfirm websocketpp'
+[2025-11-03T18:46:58+0700] [ALPM] transaction started
+[2025-11-03T18:46:58+0700] [ALPM] removed websocketpp (0.8.2-4)
+[2025-11-03T18:46:58+0700] [ALPM] transaction completed
+[2025-11-03T18:46:58+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:58+0700] [PACMAN] Running 'pacman -Rs --noconfirm xorg-xinput'
+[2025-11-03T18:46:58+0700] [ALPM] transaction started
+[2025-11-03T18:46:58+0700] [ALPM] removed xorg-xinput (1.6.4-2)
+[2025-11-03T18:46:58+0700] [ALPM] removed xorg-xrandr (1.5.3-1)
+[2025-11-03T18:46:58+0700] [ALPM] transaction completed
+[2025-11-03T18:46:58+0700] [ALPM] running '30-systemd-update.hook'...
+[2025-11-03T18:46:58+0700] [PACMAN] Running 'pacman -Rs --noconfirm zig'
+[2025-11-03T18:46:58+0700] [ALPM] transaction started
+[2025-11-03T18:46:58+0700] [ALPM] removed zig (0.15.2-2)
+[2025-11-03T18:46:58+0700] [ALPM] removed lld20 (20.1.8-1)
+[2025-11-03T18:46:58+0700] [ALPM] removed clang20 (20.1.8-1)
+[2025-11-03T18:46:58+0700] [ALPM] removed compiler-rt20 (20.1.8-1)
+[2025-11-03T18:46:58+0700] [ALPM] removed llvm20-libs (20.1.8-1)
+[2025-11-03T18:46:58+0700] [ALPM] transaction completed
+[2025-11-03T18:46:58+0700] [ALPM] running '30-systemd-update.hook'...

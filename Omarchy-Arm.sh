@@ -157,6 +157,16 @@ echo "[*] Enable essential services..."
 systemctl enable NetworkManager
 systemctl enable sshd
 
+echo "[*] Configure firewall for SSH access..."
+# Allow SSH on port 11838 and 22
+iptables -A INPUT -p tcp --dport 11838 -j ACCEPT
+iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+# Save iptables rules for persistence
+mkdir -p /etc/iptables
+iptables-save > /etc/iptables/iptables.rules
+# Enable iptables service to load rules on boot
+systemctl enable iptables.service
+
 echo "[*] Install GRUB (ARM64 EFI)..."
 grub-install --directory="/usr/lib/grub/arm64-efi" --target="arm64-efi" --efi-directory="/efi" --bootloader-id="GRUB" --recheck
 

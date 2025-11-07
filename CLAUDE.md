@@ -30,6 +30,7 @@ The installation follows a multi-stage process:
    - Base Arch ARM installation with pacstrap
    - GRUB bootloader configuration for ARM64 EFI
    - Network and SSH setup with custom port (11838)
+   - Firewall configuration to allow SSH access
 
 4. **Post-Installation** (`AfterArc.sh`)
    - Terminal info setup (for Ghostty terminal)

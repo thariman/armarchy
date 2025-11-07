@@ -180,6 +180,7 @@ Then run the installation script:
    - Sets timezone, locale, hostname
    - Configures root password
    - Sets up SSH on port 11838 with root login enabled
+   - Configures firewall to allow SSH access (ports 11838 and 22)
    - Installs and configures GRUB with custom config
    - Creates pacman hook for automatic GRUB updates
    - Sets up Arch Linux ARM keyring
@@ -403,9 +404,20 @@ systemctl status sshd
 # Verify SSH config allows root login
 grep -E "PermitRootLogin|PasswordAuthentication" /etc/ssh/sshd_config
 
-# Check firewall (should be disabled by default)
-systemctl status iptables
+# Check firewall - may be blocking SSH
+iptables -L INPUT -n -v
+
+# If firewall is blocking, allow SSH ports:
+iptables -A INPUT -p tcp --dport 11838 -j ACCEPT
+iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+
+# Save rules persistently
+mkdir -p /etc/iptables
+iptables-save > /etc/iptables/iptables.rules
+systemctl enable iptables.service
 ```
+
+**Note**: The installation script now automatically configures the firewall, but if you're troubleshooting an existing VM, you may need to add these rules manually.
 
 ### ISO packages not found
 

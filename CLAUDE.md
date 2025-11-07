@@ -45,8 +45,9 @@ The installation follows a multi-stage process:
 
 **SSH Configuration**:
 - Custom port: 11838 (not 22)
+  - This matches Archboot ISO's default SSH port
 - Root login enabled during setup
-- Key-based authentication preferred
+- Password authentication used for initial access
 
 **Partition Layout**:
 - P1: EFI System Partition (ESP) - 512MiB FAT32 at /efi

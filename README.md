@@ -363,6 +363,7 @@ The installation uses a **manual GRUB configuration** rather than `grub-mkconfig
 - **NetworkManager** is used (not systemd-networkd)
 - Parallels "Shared Network" provides DHCP
 - SSH configured on port **11838** (not 22)
+  - Note: Archboot ISO also uses port 11838 by default
 - Root login enabled during installation
 
 ### Package Management

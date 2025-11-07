@@ -8,6 +8,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/config.sh"
 
 # Create VM
+prlctl delete "$VM_NAME"
 prlctl create "$VM_NAME" --distribution linux --ostype linux --no-hdd
 prlctl set "$VM_NAME" --memsize 16384 --cpus 4
 prlctl set "$VM_NAME" --device-add hdd --type expand --size 98304

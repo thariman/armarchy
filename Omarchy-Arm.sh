@@ -287,7 +287,19 @@ if ! pacman -S --noconfirm archlinuxarm-keyring 2>/dev/null; then
   pacman-key --lsign-key 77193F152BDBE6A6
 fi
 # Refresh package database
-pacman -Sy
+pacman -Syu
+
+echo "[*] Setting up persistent command history..."
+# Create bash history from history.lst
+cat > /root/.bash_history <<'HISTORY'
+ip addr
+wget -qO- https://raw.githubusercontent.com/jondkinney/armarchy/amarchy-3-x/boot.sh | OMARCHY_REPO=jondkinney/armarchy OMARCHY_REF=amarchy-3-x bash
+wget -qO- https://raw.githubusercontent.com/jondkinney/armarchy/amarchy-3-x/boot.sh | OMARCHY_REPO=jondkinney/armarchy OMARCHY_REF=amarchy-3-x-beta bash
+HISTORY
+
+# Set proper permissions
+chown root:root /root/.bash_history
+chmod 600 /root/.bash_history
 
 CHROOT_EOF
 # ----- end of chroot config -----

@@ -2,6 +2,17 @@
 
 Automated installation scripts for deploying Omarchy on Arch Linux ARM using Parallels Desktop on Apple Silicon Macs (tested on MBP M4 Max).
 
+## ⚠️ Security Notice
+
+**IMPORTANT**: This repository contains automation scripts with default credentials for LOCAL VM testing. Before use:
+
+1. **Review and change the default root password** in `Omarchy-Arm.sh` (line 6: `ROOT_PASSWORD="root"`)
+2. These scripts are designed for **local development VMs only** - not production systems
+3. Change passwords immediately after installation
+4. See [SECURITY.md](SECURITY.md) for detailed security recommendations
+
+**The default credentials are intentional for automation purposes and are clearly documented for user customization.**
+
 ## Overview
 
 This repository automates the complete workflow from downloading the Archboot ISO to installing a fully configured Arch Linux ARM system ready for Omarchy deployment. The process is streamlined through a series of bash scripts that handle VM creation, system installation, and post-configuration.

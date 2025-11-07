@@ -15,10 +15,23 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 # Add iptables rules for SSH
-echo "1. Adding iptables rules to allow SSH..."
-iptables -A INPUT -p tcp --dport 11838 -j ACCEPT
-iptables -A INPUT -p tcp --dport 22 -j ACCEPT
-echo "   ✓ SSH ports 11838 and 22 allowed"
+echo "1. Checking and adding iptables rules to allow SSH..."
+
+# Check and add rule for port 11838
+if iptables -C INPUT -p tcp --dport 11838 -j ACCEPT 2>/dev/null; then
+    echo "   ✓ Port 11838 already allowed"
+else
+    iptables -A INPUT -p tcp --dport 11838 -j ACCEPT
+    echo "   ✓ Port 11838 rule added"
+fi
+
+# Check and add rule for port 22
+if iptables -C INPUT -p tcp --dport 22 -j ACCEPT 2>/dev/null; then
+    echo "   ✓ Port 22 already allowed"
+else
+    iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+    echo "   ✓ Port 22 rule added"
+fi
 echo ""
 
 # Save iptables rules

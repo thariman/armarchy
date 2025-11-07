@@ -4,6 +4,8 @@
 # VM Configuration
 VM_NAME="omarchy3"
 SSH_PORT="11838"
+ISO_SELECT_MODE="manual"
+ISO_PATH="/Users/thariman/Downloads/archboot-2025.10.31-02.26-6.17.6-1-aarch64-ARCH-local-aarch64.iso"
 
 # Function to get VM IP
 get_vm_ip() {

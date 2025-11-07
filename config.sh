@@ -4,7 +4,6 @@
 # VM Configuration
 VM_NAME="omarchy3"
 SSH_PORT="11838"
-ARCHBOOT_KEY="$HOME/Downloads/archboot-key"
 
 # Function to get VM IP
 get_vm_ip() {

@@ -18,8 +18,8 @@ The installation follows a multi-stage process:
 
 1. **ISO Download & VM Setup** (`get_latest_version.sh` → `ArchAuto.sh`)
    - Downloads latest Archboot ISO with signature verification
+   - Offers three ISO variants (local/latest/base)
    - Creates and configures Parallels VM
-   - Extracts SSH keys from Release.txt for automated access
 
 2. **Script Transfer** (`cpscript.sh`)
    - Transfers installation scripts to the running Archboot VM

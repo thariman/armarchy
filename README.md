@@ -31,13 +31,12 @@ This script will:
 - Fetch the latest Archboot ARM ISO from the official release page
 - Present three ISO options:
   - **local**: Full local packages (largest, fastest installation, works offline)
-  - **latest**: Latest packages (medium size, requires internet)
-  - **base**: Base packages only (smallest, requires internet for additional packages)
+  - **latest**: Latest packages (smallest, requires internet)
+  - **base**: Base packages (medium size, requires internet)
 - Download and verify the ISO signature using GPG
-- Extract SSH keys from Release.txt for automated VM access
-- Save everything to `~/Downloads/`
+- Save the ISO to `~/Downloads/`
 
-**Recommended**: Choose option 1 (local) for the best experience.
+**Recommended**: Choose option 1 (local) for the fastest installation and offline capability.
 
 ### 2. Configure Your Preferences
 
@@ -147,6 +146,8 @@ Then run the installation script:
 /tmp/Omarchy-Arm.sh
 ```
 
+**⏱️ Note**: This script will take 15-30 minutes to complete depending on your internet speed and ISO variant. Sit back and relax while it installs the base system, configures GRUB, and sets up the environment.
+
 **What this script does:**
 
 1. **Pre-installation**:
@@ -226,15 +227,15 @@ wget -qO- https://raw.githubusercontent.com/jondkinney/armarchy/amarchy-3-x/boot
 
 ### `get_latest_version.sh`
 
-Downloads the latest Archboot ISO with signature verification and SSH key extraction.
+Downloads the latest Archboot ISO with signature verification.
 
 **Features**:
 - Auto-detects latest version from Archboot release page
-- Offers three ISO variants (local/latest/base)
-- GPG signature verification
-- Extracts SSH private key from Release.txt
-- Generates SSH public key
-- Creates helper script for manual SSH setup
+- Offers three ISO variants:
+  - **local**: Largest, fastest install, works offline
+  - **latest**: Smallest, requires internet
+  - **base**: Medium size, requires internet
+- GPG signature verification for security
 
 **Requirements**: `aria2c`, `gpg`, `curl`
 
@@ -245,7 +246,6 @@ Centralized configuration file sourced by all other scripts.
 **Key variables**:
 - `VM_NAME`: Parallels VM name
 - `SSH_PORT`: SSH port (11838)
-- `ARCHBOOT_KEY`: Path to Archboot SSH key
 - `ISO_PATH`: Auto-detected latest ISO path
 - `INSTALL_SCRIPT`: Installation script name
 

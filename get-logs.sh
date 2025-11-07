@@ -41,17 +41,28 @@ echo ""
 
 # Find Omarchy installation log files
 echo "Looking for Omarchy installation logs on VM..."
-OMARCHY_LOGS=$(ssh -p $SSH_PORT $SSH_OPTS root@$IP "find /home/*/omarchy-install-*.log /root/omarchy-install-*.log 2>/dev/null" 2>/dev/null)
+OMARCHY_LOGS=$(ssh -p $SSH_PORT $SSH_OPTS root@$IP "find /var/log -name 'omarchy-install-*.log' 2>/dev/null" 2>/dev/null)
 
 if [ -z "$OMARCHY_LOGS" ]; then
-    echo "No Omarchy installation logs found on VM"
-    echo "Logs are typically located at:"
-    echo "  /home/\$USER/omarchy-install-YYYY-MM-DD_HH-MM-SS.log"
+    echo "No Omarchy installation logs found in /var/log"
     echo ""
-    echo "You can manually check with:"
-    echo "  ssh -p $SSH_PORT root@$IP"
-    echo "  find /home -name 'omarchy-install-*.log'"
-    exit 1
+    echo "Checking alternative locations..."
+    OMARCHY_LOGS=$(ssh -p $SSH_PORT $SSH_OPTS root@$IP "find /home /root -name 'omarchy-install-*.log' 2>/dev/null" 2>/dev/null)
+
+    if [ -z "$OMARCHY_LOGS" ]; then
+        echo "No Omarchy installation logs found on VM"
+        echo ""
+        echo "Logs are typically located at:"
+        echo "  /var/log/omarchy-install-YYYY-MM-DD_HH-MM-SS.log"
+        echo "  or /home/\$USER/omarchy-install-YYYY-MM-DD_HH-MM-SS.log"
+        echo ""
+        echo "You can manually check with:"
+        echo "  ssh -p $SSH_PORT root@$IP"
+        echo "  find /var/log /home /root -name 'omarchy-install-*.log'"
+        exit 1
+    else
+        echo "Found logs in alternative location:"
+    fi
 fi
 
 echo "Found Omarchy installation logs:"

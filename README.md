@@ -60,13 +60,39 @@ Edit the following variables to suit your needs:
 ```bash
 # VM Configuration
 VM_NAME="omarchy3"              # Change VM name if desired
-SSH_PORT="11838"                # Custom SSH port (not 22) default Archboot ISO 
+SSH_PORT="11838"                # Custom SSH port (not 22) default Archboot ISO
 
 # Installation Script
 INSTALL_SCRIPT="Omarchy-Arm.sh" # Don't change unless using custom script
 ```
 
-The script automatically detects the latest ISO from `~/Downloads/`. If you want to use a specific ISO, modify the `ISO_PATH` variable.
+#### ISO Selection Options
+
+The script supports three modes for selecting which ISO to use:
+
+**Option 1: Auto mode (Default)** - Uses the latest ISO:
+```bash
+# No configuration needed - this is the default
+./ArchAuto.sh
+```
+
+**Option 2: Interactive mode** - Choose from available ISOs:
+```bash
+# Run the interactive selector
+ISO_SELECT_MODE=interactive ./ArchAuto.sh
+
+# Or use the helper script
+./select-iso.sh
+```
+
+**Option 3: Manual mode** - Specify a specific ISO:
+```bash
+# Edit config.sh and set:
+ISO_SELECT_MODE="manual"
+ISO_PATH="$HOME/Downloads/archboot-2025.11.03-02.26-6.17.7-1-aarch64-ARCH-local-aarch64.iso"
+```
+
+**Tip**: If you have a known working ISO (e.g., from Nov 3), use manual mode to ensure consistent installations.
 
 **Note**: If you need to customize the Arch installation itself, edit `Omarchy-Arm.sh`:
 
@@ -258,11 +284,18 @@ Centralized configuration file sourced by all other scripts.
 **Key variables**:
 - `VM_NAME`: Parallels VM name
 - `SSH_PORT`: SSH port (11838)
-- `ISO_PATH`: Auto-detected latest ISO path
+- `ISO_SELECT_MODE`: ISO selection mode (auto/interactive/manual)
+- `ISO_PATH`: Path to ISO file (auto-detected or manual)
 - `INSTALL_SCRIPT`: Installation script name
 
 **Functions**:
 - `get_vm_ip()`: Returns current VM IP address
+- `select_iso()`: Interactive ISO selector (displays all available ISOs)
+
+**ISO Selection Modes**:
+- `auto` (default): Uses latest ISO from Downloads
+- `interactive`: Prompts user to select from available ISOs
+- `manual`: Uses user-specified ISO_PATH
 
 ### `ArchAuto.sh`
 

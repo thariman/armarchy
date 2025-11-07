@@ -41,8 +41,11 @@ The installation follows a multi-stage process:
 
 **Centralized Configuration** (`config.sh`):
 - All scripts source this file for VM name, ports, paths
-- Auto-detects latest ISO from Downloads directory
-- Provides `get_vm_ip()` helper function
+- Supports three ISO selection modes:
+  - `auto`: Auto-detects latest ISO from Downloads (default)
+  - `interactive`: Prompts user to select from available ISOs
+  - `manual`: Uses user-specified ISO path
+- Provides `get_vm_ip()` and `select_iso()` helper functions
 
 **SSH Configuration**:
 - Custom port: 11838 (not 22)

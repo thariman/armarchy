@@ -468,6 +468,7 @@ This project is provided as-is for educational and automation purposes.
 
 ## Credits
 
+- **Omarchy**: https://omarchy.org/
 - **Archboot**: https://gitlab.archlinux.org/tpowa/archboot
 - **Omarchy ARM Port**: https://github.com/basecamp/omarchy/pull/1897
 - **Arch Linux ARM**: https://archlinuxarm.org

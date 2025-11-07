@@ -49,7 +49,7 @@ Edit the following variables to suit your needs:
 ```bash
 # VM Configuration
 VM_NAME="omarchy3"              # Change VM name if desired
-SSH_PORT="11838"                # Custom SSH port (not 22)
+SSH_PORT="11838"                # Custom SSH port (not 22) default Archboot ISO 
 
 # Installation Script
 INSTALL_SCRIPT="Omarchy-Arm.sh" # Don't change unless using custom script
